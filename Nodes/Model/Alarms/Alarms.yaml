@@ -1,0 +1,6 @@
+Name: Alarms
+Type: FolderType
+Children:
+- Name: xAlarm1
+  Type: BaseDataVariableType
+  DataType: Boolean

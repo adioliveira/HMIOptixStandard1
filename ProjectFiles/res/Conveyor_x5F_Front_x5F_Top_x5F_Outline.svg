@@ -1,0 +1,9 @@
+<svg version="1.2" baseProfile="tiny" id="EdgeSVG_IWLsr" x="0px" y="0px" width="100px" height="36.566px" viewBox="0 0 100 36.566" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="18.2827" x2="100" y2="18.2827">
+    <stop offset="0.0184" style="stop-color:#000000;stop-opacity:0.5"/>
+    <stop offset="0.0221" style="stop-color:#000000;stop-opacity:0.5"/>
+    <stop offset="0.4574" style="stop-color:#222223;stop-opacity:0.5"/>
+    <stop offset="1" style="stop-color:#2A292A;stop-opacity:0.5"/>
+  </linearGradient>
+  <path fill="url(#SVGID_1_)" d="M98.107,10.983c-0.065-0.205-0.229-0.483-0.623-0.56V0.395h-1.639C95.586,0.152,95.239,0,94.856,0&#xD;&#xA;&#x9;&#x9;h-1.672c-0.801,0-1.452,0.652-1.452,1.453v1.961c0,0.802,0.651,1.454,1.452,1.454h1.301v5.532&#xD;&#xA;&#x9;&#x9;c-0.536,0.007-0.737,0.348-0.813,0.583h-1.264c-0.742,0-1.439,0.268-1.974,0.749h-0.788c-0.096-1.074-0.969-1.921-2.042-1.921&#xD;&#xA;&#x9;&#x9;H12.577c-1.073,0-1.947,0.848-2.042,1.921H9.566c-0.535-0.48-1.231-0.749-1.975-0.749H6.513c-0.06-0.226-0.243-0.598-0.779-0.628&#xD;&#xA;&#x9;&#x9;V4.868h1.301c0.801,0,1.453-0.652,1.453-1.454V1.453C8.488,0.652,7.836,0,7.035,0H5.363C4.998,0,4.667,0.14,4.412,0.364H2.735&#xD;&#xA;&#x9;&#x9;v10.002c-0.463,0.067-0.631,0.405-0.687,0.617H0v25.583h100V10.983H98.107z"/>
+</svg>

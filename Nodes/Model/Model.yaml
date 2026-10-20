@@ -1,0 +1,59 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: AnalogVariable1
+  Type: AnalogItemType
+  DataType: Float
+  Children:
+  - Name: EURange
+    Type: RangeType
+    DataType: Range
+    Children:
+    - Name: Low
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: High
+      Type: BaseDataVariableType
+      DataType: Double
+      Value: 100.0
+    - Name: Constrain
+      Type: BaseDataVariableType
+      DataType: Boolean
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Out_12H_OEE"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: sql_query_delete_table
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "DELETE from DataLogger"
+- Name: DT_query_truncate_table
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "TRUNCATE TABLE DataLogger"
+- Name: HMITab11
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 13
+- Name: Aux_OutStateCurrenTime
+  Type: BaseDataVariableType
+  DataType: Int16
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Out_StateCurrentTime"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- File: OEE12H/OEE12H.yaml
+- File: OEE06H/OEE06H.yaml
+- File: OEE1H/OEE1H.yaml
+- File: Alarms/Alarms.yaml

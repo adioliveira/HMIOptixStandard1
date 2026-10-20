@@ -1,0 +1,72 @@
+Name: Alarms
+Id: g=3293e7cd8de0bb06cc725e017a984470
+Type: AlarmsCategoryFolder
+Children:
+- Name: DigitalAlarm1
+  Id: g=f59d818b03faee61942426f95c23e378
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=df72ace3aceb84e5a37dcc5bafc37ce3
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=3df587a40116848306dafb841b2f66f3
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=851dd32b0fd418d8e5a2c86256828e45
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Alarms/xAlarm1"
+      Children:
+      - Name: Mode
+        Id: g=7e674aea2a206bcf484198b94d09e2fe
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=9e31fc5deaf261c4dc72cf559227df49
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=31;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=a6cd8a49a266508f3fcaf1a04cec93dc
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Máquina 01 - Alarme - Temperatura Alta"}

@@ -1,0 +1,90 @@
+Name: 'Program:UM_Sazonador'
+Type: FolderType
+Children:
+- Name: ModeStateModel
+  Type: RAEtherNetIPTagStructure
+  DataType: raM_Opr_ISATR880002_2015
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:UM_Sazonador.ModeStateModel"
+  - Name: BlockRead
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Out_bState
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UM_Sazonador.ModeStateModel.Out_bState"
+  - Name: Sts_bEnabledStates
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UM_Sazonador.ModeStateModel.Sts_bEnabledStates"
+  - Name: OriginalTypeId
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/HMIOptixStandard1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/raM_Opr_ISATR880002_2015"
+- Name: OCmd_Clear
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:UM_Sazonador.OCmd_Clear"
+- Name: OCmd_Hold
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:UM_Sazonador.OCmd_Hold"
+- Name: OCmd_Reset
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:UM_Sazonador.OCmd_Reset"
+- Name: OCmd_Start
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:UM_Sazonador.OCmd_Start"
+- Name: OCmd_Stop
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:UM_Sazonador.OCmd_Stop"
+- Name: OCmd_UnHold
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:UM_Sazonador.OCmd_UnHold"
+- Name: Out_bState
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:UM_Sazonador.Out_bState"
