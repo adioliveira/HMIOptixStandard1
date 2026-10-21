@@ -57,3 +57,4 @@ Children:
 - File: OEE06H/OEE06H.yaml
 - File: OEE1H/OEE1H.yaml
 - File: Alarms/Alarms.yaml
+- File: MQTT/MQTT.yaml

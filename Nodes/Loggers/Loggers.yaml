@@ -6,7 +6,7 @@ Children:
   Children:
   - Name: SamplingMode
     Type: PropertyType
-    DataType: SamplingModeEnum
+    DataType: ns=23;SamplingModeEnum
     Value: 1
     Children:
     - Name: DynamicLink
@@ -203,7 +203,7 @@ Children:
   Children:
   - Name: SamplingMode
     Type: PropertyType
-    DataType: SamplingModeEnum
+    DataType: ns=23;SamplingModeEnum
     Value: 1
   - Name: Store
     Type: NodePointer

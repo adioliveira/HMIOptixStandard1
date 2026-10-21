@@ -383,7 +383,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Double
         Value: 1.0
-  - Name: MaxNumberOfConnections
+  - Name: MaxNumberOfWebConnections
     Type: BaseDataVariableType
     DataType: UInt32
     Value: 3

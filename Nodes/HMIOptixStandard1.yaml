@@ -56,6 +56,7 @@ Children:
 - File: DataStores/DataStores.yaml
 - File: Reports/Reports.yaml
 - File: 'OPC-UA/OPC-UA.yaml'
+- File: MQTT1/MQTT1.yaml
 - File: CommDrivers/CommDrivers.yaml
 - File: NetLogic/NetLogic.yaml
 - File: Security/Security.yaml
@@ -65,3 +66,4 @@ Children:
 - Name: RuntimeOptimization
   Type: PropertyGroup
 - File: AlarmTypes/AlarmTypes.yaml
+- File: HighAvailability/HighAvailability.yaml

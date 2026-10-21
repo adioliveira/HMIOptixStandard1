@@ -15,6 +15,8 @@ using FTOptix.EventLogger;
 using FTOptix.WebUI;
 using FTOptix.Modbus;
 using FTOptix.Alarm;
+using FTOptix.MQTTBroker;
+using FTOptix.MQTTClient;
 #endregion
 
 public class NetworkInterfacesEditModelToSystemWriterLogic : BaseNetLogic

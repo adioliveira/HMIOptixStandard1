@@ -5014,7 +5014,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HMIOptixStandard1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Out_01H_Performance"
+          Value: "/Objects/HMIOptixStandard1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Out_01H_OEE"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -5045,7 +5045,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "/Objects/HMIOptixStandard1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Out_12H_Performance"
+              Value: "/Objects/HMIOptixStandard1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Out_01H_OEE"
           - Name: Color
             Type: BaseDataVariableType
             DataType: Color
@@ -5152,7 +5152,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HMIOptixStandard1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Out_12H_Availability"
+          Value: "/Objects/HMIOptixStandard1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Out_01H_Availability"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -5183,7 +5183,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "/Objects/HMIOptixStandard1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Out_12H_Availability"
+              Value: "/Objects/HMIOptixStandard1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Out_01H_Availability"
           - Name: Color
             Type: BaseDataVariableType
             DataType: Color
@@ -5212,7 +5212,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 67.0
+        Value: 64.0
       - Name: Visible
         Type: BaseDataVariableType
         DataType: Boolean
@@ -9079,7 +9079,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HMIOptixStandard1/Model/OEE12H/OEE_12HR"
+          Value: "/Objects/HMIOptixStandard1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Out_01H_Performance"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -9110,7 +9110,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "/Objects/HMIOptixStandard1/Model/OEE12H/OEE_12HR"
+              Value: "/Objects/HMIOptixStandard1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Out_01H_Performance"
           - Name: Color
             Type: BaseDataVariableType
             DataType: Color
@@ -9139,7 +9139,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 67.0
+        Value: 66.0
       - Name: Visible
         Type: BaseDataVariableType
         DataType: Boolean
@@ -14985,7 +14985,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 39.0
+        Value: 38.0
     - Name: HitTestVisible
       Type: BaseDataVariableType
       DataType: Boolean

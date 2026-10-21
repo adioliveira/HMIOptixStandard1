@@ -7,7 +7,7 @@ Project:
  Company: ''
  Copyright: ''
  FormatVersion: 1
- ProductVersion: 1.7
+ ProductVersion: 1.8
  CoreVersion: 5.0
  Dependencies:
   2:
@@ -25,19 +25,19 @@ Project:
   5:
    Uri: 'urn:FTOptix:UI'
    Module: FTOptix.UI
-   Version: 21.2
+   Version: 22.0
   6:
    Uri: 'urn:FTOptix:UI:Net'
    Module: FTOptix.UI.Net
-   Version: 21.2
+   Version: 22.0
   7:
    Uri: 'urn:FTOptix:HMIProject'
    Module: FTOptix.HMIProject
-   Version: 9.0
+   Version: 11.0
   8:
    Uri: 'urn:FTOptix:HMIProject:Net'
    Module: FTOptix.HMIProject.Net
-   Version: 5.0
+   Version: 6.0
   9:
    Uri: 'urn:FTOptix:NativeUI'
    Module: FTOptix.NativeUI
@@ -61,11 +61,11 @@ Project:
   14:
    Uri: 'urn:FTOptix:Retentivity'
    Module: FTOptix.Retentivity
-   Version: 1.0
+   Version: 2.0
   15:
    Uri: 'urn:FTOptix:Retentivity:Net'
    Module: FTOptix.Retentivity.Net
-   Version: 1.0
+   Version: 1.1
   16:
    Uri: 'urn:FTOptix:System'
    Module: FTOptix.System
@@ -117,11 +117,11 @@ Project:
   29:
    Uri: 'urn:FTOptix:WebUI'
    Module: FTOptix.WebUI
-   Version: 2.0
+   Version: 3.0
   30:
    Uri: 'urn:FTOptix:WebUI:Net'
    Module: FTOptix.WebUI.Net
-   Version: 2.0
+   Version: 3.0
   31:
    Uri: 'urn:FTOptix:Alarm'
    Module: FTOptix.Alarm
@@ -130,16 +130,40 @@ Project:
    Uri: 'urn:FTOptix:Alarm:Net'
    Module: FTOptix.Alarm.Net
    Version: 1.2
+  33:
+   Uri: 'urn:FTOptix:MQTTClient'
+   Module: FTOptix.MQTTClient
+   Version: 9.0
+  34:
+   Uri: 'urn:FTOptix:MQTTClient:Net'
+   Module: FTOptix.MQTTClient.Net
+   Version: 8.0
+  35:
+   Uri: 'urn:FTOptix:MQTTBroker'
+   Module: FTOptix.MQTTBroker
+   Version: 6.0
+  36:
+   Uri: 'urn:FTOptix:MQTTBroker:Net'
+   Module: FTOptix.MQTTBroker.Net
+   Version: 6.0
+  37:
+   Uri: 'urn:FTOptix:EventLogger'
+   Module: FTOptix.EventLogger
+   Version: 2.1
+  38:
+   Uri: 'urn:FTOptix:EventLogger:Net'
+   Module: FTOptix.EventLogger.Net
+   Version: 1.0
  Statistics:
-  TotalNodeCount: 25064
-  Objects: 5255
+  TotalNodeCount: 25125
+  Objects: 5262
   ObjectTypes: 38
-  Variables: 19751
+  Variables: 19805
   VariableTypes: 4
   DataTypes: 4
   Methods: 12
-  References: 91
+  References: 97
   ReferenceTypes: 0
-  Files: 45
+  Files: 49
  Nodes:
  - File: Nodes/HMIOptixStandard1.yaml
