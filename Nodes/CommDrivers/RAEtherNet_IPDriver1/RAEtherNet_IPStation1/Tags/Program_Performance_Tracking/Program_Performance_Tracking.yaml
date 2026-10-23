@@ -1,310 +1,388 @@
 Name: 'Program:Performance_Tracking'
+Id: g=a5dba18c697e6bbf7aacefd6c3d1aaaa
 Type: FolderType
 Children:
 - Name: Wrk_PerformanceTracking_RAPID
+  Id: g=b1156870480ddaf962fd7a08da2793ec
   Type: RAEtherNetIPTagStructure
   DataType: raM_Tec_PerformanceTracking_RAPID
   Children:
   - Name: SymbolName
+    Id: g=3ccba561339cbd05ddedb9678e0a1343
     Type: BaseDataVariableType
     DataType: String
     Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID"
   - Name: BlockRead
+    Id: g=610830a5dca95e6343e5e5ff3b587034
     Type: BaseDataVariableType
     DataType: Boolean
   - Name: Out_StateCurrent
+    Id: g=efe0bdd5504deb802ba3ae3bd053a7f0
     Type: RAEtherNetIPTag
     DataType: Int32
     Children:
     - Name: SymbolName
+      Id: g=cad30bca08cd32e7575c0df8b2ba240c
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_StateCurrent"
   - Name: Out_ModeCurrentTime
+    Id: g=449179ef5538705b79d4685d1c25b6bc
     Type: RAEtherNetIPTag
     DataType: Int32
     Children:
     - Name: SymbolName
+      Id: g=5642bee009747914b0dd0352de54d133
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_ModeCurrentTime"
   - Name: Out_StateCurrentTime
+    Id: g=9d6f683d9ce3da0bf14797a148cd2dba
     Type: RAEtherNetIPTag
     DataType: Int32
     Children:
     - Name: SymbolName
+      Id: g=04179b07e45100f61db1d376ff2ae6b4
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_StateCurrentTime"
   - Name: Out_01H_Availability
+    Id: g=813f16ecc19fd5b27ef76ac4aef29cff
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=e087d5557b66900fb554263d19ae00ef
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_01H_Availability"
   - Name: Out_01H_LostActualUnits
+    Id: g=916fa5adc59e7a4eb9ea0cbae6907a9e
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=878f0fe434a9c4c94993ab983d7a2dc7
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_01H_LostActualUnits"
   - Name: Out_01H_LostAvailableUnits
+    Id: g=2e3fbe658d0cf011d7b90a9bd88e909e
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=63d425778456dcfdb034cabf6fb10b39
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_01H_LostAvailableUnits"
   - Name: Out_01H_LostRunningUnits
+    Id: g=54cf37bc76c28c96a02f819fbc465e35
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=0f6133f462d87fedb930c20add4cfaee
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_01H_LostRunningUnits"
   - Name: Out_01H_OEE
+    Id: g=ac35ffc257f80a2e0b3e7f8e8e6c23f4
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=3a8041caa4f731b4d40313b8402209ff
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_01H_OEE"
   - Name: Out_01H_Performance
+    Id: g=87fecfde3328d4708d0a8c0aab40847a
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=d985394509dedae610d263e917716b83
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_01H_Performance"
   - Name: Out_01H_ProducedGoodUnits
+    Id: g=8df86b32b900c29006ea36d9f8de1dd8
     Type: RAEtherNetIPTag
     DataType: Int32
     Children:
     - Name: SymbolName
+      Id: g=2850efb8b4b59b94b9d8135744867933
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_01H_ProducedGoodUnits"
   - Name: Out_01H_ProducedIdealAvailableUnits
+    Id: g=4e6f4e59a7881d1912e6d91d64c21b72
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=b26bf7620be300bde55c0d446626c963
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_01H_ProducedIdealAvailableUnits"
   - Name: Out_01H_ProducedIdealRunningUnits
+    Id: g=db4597e338353be44043c1d2e5536d19
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=b9814f63490632e5eac3e1c30fa65e5e
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_01H_ProducedIdealRunningUnits"
   - Name: Out_01H_ProducedTotalUnits
+    Id: g=1228e8438cd5c9bf20d3a041846c1aba
     Type: RAEtherNetIPTag
     DataType: Int32
     Children:
     - Name: SymbolName
+      Id: g=ab3d91814d65e7094adb6ca1142034c6
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_01H_ProducedTotalUnits"
   - Name: Out_01H_Quality
+    Id: g=6bd04a131b2f363f2d2be2426654696e
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=994aa6720cbf4fc3ded470e918dc9d3c
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_01H_Quality"
   - Name: Out_06H_Availability
+    Id: g=f79cfa9e1bb971c41833b2a8a4629e78
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=b951122ea9d3b2b7caa88dc2d0f99ff9
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_06H_Availability"
   - Name: Out_06H_LostActualUnits
+    Id: g=50d6ea6f1f71532bc610393bc27f3714
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=c2a67749109bfbfd956b3b8d0aa4a8de
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_06H_LostActualUnits"
   - Name: Out_06H_LostAvailableUnits
+    Id: g=3eefbb4dddce003bbf25f74ab296be59
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=e0d6e4cb0446b6158b62ee81eefdd5e2
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_06H_LostAvailableUnits"
   - Name: Out_06H_LostRunningUnits
+    Id: g=f5c8691a2cb8925d2566d452360f991e
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=d3a5abfcffda353539117d59a7a3e3cb
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_06H_LostRunningUnits"
   - Name: Out_06H_OEE
+    Id: g=b6a6c5c7f6d18e411e3ef42681d91ed1
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=d2b39f85b70e96fbc56b60a7376116f0
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_06H_OEE"
   - Name: Out_06H_Performance
+    Id: g=5ee5dc7d6085512e26c1ca1c4569a728
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=e16c7c61062a9e9000e440cccdce4b96
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_06H_Performance"
   - Name: Out_06H_ProducedGoodUnits
+    Id: g=c6aca9069cbf34f48c7dccc3d6f07f10
     Type: RAEtherNetIPTag
     DataType: Int32
     Children:
     - Name: SymbolName
+      Id: g=e46d8f9c09e54bdc737e3160829b031e
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_06H_ProducedGoodUnits"
   - Name: Out_06H_ProducedIdealAvailableUnits
+    Id: g=1fdb3e1ea686f4f1d1af0e263297b03c
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=74ce7eba211652d8e6a1eb498f19a180
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_06H_ProducedIdealAvailableUnits"
   - Name: Out_06H_ProducedIdealRunningUnits
+    Id: g=d72b4cc78c07d054244c8d766fec186b
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=759a7509d8544ab50ce2ddd41039f883
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_06H_ProducedIdealRunningUnits"
   - Name: Out_06H_ProducedTotalUnits
+    Id: g=b2a706fa39fb861e7bf588a2771e760a
     Type: RAEtherNetIPTag
     DataType: Int32
     Children:
     - Name: SymbolName
+      Id: g=c565987763537e8bd209f0ca827efea8
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_06H_ProducedTotalUnits"
   - Name: Out_06H_Quality
+    Id: g=903770efc9e97b8c0ac9c0547b80177d
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=14d97d9cfb15f844f6a545aa93aed96c
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_06H_Quality"
   - Name: Out_12H_Availability
+    Id: g=0b0a53334651837250fe111f347eda31
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=a20f91557fd9d94dfad8273f6f71bf4d
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_12H_Availability"
   - Name: Out_12H_LostActualUnits
+    Id: g=9be903f098f06892c68c6eb1df9b492f
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=2499ffdfe4491369cfa1d304cd61ab1e
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_12H_LostActualUnits"
   - Name: Out_12H_LostAvailableUnits
+    Id: g=780412590bcde1068c0204fa1a6fee6b
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=677c0a747740569dffbb78661efa20ad
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_12H_LostAvailableUnits"
   - Name: Out_12H_LostRunningUnits
+    Id: g=70a0d937e2461c880e5e56ff483be984
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=ff2ca422d374d31bdefe1b9a4f64dd0b
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_12H_LostRunningUnits"
   - Name: Out_12H_OEE
+    Id: g=a2fcae2ea1b2fff8d793f2439946d399
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=68609609384c32ca829a1b4a5ac4fcaa
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_12H_OEE"
   - Name: Out_12H_Performance
+    Id: g=4fb228ae243e7ab6d68a821c436f8a86
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=32b3cd29e7ac2044112bbacc7776f398
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_12H_Performance"
   - Name: Out_12H_ProducedGoodUnits
+    Id: g=269accca206a62d9834bc1b3a15c95f5
     Type: RAEtherNetIPTag
     DataType: Int32
     Children:
     - Name: SymbolName
+      Id: g=dc90acb56f7096d02a0836fccd0b1ae3
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_12H_ProducedGoodUnits"
   - Name: Out_12H_ProducedIdealAvailableUnits
+    Id: g=3ee9ddccbc9268e5b5a3c6a3bc66b68c
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=9b0ba9283c5469f3fae8037af74cafc0
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_12H_ProducedIdealAvailableUnits"
   - Name: Out_12H_ProducedIdealRunningUnits
+    Id: g=4c752d07b360e24e896d3b7c105daa2e
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=0d016b078d1644dbd4d17a8fb439ca24
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_12H_ProducedIdealRunningUnits"
   - Name: Out_12H_ProducedTotalUnits
+    Id: g=e72d847b6f66875d0e4cbc5ca0706c43
     Type: RAEtherNetIPTag
     DataType: Int32
     Children:
     - Name: SymbolName
+      Id: g=79f0000f6fb8f0422aa8a736c1c8040d
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_12H_ProducedTotalUnits"
   - Name: Out_12H_Quality
+    Id: g=7238194681fc4db6898447c35f84a65a
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=d8708d889a9f16402022e0e86c455340
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Out_12H_Quality"
   - Name: Sts_NextUpdate
+    Id: g=8a5371c0bfef9f949130f3db00a83ac8
     Type: RAEtherNetIPTag
     DataType: Int32
     Children:
     - Name: SymbolName
+      Id: g=8892923a5b7ea4398eab2c387a6a9461
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Sts_NextUpdate"
@@ -314,62 +392,166 @@ Children:
     DataType: Int32
     Children:
     - Name: SymbolName
+      Id: g=6bcbdcbdd29712ff3824ddfdaf0ad140
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.HMI_Tab"
   - Name: Sts_ModeCumulativeTime
+    Id: g=b24761bdfc28ed4a7cdc87c106ce915e
     Type: RAEtherNetIPTag
     DataType: Int32
     Children:
     - Name: SymbolName
+      Id: g=897f150cd7aa713209ddbe9c8f6da86c
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Sts_ModeCumulativeTime"
   - Name: Sts_OEEsnapshot
+    Id: g=379a58fa2d21281e9139c6994fef9d0c
     Type: RAEtherNetIPTag
     DataType: Float
     ValueRank: OneDimension
     ArrayDimensions: [16]
     Children:
     - Name: SymbolName
+      Id: g=b921aa3d2bfa59c4ce64461b28337304
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Sts_OEEsnapshot"
   - Name: Sts_PrgrsBar
+    Id: g=6c1888a60fec9c4a1ac05e2466905310
     Type: RAEtherNetIPTag
     DataType: Int32
     Children:
     - Name: SymbolName
+      Id: g=10a4d05ab2cde0248fd78f671b274b21
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Sts_PrgrsBar"
   - Name: Sts_StateCumulativeTime
+    Id: g=c2a5109086a70048802dfdbd6b895ee0
     Type: RAEtherNetIPTag
     DataType: Int32
     ValueRank: OneDimension
     ArrayDimensions: [18]
     Children:
     - Name: SymbolName
+      Id: g=35ea7075e4acb211b81016f647210d8e
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:Performance_Tracking.Wrk_PerformanceTracking_RAPID.Sts_StateCumulativeTime"
   - Name: OriginalTypeId
+    Id: g=d3963d518a052865f9cc669cbdf49774
     Type: BaseDataVariableType
     DataType: NodeId
     Value: "/Objects/HMIOptixStandard1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/raM_Tec_PerformanceTracking_RAPID"
+- Name: M02_LostRunningUnits
+  Id: g=c09f4b83274b180631b8710745276a85
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Id: g=e1af65d0e61fa5767a37b978c117a57e
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Performance_Tracking.M02_LostRunningUnits"
 - Name: CMD_SendSQL
+  Id: g=e41ba306d24032e1be54dd7052646532
   Type: RAEtherNetIPTag
   DataType: Boolean
   Children:
   - Name: SymbolName
+    Id: g=c283a29c509abc1a24b2602a7325f68b
     Type: BaseDataVariableType
     DataType: String
     Value: "Program:Performance_Tracking.CMD_SendSQL"
 - Name: Trigger_SendSQL
+  Id: g=d087684ac1420e85bc5f5efd97947b8e
   Type: RAEtherNetIPTag
   DataType: Boolean
   Children:
   - Name: SymbolName
+    Id: g=e92e91b915dfe27aff2ab4e02e302814
     Type: BaseDataVariableType
     DataType: String
     Value: "Program:Performance_Tracking.Trigger_SendSQL"
+- Name: M02_OEE
+  Id: g=65a43a5b2387875cd277439e1d35049c
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Id: g=43e95f421773c99fe4a99e1aa9d9e9ec
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Performance_Tracking.M02_OEE"
+- Name: M02_Performance
+  Id: g=c25722e03b7b054c627919f3a5c6e5b0
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Id: g=1a0e919e28ad7a5aabaaba31fc799b8f
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Performance_Tracking.M02_Performance"
+- Name: M02_ProducedGoodUnits
+  Id: g=d87e24ccb7263476464b5e2598e4d3d4
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Id: g=99798d59e35adff1cf123b73db24e6fb
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Performance_Tracking.M02_ProducedGoodUnits"
+- Name: M02_ProducedIdealAvailableUnits
+  Id: g=2efc27d2936d79a6071d84690df996f9
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Id: g=9e331d7baea360962bf75e4be3ceb0fb
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Performance_Tracking.M02_ProducedIdealAvailableUnits"
+- Name: M02_ProducedIdealRunningUnits
+  Id: g=d8cc8525a310ebf887c56f2f90ff8346
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Id: g=974c2209403dd5956f3cddc8d4f3dde1
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Performance_Tracking.M02_ProducedIdealRunningUnits"
+- Name: M02_ProducedTotalUnits
+  Id: g=365a32f12f629913bef32183f3b360ed
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Id: g=a49097c4c2e9b97ff47c77abf2fcb88c
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Performance_Tracking.M02_ProducedTotalUnits"
+- Name: M02_Quality
+  Id: g=edb8c764046418d5946fda099b683de5
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Id: g=0ce90afb48f6c58edda3cf310fd95943
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Performance_Tracking.M02_Quality"
+- Name: M02_Availability
+  Id: g=8553ac28e9e5c31e6a48667a3ba5069b
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Id: g=3b482b5b40468b540f0b8ee9b7f411fe
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Performance_Tracking.M02_Availability"

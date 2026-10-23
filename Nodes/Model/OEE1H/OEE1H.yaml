@@ -1,58 +1,72 @@
 Name: OEE1H
+Id: g=4d35c94161db399717a87ad637f8aea6
 Type: FolderType
 Children:
 - Name: OEE_01HR
+  Id: g=0943b16679b87cec94eafcd8a9b5bcf0
   Type: BaseDataVariableType
   DataType: Int32
   Children:
   - Name: DynamicLink
+    Id: g=d4666cd21eae962f08e6034a0d574ce6
     Type: DynamicLink
     DataType: NodePath
     Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Out_01H_OEE"
     Children:
     - Name: Mode
+      Id: g=7e20f435a4abb4a860e8283a642e8921
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
 - Name: LostRunningUnits
+  Id: g=74f2c232d2e4d45f2d104a2608b4c8c2
   Type: BaseDataVariableType
   DataType: Int32
   Children:
   - Name: DynamicLink
+    Id: g=1b22e64b725a2c559fbaa5c103882123
     Type: DynamicLink
     DataType: NodePath
     Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Out_01H_LostRunningUnits"
     Children:
     - Name: Mode
+      Id: g=8649c556be889e068b474c0e85613d95
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
 - Name: ProducedIdealAvailableUnits
+  Id: g=847bdbb14113637e4fd3aa2bddf56303
   Type: BaseDataVariableType
   DataType: Int32
   Children:
   - Name: DynamicLink
+    Id: g=ffaff5c1c92ca0b8c55fd03f3b714ac1
     Type: DynamicLink
     DataType: NodePath
     Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Out_01H_ProducedIdealAvailableUnits"
     Children:
     - Name: Mode
+      Id: g=5c2ec5fda28d2a7dc6de7eaaf311174e
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
 - Name: ProducedIdealRunningUnits
+  Id: g=cce0d17bb419bba1767da017c1d75ac5
   Type: BaseDataVariableType
   DataType: Int32
   Children:
   - Name: DynamicLink
+    Id: g=cac8f08587eaeda42d2561386ed83ec8
     Type: DynamicLink
     DataType: NodePath
     Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Out_01H_ProducedIdealRunningUnits"
     Children:
     - Name: Mode
+      Id: g=331dadfd09e22efad5b43ad0b66dbafc
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
 - Name: Aux_OutStateCurrentTime
+  Id: g=b31b962fd6f569f927c79a821933005f
   Type: BaseDataVariableType
   DataType: Int16

@@ -1,51 +1,64 @@
 Name: HMIOptixStandard1
+Id: g=f7684e6760abc7a66014a945f2c3f2bb
 Type: ProjectFolder
 Children:
 - Name: Localization
+  Id: g=7da0208c43ad68fa1f67827babcb2e0f
   Type: PropertyGroup
   Children:
   - Name: Locales
+    Id: g=414967f46bd03ec3eb03bbbbcb80a75d
     Type: BaseDataVariableType
     DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
   - Name: LocaleFallbackList
+    Id: g=2f8d3434f8e24ed87c6f3d9bd25a68db
     Type: BaseDataVariableType
     DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
 - Name: Authentication
+  Id: g=4f5c8694762884c363ec60b61ba849c7
   Type: PropertyGroup
   Children:
   - Name: DefaultUserFolder
+    Id: g=cf688c6e7f16fcd8ef39543fb89d2080
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/HMIOptixStandard1/Security/Users"
     Children:
     - Name: Kind
+      Id: g=381d020a347470ba77f1d97f86c7afe7
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
 - Name: PasswordPolicy
+  Id: g=80652698bce5d3ecc879a78d547ecfce
   Type: PasswordPolicy
   Children:
   - Name: MaximumPasswordAge
+    Id: g=777d8733696ce0e5acf6d293b84c6e3c
     Type: BaseDataVariableType
     DataType: UInt16
   - Name: EnforcePasswordHistory
+    Id: g=e84057b3049ea6c2c4f43615c55c1014
     Type: BaseDataVariableType
     DataType: Byte
     Value: 1
   - Name: MinimumPasswordAge
+    Id: g=76743c21147362905f6e59b2e3f3f0a1
     Type: BaseDataVariableType
     DataType: UInt16
   - Name: MinimumPasswordLength
+    Id: g=45e48b3c0b9907df6b93afc096837806
     Type: BaseDataVariableType
     DataType: Byte
     Value: 8
 - Name: AlarmConfiguration
+  Id: g=fd64e1ba1fdea7fda641a11a4c4372b6
   Type: PropertyGroup
 - File: UI/UI.yaml
 - File: Model/Model.yaml
@@ -56,7 +69,7 @@ Children:
 - File: DataStores/DataStores.yaml
 - File: Reports/Reports.yaml
 - File: 'OPC-UA/OPC-UA.yaml'
-- File: MQTT1/MQTT1.yaml
+- File: MQTT/MQTT.yaml
 - File: CommDrivers/CommDrivers.yaml
 - File: NetLogic/NetLogic.yaml
 - File: Security/Security.yaml
@@ -64,6 +77,7 @@ Children:
 - File: Translations/Translations.yaml
 - File: Retentivity/Retentivity.yaml
 - Name: RuntimeOptimization
+  Id: g=1ecc31288fc0a1a2920281ddb9c84c05
   Type: PropertyGroup
 - File: AlarmTypes/AlarmTypes.yaml
 - File: HighAvailability/HighAvailability.yaml

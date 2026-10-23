@@ -1,0 +1,180 @@
+Name: OEE1H
+Id: g=0669436fc89cd93b0d1ff186ecf0f9ce
+Type: FolderType
+Children:
+- Name: OPC_OEE1H_HR
+  Id: g=f8dd27ff0ef17c79fdceed04a3676725
+  Type: BaseDataVariableType
+  DataType: Int32
+  Children:
+  - Name: DynamicLink
+    Id: g=3108b0832d06c3d4d37a03ee54fd7fe5
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../OEE1H/OEE_01HR"
+    Children:
+    - Name: Mode
+      Id: g=92d1243ce3c44279efb996000de0a140
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: OPC_OEE1H_LostRunningUnits
+  Id: g=1e54ff7a267d0659c78803d6892c4056
+  Type: BaseDataVariableType
+  DataType: Int32
+  Children:
+  - Name: DynamicLink
+    Id: g=6b5c13d11401ca3393230dd7dc090d5c
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../OEE1H/LostRunningUnits"
+    Children:
+    - Name: Mode
+      Id: g=4314dc780bda2dc5a27a0216e5a038f4
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: OPC_OEE1H_ProducedIdealAvailableUnits
+  Id: g=3469699d9eba187aba3c0bb39a054ef7
+  Type: BaseDataVariableType
+  DataType: Int32
+  Children:
+  - Name: DynamicLink
+    Id: g=61edc24e40785b995c9c17240c995f75
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../OEE1H/ProducedIdealAvailableUnits"
+    Children:
+    - Name: Mode
+      Id: g=da1f637ce55ee5c4f9cc934a51a00609
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: OPC_OEE1H_ProducedIdealRunningUnits
+  Id: g=5d639194cfe177b64f873e16b97d01e0
+  Type: BaseDataVariableType
+  DataType: Int32
+  Children:
+  - Name: DynamicLink
+    Id: g=f390edf11e2249d413d08c0e2f4ea10b
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../OEE1H/ProducedIdealRunningUnits"
+    Children:
+    - Name: Mode
+      Id: g=70868bb5e036b45052c6d3af26023f60
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: OPC_OEE1H_Aux_OutStateCurrentTime
+  Id: g=7e325a7c8e541b5751c99684d96af22a
+  Type: BaseDataVariableType
+  DataType: Int32
+  Children:
+  - Name: DynamicLink
+    Id: g=56555f69516a228c401dabe026355f35
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Sts_NextUpdate"
+    Children:
+    - Name: Mode
+      Id: g=8b7b7d902ed551b58c6c03c4b4dc702d
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: OPC_OEE1H_Out_01H_ProducedTotalUnits
+  Id: g=87ec13c3d92af83238dff30a0a6465bb
+  Type: BaseDataVariableType
+  DataType: Int32
+  Children:
+  - Name: DynamicLink
+    Id: g=93488751bfabfa6ac8799679dae53ab3
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Out_01H_ProducedTotalUnits"
+    Children:
+    - Name: Mode
+      Id: g=602cb999f9833b0bab49bd06dd69c38c
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: OPC_OEE1H_Out_01H_OEE
+  Id: g=df675cacfb165a9cbc08a97a45b44a93
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Id: g=44f5056f7b2aab9868d70e055841bcc3
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Out_01H_OEE"
+    Children:
+    - Name: Mode
+      Id: g=a9b4002851f5b51e28aa367610888db4
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: OPC_OEE1H_Out_01H_Availability
+  Id: g=e79bb6c9880ab1e0fcef0119d7c24d5d
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Id: g=2930fd7d73cf6baec085fc18858b90f0
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Out_01H_Availability"
+    Children:
+    - Name: Mode
+      Id: g=eab5c500ee49fedbd1a51b704e8a8df1
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: OPC_OEE1H_Out_01H_Quality
+  Id: g=f5df2bc3e11046779c576d8059a94089
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Id: g=e43cd23e6f6e84a26456a211f526b238
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Out_01H_Quality"
+    Children:
+    - Name: Mode
+      Id: g=3a534a9414be6de320be3aa5ab32d2a4
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: OPC_OEE1H_Out_01H_Performance
+  Id: g=c916e762e11760d3d507fb174e79e99d
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Id: g=59012bda623838d0524e8e05ad5db0ff
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Out_01H_Performance"
+    Children:
+    - Name: Mode
+      Id: g=1198a0a50b7de0b6db21dec43a02a644
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: OPC_OEE1H_Out_01H_ProducedGoodUnits
+  Id: g=45563a4e7b156dae81edb6df66954b7a
+  Type: BaseDataVariableType
+  DataType: Int32
+  Children:
+  - Name: DynamicLink
+    Id: g=b6f1d2c4a5db03d47d70f6e5024a8072
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Out_01H_ProducedGoodUnits"
+    Children:
+    - Name: Mode
+      Id: g=80a027c91aeb545e11510aa7165d277d
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

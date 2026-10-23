@@ -1,29 +1,37 @@
 Name: Retentivity
+Id: g=aba10358dfcc307406bc91fe7443789f
 Type: RetentivityCategoryFolder
 Children:
 - Name: SecurityRetentivityStorage
+  Id: g=393337e5addcec88eb9b8b46fe8029e0
   Type: RetentivityStorage
   Children:
   - Name: Nodes
+    Id: g=51d9e4804f272d45d4146169303fef4b
     Type: BaseObjectType
     Children:
     - Name: Node1
+      Id: g=a9945ff848db2e4cc9cd5ab30ff031aa
       Type: NodePointer
       DataType: NodeId
       Value: "/Objects/HMIOptixStandard1/Security"
       Children:
       - Name: Kind
+        Id: g=1cc62b06c36e9b4fb291682359668455
         Type: PropertyType
         DataType: NodeId
       - Name: NodeClass
+        Id: g=4a838301005d140adc6587914080c0d3
         Type: PropertyType
         DataType: NodePointerNodeClass
         Value: 2
   - Name: WriteDelay
+    Id: g=dadaeba814ff53cb773a3d7440c4fcf0
     Type: BaseDataVariableType
     DataType: Duration
     ReferenceType: HasProperty
   - Name: DeltaObserverEnabled
+    Id: g=e59ff7219e3c10dcd9aa6102e297cc02
     Type: BaseDataVariableType
     DataType: Boolean
     ReferenceType: HasProperty
@@ -35,28 +43,35 @@ Children:
     Target: ns=14;i=14
     Direction: Forward
 - Name: AlarmsRetentivityStorage
+  Id: g=1192585b842b60410c647f72e89e02b9
   Type: RetentivityStorage
   Children:
   - Name: Nodes
+    Id: g=8a8dfcb80207d45b4e03124c9cc6b19e
     Type: BaseObjectType
     Children:
     - Name: Node1
+      Id: g=4db2d833b72c95857f293aed4a8333df
       Type: NodePointer
       DataType: NodeId
       Value: "/Objects/HMIOptixStandard1/Alarms"
       Children:
       - Name: Kind
+        Id: g=34de3116d00c97e1369e90150404981a
         Type: PropertyType
         DataType: NodeId
       - Name: NodeClass
+        Id: g=a5be04bb2841144f9a47e2eb2ba61f88
         Type: PropertyType
         DataType: NodePointerNodeClass
         Value: 2
   - Name: WriteDelay
+    Id: g=feca044dd253d89867544f3a026e07db
     Type: BaseDataVariableType
     DataType: Duration
     ReferenceType: HasProperty
   - Name: DeltaObserverEnabled
+    Id: g=fc12b4d40c69572aa24f4a1e0c7925c1
     Type: BaseDataVariableType
     DataType: Boolean
     ReferenceType: HasProperty

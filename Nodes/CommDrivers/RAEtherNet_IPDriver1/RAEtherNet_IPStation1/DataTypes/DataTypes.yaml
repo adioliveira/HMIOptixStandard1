@@ -1,6 +1,398 @@
 Name: DataTypes
+Id: g=f0ed20593c9515233773b1fe3cf33459
 Type: FolderType
 Children:
+- Class: DataType
+  Name: raM_Opr_ISATR880002_2015
+  Id: g=4000786053c44defe2c3617ede02e19d
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raM_Opr_ISATR880002_2015",
+    "DataType": {
+     "IdType": 2,
+     "Id": "4000786053c44defe2c3617ede02e19d",
+     "Namespace": 18
+    },
+    "Fields": [{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "raM_Opr_ISATR880002_2015",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_EO",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_EN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_ER",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_ERR",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_EXERR",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Cmd_eMode",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Cmd_Reset",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_Start",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_Stop",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_Hold",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_UnHold",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_Suspend",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_UnSuspend",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_Abort",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_Clear",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_StateComplete",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Out_eMode",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Out_eState",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Out_bMode",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Out_bState",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_bEnabledStates",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_ModeLocked",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Clearing",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Stopped",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Starting",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Idle",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Suspended",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Execute",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Stopping",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Aborting",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Aborted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Holding",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Held",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_UnHolding",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Suspending",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_UnSuspending",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Resetting",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Completing",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Complete",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "_EnableState",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "_DisableState",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "_bState",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Inf_sState",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Inf_sMode",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Inf_Type",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "HMI_Version",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "_bSts",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "HMI_Tab",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Inf_Lib",
+      "DataType": {
+       "Id": 12
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raM_Opr_ISATR880002_2015"}
+  Children:
+  - Name: ns=0;Default Binary
+    Id: g=21971ec0fe558dc40496bfbe9572d3a9
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: GOTC_Produccion
+  Id: g=52a0db1cbe6e4a01687083a795d11bc1
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "GOTC_Produccion",
+    "DataType": {
+     "IdType": 2,
+     "Id": "52a0db1cbe6e4a01687083a795d11bc1",
+     "Namespace": 18
+    },
+    "Fields": [{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Input",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "NPxM",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PORCDEEFECTIVIDAD",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PIEZASBUENASTOTALES",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PIEZASMALASTOTALES",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TOTALPIEZAS",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "ResetAll",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"GOTC_Produccion"}
+  Children:
+  - Name: ns=0;Default Binary
+    Id: g=04b3f46f5ba282a6d3fcecc991c9d8b7
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: GOTC_CORRIENTESIM
+  Id: g=c4745ddf89f7834daf8192c098dda211
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "GOTC_CORRIENTESIM",
+    "DataType": {
+     "IdType": 2,
+     "Id": "c4745ddf89f7834daf8192c098dda211",
+     "Namespace": 18
+    },
+    "Fields": [{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CORRIENTESIM",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "VALORSIM",
+      "DataType": {
+       "Id": 10
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"GOTC_CORRIENTESIM"}
+  Children:
+  - Name: ns=0;Default Binary
+    Id: g=b57f4cf086cfc6877f123994f8e9156e
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
 - Class: DataType
   Name: raM_Tec_PerformanceTracking_RAPID
   Id: g=b155f660b9267ce1dc3f7bbab33c9b17
@@ -347,394 +739,7 @@ Children:
   DisplayName: {"LocaleId":"","Text":"raM_Tec_PerformanceTracking_RAPID"}
   Children:
   - Name: ns=0;Default Binary
-    Type: DataTypeEncodingType
-    ModellingRule: None
-    DisplayName: {"LocaleId":"","Text":"Default Binary"}
-    ReferenceType: HasEncoding
-- Class: DataType
-  Name: GOTC_Produccion
-  Id: g=52a0db1cbe6e4a01687083a795d11bc1
-  Supertype: Structure
-  StructDefinition: 
-   {
-    "Name": "GOTC_Produccion",
-    "DataType": {
-     "IdType": 2,
-     "Id": "52a0db1cbe6e4a01687083a795d11bc1",
-     "Namespace": 18
-    },
-    "Fields": [{
-      "Name": "EnableIn",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "EnableOut",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Input",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "NPxM",
-      "DataType": {
-       "Id": 10
-      }
-     },{
-      "Name": "PORCDEEFECTIVIDAD",
-      "DataType": {
-       "Id": 10
-      }
-     },{
-      "Name": "PIEZASBUENASTOTALES",
-      "DataType": {
-       "Id": 10
-      }
-     },{
-      "Name": "PIEZASMALASTOTALES",
-      "DataType": {
-       "Id": 10
-      }
-     },{
-      "Name": "TOTALPIEZAS",
-      "DataType": {
-       "Id": 10
-      }
-     },{
-      "Name": "ResetAll",
-      "DataType": {
-       "Id": 1
-      }
-     }]
-   }
-  DisplayName: {"LocaleId":"","Text":"GOTC_Produccion"}
-  Children:
-  - Name: ns=0;Default Binary
-    Type: DataTypeEncodingType
-    ModellingRule: None
-    DisplayName: {"LocaleId":"","Text":"Default Binary"}
-    ReferenceType: HasEncoding
-- Class: DataType
-  Name: raM_Opr_ISATR880002_2015
-  Id: g=4000786053c44defe2c3617ede02e19d
-  Supertype: Structure
-  StructDefinition: 
-   {
-    "Name": "raM_Opr_ISATR880002_2015",
-    "DataType": {
-     "IdType": 2,
-     "Id": "4000786053c44defe2c3617ede02e19d",
-     "Namespace": 18
-    },
-    "Fields": [{
-      "Name": "EnableIn",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "EnableOut",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "raM_Opr_ISATR880002_2015",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Sts_EO",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Sts_EN",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Sts_ER",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Sts_ERR",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "Sts_EXERR",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "Cmd_eMode",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "Cmd_Reset",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Cmd_Start",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Cmd_Stop",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Cmd_Hold",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Cmd_UnHold",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Cmd_Suspend",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Cmd_UnSuspend",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Cmd_Abort",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Cmd_Clear",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Cmd_StateComplete",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Out_eMode",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "Out_eState",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "Out_bMode",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "Out_bState",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "Sts_bEnabledStates",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "Sts_ModeLocked",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Sts_Clearing",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Sts_Stopped",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Sts_Starting",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Sts_Idle",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Sts_Suspended",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Sts_Execute",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Sts_Stopping",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Sts_Aborting",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Sts_Aborted",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Sts_Holding",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Sts_Held",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Sts_UnHolding",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Sts_Suspending",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Sts_UnSuspending",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Sts_Resetting",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Sts_Completing",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Sts_Complete",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "_EnableState",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "_DisableState",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "_bState",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "Inf_sState",
-      "DataType": {
-       "Id": 12
-      }
-     },{
-      "Name": "Inf_sMode",
-      "DataType": {
-       "Id": 12
-      }
-     },{
-      "Name": "Inf_Type",
-      "DataType": {
-       "Id": 12
-      }
-     },{
-      "Name": "HMI_Version",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "_bSts",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "HMI_Tab",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "Inf_Lib",
-      "DataType": {
-       "Id": 12
-      }
-     }]
-   }
-  DisplayName: {"LocaleId":"","Text":"raM_Opr_ISATR880002_2015"}
-  Children:
-  - Name: ns=0;Default Binary
-    Type: DataTypeEncodingType
-    ModellingRule: None
-    DisplayName: {"LocaleId":"","Text":"Default Binary"}
-    ReferenceType: HasEncoding
-- Class: DataType
-  Name: GOTC_CORRIENTESIM
-  Id: g=c4745ddf89f7834daf8192c098dda211
-  Supertype: Structure
-  StructDefinition: 
-   {
-    "Name": "GOTC_CORRIENTESIM",
-    "DataType": {
-     "IdType": 2,
-     "Id": "c4745ddf89f7834daf8192c098dda211",
-     "Namespace": 18
-    },
-    "Fields": [{
-      "Name": "EnableIn",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "EnableOut",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "CORRIENTESIM",
-      "DataType": {
-       "Id": 10
-      }
-     },{
-      "Name": "VALORSIM",
-      "DataType": {
-       "Id": 10
-      }
-     }]
-   }
-  DisplayName: {"LocaleId":"","Text":"GOTC_CORRIENTESIM"}
-  Children:
-  - Name: ns=0;Default Binary
+    Id: g=906b5d17841fa2ee4f3b5b7a8cd933de
     Type: DataTypeEncodingType
     ModellingRule: None
     DisplayName: {"LocaleId":"","Text":"Default Binary"}

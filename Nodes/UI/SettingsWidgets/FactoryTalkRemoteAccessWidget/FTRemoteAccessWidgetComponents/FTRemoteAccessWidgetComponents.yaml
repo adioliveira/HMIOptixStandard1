@@ -1,4 +1,5 @@
 Name: FTRemoteAccessWidgetComponents
+Id: g=2e357ff3e0b44e14de7eb4a5c9bd537f
 Type: FolderType
 Children:
 - Name: FTRemoteAccessWidgetDataObject
@@ -6,22 +7,28 @@ Children:
   Supertype: BaseObjectType
   Children:
   - Name: IncomingConnectionRequest
+    Id: g=40515215adc5cfc0bf2e1033f1ecbef9
     Type: BaseDataVariableType
     DataType: Boolean
   - Name: Username
+    Id: g=a21a113135cd14ce71fb52ab685073b4
     Type: BaseDataVariableType
     DataType: String
   - Name: IpAddress
+    Id: g=9fd28e1569d32a5f82df9b6db598a8cd
     Type: BaseDataVariableType
     DataType: String
   - Name: SupervisorId
+    Id: g=268e2cb93664dc471056cfc41c12c233
     Type: BaseDataVariableType
     DataType: ByteString
   - Name: FTRemoteAccessNode
+    Id: g=def13f2d817fa252395781f6e30287be
     Type: Alias
     DataType: NodeId
     Children:
     - Name: Kind
+      Id: g=6fa49ae8931c2a21094e32c688492486
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/FTRemoteAccess"
@@ -31,835 +38,1028 @@ Children:
   ReferenceType: HasComponent
   Children:
   - Name: Width
+    Id: g=27af4c5d6cf40575dc0644401f86b5a0
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 400.0
   - Name: Height
+    Id: g=ac2d914c1acc2f9759a0acccdb17648a
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 226.0
   - Name: FTRemoteAccessWidgetDataObject
+    Id: g=3f7a4389dab1328c916130878fcfe2dd
     Type: Alias
     DataType: NodeId
     Children:
     - Name: Kind
+      Id: g=7e87a0bb7b47b53bcc9dade0659ef37e
       Type: PropertyType
       DataType: NodeId
       Value: "/Objects/HMIOptixStandard1/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/FTRemoteAccessWidgetDataObject"
   - Name: HorizontalAlignment
+    Id: g=6dece7892232a72097039e93db856579
     Type: BaseVariableType
     DataType: HorizontalAlignment
     ModellingRule: Optional
     Value: 3
   - Name: VerticalAlignment
+    Id: g=5d10bce585f9199a4d6fc3cf11ffdffa
     Type: BaseVariableType
     DataType: VerticalAlignment
     ModellingRule: Optional
     Value: 3
   - Name: VerticalLayout1
+    Id: g=f1a9079ed6aa109aede13486f4d94511
     Type: ColumnLayout
     Children:
     - Name: Width
+      Id: g=e79ba055275ef617572532c355f688c4
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
     - Name: Height
+      Id: g=636335063d6c7b10f1f02afd016ddf4e
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
     - Name: HorizontalAlignment
+      Id: g=8dff2d31565b6ad56d1cf8b85a7d4043
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
       Value: 3
     - Name: VerticalAlignment
+      Id: g=90d22255534791d995ffba77a2e6ed27
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 3
     - Name: HorizontalLayout1
+      Id: g=b696e5e0a900b83085a47a82284733d8
       Type: RowLayout
       Children:
       - Name: Width
+        Id: g=6feba2cd2e3ad89c67fbf20786b3e9c0
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 50.0
       - Name: HorizontalAlignment
+        Id: g=c376197794eb2263f3fde83c87636010
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
         Value: 3
       - Name: FTRARuntimeToolsLayout
+        Id: g=93d4d151094a4ac84492e406764c45fa
         Type: ColumnLayout
         Children:
         - Name: Height
+          Id: g=22cce1dccb17da434e83a04a23f9c25f
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
         - Name: FTRARuntimeToolsLabel
+          Id: g=f2cf42dcd63be406d895a5cd849f7f15
           Type: Label
           Children:
           - Name: Text
+            Id: g=34a4ac9ad26465fe26fa058ebc97802a
             Type: BaseDataVariableType
             DataType: LocalizedText
             Value: {"NamespaceIndex":18,"TextId":"FTRemoteAccessRuntimeVersion"}
           - Name: HorizontalAlignment
+            Id: g=d7a4a0c68e9eb1160e6c3ace500585db
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
             Value: 3
           - Name: TopMargin
+            Id: g=0e20a73883864e1b5d9b6d40f2123b26
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
           - Name: TextHorizontalAlignment
+            Id: g=cd1a03931bbfb95b37da60fe5645297b
             Type: BaseVariableType
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
           - Name: TextVerticalAlignment
+            Id: g=4b9f6238dae87624dd3fc881422f3c0f
             Type: BaseVariableType
             DataType: TextVerticalAlignment
             ModellingRule: Optional
             Value: 1
           - Name: WordWrap
+            Id: g=f2ccb48ab19c958d556a7234109209f0
             Type: BaseDataVariableType
             DataType: Boolean
             ModellingRule: Optional
             Value: true
           - Name: BottomMargin
+            Id: g=d8cdf88cd5e91c73a75ed5fb9c0cca10
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
             Value: 3.0
         - Name: FTRARuntimeToolsValueLabel
+          Id: g=b1eb0f59a88e49e578b927f234df11ca
           Type: Label
           Children:
           - Name: Text
+            Id: g=4cacd1c565fea75e86acba294bc761f1
             Type: BaseDataVariableType
             DataType: LocalizedText
             Children:
             - Name: DynamicLink
+              Id: g=b19ad978d07a2d9145b4a387d143bb11
               Type: DynamicLink
               DataType: NodePath
               Value: "{FTRemoteAccessWidgetDataObject}/FTRemoteAccessNode/RuntimeVersion"
           - Name: HorizontalAlignment
+            Id: g=34df90c30c394909d94f58e6d3ab50bb
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
           - Name: TopMargin
+            Id: g=35535cce53c2b2a3bd56731195d35373
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
           - Name: FontWeight
+            Id: g=22fa418f604c2539915315c5f7e587a5
             Type: BaseDataVariableType
             DataType: FontWeightEnum
             ModellingRule: Optional
             Value: 700
           - Name: RightMargin
+            Id: g=7bc6722f25b0aa815ae4ab882256829a
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
             Value: 78.0
           - Name: TextVerticalAlignment
+            Id: g=cb6372211425482a130c78468d4626dd
             Type: BaseVariableType
             DataType: TextVerticalAlignment
             ModellingRule: Optional
             Value: 1
           - Name: BottomMargin
+            Id: g=b6476e1a35bdafe5a137fbf518184d02
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
             Value: 3.0
         - Name: HorizontalAlignment
+          Id: g=17880660dbef96b40c7f6fbb20e0465f
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
           Value: 3
         - Name: LeftMargin
+          Id: g=6aea9d1d645a4e409737c020f4831cba
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
         - Name: TopMargin
+          Id: g=f79f35ec72c399f540e423630bdba87d
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
         - Name: BottomMargin
+          Id: g=979a86dba64f8e20acab1613047bfeb5
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
           Value: 14.0
       - Name: TotalActiveConnectionsLayout
+        Id: g=a9c642219bf98bb85a1ab4a6cdd78b79
         Type: ColumnLayout
         Children:
         - Name: Width
+          Id: g=bdfc5373636a185d967c081ded5c771a
           Type: BaseVariableType
           DataType: Size
           Value: -1.0
         - Name: Height
+          Id: g=0122f9556b2d141f056ba9a0f5886109
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
         - Name: TotalActiveConnectionLabel
+          Id: g=5101fc07304b9b819da236b7a421a536
           Type: Label
           Children:
           - Name: Text
+            Id: g=3674f751455cc66d517244db146f35c6
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
             Value: {"NamespaceIndex":18,"TextId":"RemoteConnections"}
           - Name: LeftMargin
+            Id: g=9e4228aef64cb64e8449bbc967ad5312
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
           - Name: TopMargin
+            Id: g=70908ff0c8b34f3d732f11986b0c6af5
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
           - Name: TextHorizontalAlignment
+            Id: g=c5d498b52ae90aea4e80705ba3795b2c
             Type: BaseVariableType
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
           - Name: HorizontalAlignment
+            Id: g=d524c1bfb5e759f207a6dc3fb5365760
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
           - Name: TextVerticalAlignment
+            Id: g=c7e66acbca500846c5fd278778ebb366
             Type: BaseVariableType
             DataType: TextVerticalAlignment
             ModellingRule: Optional
             Value: 1
           - Name: RightMargin
+            Id: g=d6aaea8e38a9c12a6bf0316bc123413b
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
           - Name: BottomMargin
+            Id: g=010b24716c4a22376dff93eb72726044
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
             Value: 3.0
         - Name: TotalActiveConnectionsValueLabel
+          Id: g=39bfae995c4610e5dd71b54374eaf1fe
           Type: Label
           Children:
           - Name: Text
+            Id: g=ed6355c7c9f0dfacc6a3d8eb7608c561
             Type: BaseDataVariableType
             DataType: LocalizedText
             Children:
             - Name: DynamicLink
+              Id: g=f39f2968d9240480fa6c0edba654c42c
               Type: DynamicLink
               DataType: NodePath
               Value: "{FTRemoteAccessWidgetDataObject}/FTRemoteAccessNode/RemoteConnectionCount"
           - Name: LeftMargin
+            Id: g=f6a5ea7831731aef846f67b339e996d4
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
           - Name: TopMargin
+            Id: g=244091bc21856655b7a0ca63c05db8e7
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
           - Name: TextHorizontalAlignment
+            Id: g=66c2a0d78f225ffaa54ada29f99abd96
             Type: BaseVariableType
             DataType: TextHorizontalAlignment
             ModellingRule: Optional
           - Name: FontWeight
+            Id: g=055483f37c3395df207d4c0e83d2c0a1
             Type: BaseDataVariableType
             DataType: FontWeightEnum
             ModellingRule: Optional
             Value: 700
           - Name: TextVerticalAlignment
+            Id: g=ec552a27268958cef813cd5199ccf443
             Type: BaseVariableType
             DataType: TextVerticalAlignment
             ModellingRule: Optional
             Value: 1
           - Name: HorizontalAlignment
+            Id: g=d5270a46756e9d0a818d7d5431e5ab43
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
           - Name: RightMargin
+            Id: g=f5ebdb2506bacfaddfd7e75469448653
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
           - Name: BottomMargin
+            Id: g=9b4ec4775dfe8f023d238e7d44b8c332
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
             Value: 3.0
         - Name: HorizontalAlignment
+          Id: g=40396c4643f11041541348f7b2d1c6da
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
           Value: 1
     - Name: Panel1
+      Id: g=3fcb09050b29a5d53dce7839567b7ae4
       Type: Panel
       Children:
       - Name: Width
+        Id: g=930357abaa7bee888eaaa4660c61bb82
         Type: BaseVariableType
         DataType: Size
         Value: 300.0
       - Name: Height
+        Id: g=afad5951caaf4490d5121065c0f6afd5
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: -1.0
       - Name: HorizontalAlignment
+        Id: g=5f044743dbeac560e841928cb9187925
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
         Value: 3
       - Name: LeftMargin
+        Id: g=3693e12688db2f4e579f2a979bb28aec
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
       - Name: TopMargin
+        Id: g=360c7c775f4a257619e537ecaf0b5b62
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
       - Name: RightMargin
+        Id: g=4028fc4d8416f20d06e42519913861cc
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
       - Name: BottomMargin
+        Id: g=3065a19ed7b835970fae798775a6a5f9
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 8.0
     - Name: FTRemoteAccessConnectionLabel
+      Id: g=f8874bbcdec822e26967f48d937c63d3
       Type: Label
       Children:
       - Name: Text
+        Id: g=a33e4be0d62173ed32a009a9d5ff9411
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
         Value: {"NamespaceIndex":18,"TextId":"FTRemoteAccessConnection"}
       - Name: BottomMargin
+        Id: g=0b4c8d538e97fe075a8a10e2d827a4ec
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 4.0
       - Name: HorizontalAlignment
+        Id: g=90580b7cc0c3949908f38c77014ab76c
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
         Value: 3
       - Name: WordWrap
+        Id: g=6978156e40b854c248b5e19d23bba3f5
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
         Value: true
     - Name: ConnectionStatusSwitch
+      Id: g=adc360410547f8e70bcafe94210a9657
       Type: Switch
       Children:
       - Name: Checked
+        Id: g=b2e29257cd42fba33e5b1e5191dddb1b
         Type: BaseDataVariableType
         DataType: Boolean
       - Name: Width
+        Id: g=4cc09a4a47d8bc4320ff35a69da536fa
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 115.0
       - Name: ConnectionSwitchLogic
+        Id: g=3165be3bdc5ff3901ba4eacc10487edb
         Type: NetLogic
         Children:
         - Class: Method
           Name: ConnectionSwitchChanged
+          Id: g=39ef7a610b61914151aa419c3f235d65
       - Name: CheckedText
+        Id: g=0e6b0859900e7c0c6c9eff8d7cd25a51
         Type: BaseDataVariableType
         DataType: LocalizedText
         Children:
         - Name: ConditionalConverter1
+          Id: g=8d443a24b7f1e35ec2eed5a99c060c55
           Type: ConditionalConverter
           Children:
           - Name: Condition
+            Id: g=b16c79521e4d0c735f73787567950001
             Type: BaseDataVariableType
             DataType: Boolean
             ReferenceType: HasSource
             Children:
             - Name: ExpressionEvaluator1
+              Id: g=a3239c2c55ff588c4e3c131f496daef3
               Type: ExpressionEvaluator
               Children:
               - Name: Expression
+                Id: g=641a9958dee8ca35fd0a017bf3953653
                 Type: BaseDataVariableType
                 DataType: String
                 ReferenceType: HasParameter
                 ModellingRule: Optional
                 Value: "{0}==2 && {1}"
               - Name: ns=3;Source0
+                Id: g=c2c951ca0a10eda1cddfa79d187e15cf
                 Type: BaseDataVariableType
                 DataType: BaseDataType
                 ReferenceType: HasSource
                 Children:
                 - Name: DynamicLink
+                  Id: g=1d6badf06ed507cdaa13b1cb89d47cc6
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{FTRemoteAccessWidgetDataObject}/FTRemoteAccessNode/ServerConnection"
               - Name: ns=3;Source1
+                Id: g=0b453447b23339bcbe9b94dec45bdca9
                 Type: BaseDataVariableType
                 DataType: BaseDataType
                 ReferenceType: HasSource
                 Children:
                 - Name: DynamicLink
+                  Id: g=2e7e472d23c3cd7aeb2a4f24fb7308d4
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{FTRemoteAccessWidgetDataObject}/FTRemoteAccessNode/RegisteredToDomain"
           - Name: TrueValue
+            Id: g=3f2cfb71cda3dece3fdebdba25a79e08
             Type: BaseDataVariableType
             DataType: LocalizedText
             ReferenceType: HasParameter
             Value: {"NamespaceIndex":18,"TextId":"Connected"}
           - Name: FalseValue
+            Id: g=4ba981b003897470758abaf2c17e444e
             Type: BaseDataVariableType
             DataType: LocalizedText
             ReferenceType: HasParameter
             ModellingRule: Optional
             Value: {"NamespaceIndex":18,"TextId":"Connecting"}
       - Name: UncheckedText
+        Id: g=0c4c36924ae282d6e9235fcacf942a3e
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
         Value: {"NamespaceIndex":18,"TextId":"Disconnected"}
       - Name: ModifiedValueHandler1
+        Id: g=dca1cff081f84de2e797dc3c748d3d88
         Type: EventHandler
         Children:
         - Name: ListenEventType
+          Id: g=97ba6173c7e774bfa582b4945d5cb400
           Type: PropertyType
           DataType: NodeId
           Value: "/Types/EventTypes/BaseEventType/UserValueChanged"
         - Name: MethodsToCall
+          Id: g=e2db2edee29773d09c0f31754aaade66
           Type: BaseObjectType
           Children:
           - Name: MethodContainer1
+            Id: g=21161fc7165ca7d6845309e7e6cc32a7
             Type: BaseObjectType
             Children:
             - Name: ns=3;ObjectPointer
+              Id: g=58dbbf75aa88cea69be4a5cdacd72b3b
               Type: NodePointer
               DataType: NodeId
               Children:
               - Name: Kind
+                Id: g=96c26fbc81fa141c34865dd5d26d9229
                 Type: PropertyType
                 DataType: NodeId
                 Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
+                Id: g=2c2048b39155ac942c5a0d7c3d767f71
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../ConnectionSwitchLogic@NodeId"
                 Children:
                 - Name: Mode
+                  Id: g=0f9db42450911872f36e3fefa03083b1
                   Type: BaseVariableType
                   DataType: DynamicLinkMode
                   ModellingRule: Optional
                   Value: 2
             - Name: ns=3;Method
+              Id: g=b6dd67b25fd90cf9f41e49d10fec675e
               Type: BaseDataVariableType
               DataType: String
               Value: "ConnectionSwitchChanged"
         - Name: EventArguments
+          Id: g=08a4b3fd758570d29b627be9a2930cab
           Type: UserValueChanged
           Children:
           - Name: NewValue
+            Id: g=2bd877de348e9969263262018241f5d0
             Type: BaseDataVariableType
             DataType: BaseDataType
           - Name: EventId
+            Id: g=3879a1130a76838db4bf3e162d3b846e
             Type: PropertyType
             DataType: ByteString
           - Name: EventType
+            Id: g=24a2a85ab1e6db15c0978f5806907010
             Type: PropertyType
             DataType: NodeId
           - Name: SourceNode
+            Id: g=0f9e960121b2d99c9a09f6681e9b5958
             Type: PropertyType
             DataType: NodeId
           - Name: SourceName
+            Id: g=08b2fb3d9a87da7a8a4f1573b36f91bb
             Type: PropertyType
             DataType: String
           - Name: Time
+            Id: g=3c4b7d41dfb1e60f4330cb4ca481326e
             Type: PropertyType
             DataType: UtcTime
           - Name: ReceiveTime
+            Id: g=496ac3ce8a8a8c4546d0d72bcf1f141f
             Type: PropertyType
             DataType: UtcTime
           - Name: Message
+            Id: g=f97ba70b73f563a27979efe79d9546f2
             Type: PropertyType
             DataType: LocalizedText
           - Name: Severity
+            Id: g=05a9e68ba3869b14e4fbdbc175fa3084
             Type: PropertyType
             DataType: UInt16
       - Name: VerticalAlignment
+        Id: g=d718dea278674878b31e205e347b48d6
         Type: BaseVariableType
         DataType: VerticalAlignment
         ModellingRule: Optional
       - Name: LeftMargin
+        Id: g=3982bd98793d1b7597701a850a6c7b32
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
       - Name: BottomMargin
+        Id: g=de07a378f94b8408af4576b7465017a3
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 10.0
     - Name: PolyLine1
+      Id: g=830535a1840839f75265192a2bd35bb7
       Type: PolyLine
       Children:
       - Name: FillColor
+        Id: g=e0f47fc9c98914aa7c90a11f60f6e419
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
         Value: "#b3b3b3"
       - Name: LineThickness
+        Id: g=dcd6ff9b5569324aa85bf88603bfdbff
         Type: BaseDataVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 1.0
       - Name: Blink
+        Id: g=d51f04ecd3487aa53f02b14e7957ea39
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
       - Name: Path
+        Id: g=2d11c456962b8a071b40807448298993
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: Optional
         Value: "M 0.000000 10.000000 L 50.000000 0.000000"
       - Name: HitTestVisible
+        Id: g=3cebdbb180a9809b358dcee9cb4675f4
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
       - Name: MoveTarget
+        Id: g=4c841e5e56246fd4bb29d8b4a781001c
         Type: NodePointer
         DataType: NodeId
         ModellingRule: Optional
         Children:
         - Name: Kind
+          Id: g=6b957ce5bbfafb3d1cdcb01318229951
           Type: PropertyType
           DataType: NodeId
           Value: {"Id":71,"Namespace":6}
         - Name: NodeClass
+          Id: g=91dde2248d969bb4045d8000cf122a82
           Type: PropertyType
           DataType: NodePointerNodeClass
           ModellingRule: Optional
           Value: 2
       - Name: Visible
+        Id: g=4319600321383a81b2259d921042a876
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
         Value: true
       - Name: Enabled
+        Id: g=68b1a7ece6f727e0dd28d1f7bbcfca79
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
         Value: true
       - Name: Opacity
+        Id: g=bb02e7fcc169e979287b1b83fe262791
         Type: BaseVariableType
         DataType: Float
         ModellingRule: Optional
         Value: 100.0
       - Name: LeftMargin
+        Id: g=53a0589c3749f68a7e8ae45ac5c89b07
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: -2.0
       - Name: TopMargin
+        Id: g=0dfc6c91c81af4ea60d3365b066cd682
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
       - Name: RightMargin
+        Id: g=42835cd4dc629465a5d698497cfddb6b
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: -2.0
       - Name: BottomMargin
+        Id: g=da479ae79ebd9bb64b88f4f19f036d67
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 10.0
       - Name: Width
+        Id: g=4cd08fc63ce0afefd2413915f4aab158
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 50.0
       - Name: Height
+        Id: g=62f49154ee47a13d5a56d9c34bac8cbe
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
       - Name: HorizontalAlignment
+        Id: g=eae8285d57c6ee291c953f8b54f98492
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
         Value: 3
       - Name: VerticalAlignment
+        Id: g=4373055ef795d71adb8c5693e6385814
         Type: BaseVariableType
         DataType: VerticalAlignment
         ModellingRule: Optional
       - Name: Rotation
+        Id: g=3663d06e4f4baf1916c21a41bbd22e93
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
       - Name: LineColor
+        Id: g=daf694509ab588564ce5eb19757f9f31
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
         Value: "#b3b3b3"
     - Name: DynamicConnectionLoader
+      Id: g=2ba2d557401914f13ccfc410bf37669b
       Type: PanelLoader
       Children:
       - Name: Panel
+        Id: g=4124bb5bd4331327164b05a1fda3ef03
         Type: NodePointer
         DataType: NodeId
         Children:
         - Name: Kind
+          Id: g=404f459cd218593895eca948a429fee0
           Type: PropertyType
           DataType: NodeId
           Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
         - Name: ConditionalConverter1
+          Id: g=76b85aa85d9900918ae440c4479b2595
           Type: ConditionalConverter
           Children:
           - Name: Condition
+            Id: g=da7f06ad5d1134459bbd7157eccd204a
             Type: BaseDataVariableType
             DataType: Boolean
             ReferenceType: HasSource
             Children:
             - Name: ExpressionEvaluator1
+              Id: g=4214335917fe56bfb4aa313a1f859680
               Type: ExpressionEvaluator
               Children:
               - Name: Expression
+                Id: g=48f53cb369277d4beae89f5efa7fb2cb
                 Type: BaseDataVariableType
                 DataType: String
                 ReferenceType: HasParameter
                 ModellingRule: Optional
                 Value: "{0}==1 || ({0}==2 && ({1}==\"\" || {2}==\"\") && {3}==0)"
               - Name: ns=3;Source0
+                Id: g=7de9911a7fa1eac40a3aacc7fb5b2db7
                 Type: BaseDataVariableType
                 DataType: BaseDataType
                 ReferenceType: HasSource
                 Children:
                 - Name: DynamicLink
+                  Id: g=f092264ce4279f3df22a3274d5e9957f
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{FTRemoteAccessWidgetDataObject}/FTRemoteAccessNode/ServerConnection"
               - Name: ns=3;Source1
+                Id: g=18bccd0b489353b0353a0f738c4be707
                 Type: BaseDataVariableType
                 DataType: BaseDataType
                 ReferenceType: HasSource
                 Children:
                 - Name: DynamicLink
+                  Id: g=4052efe85ab331405a859ad9cf5006d5
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{FTRemoteAccessWidgetDataObject}/FTRemoteAccessNode/AnonymousId"
               - Name: ns=3;Source2
+                Id: g=d5b4fc10c6a12e8d16acf8b3237a8441
                 Type: BaseDataVariableType
                 DataType: BaseDataType
                 ReferenceType: HasSource
                 Children:
                 - Name: DynamicLink
+                  Id: g=cd01256bf30ae241dd6c22ba16ef7b66
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{FTRemoteAccessWidgetDataObject}/FTRemoteAccessNode/AnonymousPassword"
               - Name: ns=3;Source3
+                Id: g=834d99f875a7166dc8f195d49e73f78e
                 Type: BaseDataVariableType
                 DataType: BaseDataType
                 ReferenceType: HasSource
                 Children:
                 - Name: DynamicLink
+                  Id: g=aab6cf695ba90d380bccbd7615c43528
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{FTRemoteAccessWidgetDataObject}/FTRemoteAccessNode/RegisteredToDomain"
           - Name: TrueValue
+            Id: g=7f9137c71549028edd2ad30128f6e50d
             Type: BaseDataVariableType
             DataType: NodeId
             ReferenceType: HasParameter
             Value: "/Objects/HMIOptixStandard1/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/EmptyPanel"
           - Name: FalseValue
+            Id: g=9bfb8baac55fb095ff34fe6d25c3faab
             Type: BaseDataVariableType
             DataType: NodeId
             ReferenceType: HasParameter
             Children:
             - Name: ConditionalConverter1
+              Id: g=b01cb9ebaf205cefdcaa44610815d245
               Type: ConditionalConverter
               Children:
               - Name: Condition
+                Id: g=c43bc9329fc621096fb652e3ddec6217
                 Type: BaseDataVariableType
                 DataType: Boolean
                 ReferenceType: HasSource
                 Children:
                 - Name: ExpressionEvaluator1
+                  Id: g=e309690fa9275a9349d06e565ad66400
                   Type: ExpressionEvaluator
                   Children:
                   - Name: Expression
+                    Id: g=6122a8f8dc503793634dfc78f6ae7046
                     Type: BaseDataVariableType
                     DataType: String
                     ReferenceType: HasParameter
                     ModellingRule: Optional
                     Value: "{0}==2"
                   - Name: ns=3;Source0
+                    Id: g=70fdfba0ba87787e4fa25bc768e61427
                     Type: BaseDataVariableType
                     DataType: BaseDataType
                     ReferenceType: HasSource
                     Children:
                     - Name: DynamicLink
+                      Id: g=19e9287008a0f6e93b4fe57108277013
                       Type: DynamicLink
                       DataType: NodePath
                       Value: "{FTRemoteAccessWidgetDataObject}/FTRemoteAccessNode/ServerConnection"
               - Name: TrueValue
+                Id: g=1f65b4ca54abfc438c95a843a8c8fdd3
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ReferenceType: HasParameter
                 Children:
                 - Name: ConditionalConverter1
+                  Id: g=089662bcbe4b5bae231cd1ae624cc8f5
                   Type: ConditionalConverter
                   Children:
                   - Name: Condition
+                    Id: g=b193f456fd0542beb379f35ec6c841db
                     Type: BaseDataVariableType
                     DataType: Boolean
                     ReferenceType: HasSource
                     Children:
                     - Name: ExpressionEvaluator1
+                      Id: g=ad4118cac9881bad9f07dd9b241a7ff7
                       Type: ExpressionEvaluator
                       Children:
                       - Name: Expression
+                        Id: g=d47986a4dad1e62d2f2376e1e3c57ffe
                         Type: BaseDataVariableType
                         DataType: String
                         ReferenceType: HasParameter
                         ModellingRule: Optional
                         Value: "{0}==0"
                       - Name: ns=3;Source0
+                        Id: g=d3899ef4bc6f212779374ccb11671abf
                         Type: BaseDataVariableType
                         DataType: BaseDataType
                         ReferenceType: HasSource
                         Children:
                         - Name: DynamicLink
+                          Id: g=7b30ba22a0eed609fedbc3d65f1326da
                           Type: DynamicLink
                           DataType: NodePath
                           Value: "{FTRemoteAccessWidgetDataObject}/FTRemoteAccessNode/RegisteredToDomain"
                   - Name: TrueValue
+                    Id: g=26c4c2294505b941f1281f521dfd7a16
                     Type: BaseDataVariableType
                     DataType: NodeId
                     ReferenceType: HasParameter
                     Value: "/Objects/HMIOptixStandard1/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/NewConnectionCredentialsPanel"
                   - Name: FalseValue
+                    Id: g=11ba00aa5572b9385830699be1413024
                     Type: BaseDataVariableType
                     DataType: NodeId
                     ReferenceType: HasParameter
                     Children:
                     - Name: ConditionalConverter1
+                      Id: g=92aa2e0013e97f0aa254e1d6eb3b5116
                       Type: ConditionalConverter
                       Children:
                       - Name: Condition
+                        Id: g=5b5efcf7a2e73a9f43b6f61a1cf2ba39
                         Type: BaseDataVariableType
                         DataType: Boolean
                         ReferenceType: HasSource
                         Children:
                         - Name: ExpressionEvaluator1
+                          Id: g=e6cbbda1f288c43c872b620ca1051e4f
                           Type: ExpressionEvaluator
                           Children:
                           - Name: Expression
+                            Id: g=831f7c6ee72e01d84aff6a52f317a9a8
                             Type: BaseDataVariableType
                             DataType: String
                             ReferenceType: HasParameter
                             ModellingRule: Optional
                             Value: "{0}==1"
                           - Name: ns=3;Source0
+                            Id: g=f766e81a919c8fe8bf1842bab1035272
                             Type: BaseDataVariableType
                             DataType: BaseDataType
                             ReferenceType: HasSource
                             Children:
                             - Name: DynamicLink
+                              Id: g=e869e9329e8c1ec25efa293ad5a5adea
                               Type: DynamicLink
                               DataType: NodePath
                               Value: "{FTRemoteAccessWidgetDataObject}/IncomingConnectionRequest"
                       - Name: TrueValue
+                        Id: g=9d828698a9cb86dd70260d5e7f2ea7eb
                         Type: BaseDataVariableType
                         DataType: NodeId
                         ReferenceType: HasParameter
                         Value: "/Objects/HMIOptixStandard1/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/AcceptDenyIncomingRequestPanel"
                       - Name: FalseValue
+                        Id: g=24d00dbe1a69cfa11521fedb851ef585
                         Type: BaseDataVariableType
                         DataType: NodeId
                         ReferenceType: HasParameter
                         Value: "/Objects/HMIOptixStandard1/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/EmptyPanel"
               - Name: FalseValue
+                Id: g=afbfa6bef290dd9550608ff13c3aa4fd
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ReferenceType: HasParameter
                 Value: "/Objects/HMIOptixStandard1/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/EmptyPanel"
       - Name: CurrentPanel
+        Id: g=5be313d6f579193755621d38111250aa
         Type: NodePointer
         DataType: NodeId
         AccessLevel: Read
         Children:
         - Name: Kind
+          Id: g=5483716774030c7e2cebd8b5be670070
           Type: PropertyType
           DataType: NodeId
           Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
       - Class: Reference
         Target: ns=5;i=478
       - Name: Width
+        Id: g=c02aa4bbb9e6fc61a7ab22ba3314813b
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 472.0
       - Name: Height
+        Id: g=eb0b906ac7919a9721b42e5e55b0a4c9
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 99.0
       - Name: TopMargin
+        Id: g=7b9d0137b101813ef2b54bf0d558e96e
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
       - Name: PanelAliasNode
+        Id: g=2ad573f6f42b4da110957b0bef1f1659
         Type: BaseDataVariableType
         DataType: NodeId
         ValueRank: ScalarOrOneDimension
         Children:
         - Name: DynamicLink
+          Id: g=fc58f99f84fcfc0859f4e782c7ba03d8
           Type: DynamicLink
           DataType: NodePath
           Value: "{FTRemoteAccessWidgetDataObject}@NodeId"
       - Name: HorizontalAlignment
+        Id: g=e545f47487afb911f1c84c7d71ee7de9
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
         Value: 3
       - Name: VerticalAlignment
+        Id: g=3e37f5304fea9660946904d7789af79b
         Type: BaseVariableType
         DataType: VerticalAlignment
         ModellingRule: Optional
         Value: 3
       - Name: LeftMargin
+        Id: g=d3158e6ef8ca598d97e8924e7bc19bdd
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
       - Name: RightMargin
+        Id: g=bb9e8006c96f702ba65e8f8e5233cdd6
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
       - Name: BottomMargin
+        Id: g=712a0d7d3dd5ba9447c06078d15c405a
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
     - Name: ContentAlignment
+      Id: g=5132be8cf9cd926b9604de06fd0d35b7
       Type: BaseVariableType
       DataType: ContentVerticalAlignment
       ModellingRule: Optional
     - Name: RightMargin
+      Id: g=5b7ae90418c88ad968b23bae086b3a79
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 3.0
     - Name: LeftMargin
+      Id: g=be9af61f4f03524f089e82c6baeab856
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 3.0
     - Name: TopMargin
+      Id: g=c5b6fe73cce30eb93c7a7bd59348c760
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 8.0
     - Name: BottomMargin
+      Id: g=04c692070d8ac8b80c165f0dd7c77dd5
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
@@ -870,373 +1070,466 @@ Children:
   ReferenceType: HasComponent
   Children:
   - Name: Width
+    Id: g=ea481cdcc7d76766758ef93f34e77ad2
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 364.0
   - Name: Height
+    Id: g=a67532ed2b358b7212ce1bdcb2921328
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 99.0
   - Name: TopMargin
+    Id: g=cf2d05087c6ca25083ae4eddf5389618
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
   - Name: FTRemoteAccessWidgetDataObject
+    Id: g=3f1f6379212a307bba243d9524651ca4
     Type: Alias
     DataType: NodeId
     Children:
     - Name: Kind
+      Id: g=bf0604604d255780f2e78a4d78a49286
       Type: PropertyType
       DataType: NodeId
       Value: "/Objects/HMIOptixStandard1/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/FTRemoteAccessWidgetDataObject"
   - Name: IncomingConnectionApprovalLogic
+    Id: g=b8f1cbc1d2efdd633a0db3a780c808ca
     Type: NetLogic
     Children:
     - Class: Method
       Name: AcceptIncomingConnection
+      Id: g=ef0d1dd4b6b8c80de4f57c011aa4be89
     - Class: Method
       Name: DenyIncomingConnection
+      Id: g=c80d202fbcb393f9ed284ea742fd3552
   - Name: VerticalLayout1
+    Id: g=dd4ce60b523ba8aef35a5e2fc35711f7
     Type: ColumnLayout
     Children:
     - Name: Width
+      Id: g=120fe531e96d2b75fd51e72753b48689
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
     - Name: Height
+      Id: g=ae9d848f479e09d01cecc1af93632dc6
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
     - Name: TopMargin
+      Id: g=603f117ed93cdc40e4e0d229336e63c0
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
     - Name: HorizontalAlignment
+      Id: g=636b0df0d2c6f1b706b7a3a5719f8b30
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
       Value: 3
     - Name: VerticalAlignment
+      Id: g=03fadf3af4f7b85f912777b216fb72ee
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 3
     - Name: BottomMargin
+      Id: g=6fa15647e313a2b0933225a4d1c7a618
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
     - Name: RightMargin
+      Id: g=1769b8d61c9b408a482316da8e59b979
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
     - Name: LeftMargin
+      Id: g=79528fcaf02f459bc96732af14b713ba
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
     - Name: IncomingConnectionRequestLabel
+      Id: g=5173cc8848aa82fc5183956455c7229b
       Type: Label
       Children:
       - Name: Text
+        Id: g=7a2918b3154633c6ad25cd0cba94c267
         Type: BaseDataVariableType
         DataType: LocalizedText
         Children:
         - Name: StringFormatter1
+          Id: g=be677583173881d7b1e2c82524a1fd88
           Type: StringFormatter
           Children:
           - Name: Format
+            Id: g=b21a0532203a1f706d974af1554e8555
             Type: BaseDataVariableType
             DataType: LocalizedText
             ReferenceType: HasParameter
             ModellingRule: Optional
             Value: {"NamespaceIndex":18,"TextId":"AllowUserToConnect"}
           - Name: ns=3;Source0
+            Id: g=c8f8dc7468266e7e3f1143ce60362827
             Type: BaseDataVariableType
             DataType: BaseDataType
             ReferenceType: HasSource
             Children:
             - Name: DynamicLink
+              Id: g=e0f5221376da6b3d2f6bcaf95cb607b1
               Type: DynamicLink
               DataType: NodePath
               Value: "{FTRemoteAccessWidgetDataObject}/Username"
           - Name: ns=3;Source1
+            Id: g=e2ae0980517c2cc3aa7c26c34053bebd
             Type: BaseDataVariableType
             DataType: BaseDataType
             ReferenceType: HasSource
             Children:
             - Name: DynamicLink
+              Id: g=5acca6abe26fadbb7364a33c2fcbff92
               Type: DynamicLink
               DataType: NodePath
               Value: "{FTRemoteAccessWidgetDataObject}/IpAddress"
       - Name: LeftMargin
+        Id: g=1be4e5335741bd0bad68f6f1224ab9f8
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
       - Name: TopMargin
+        Id: g=6c503911f36187c80ae229f051a6587f
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
       - Name: Width
+        Id: g=1d8dd10d9789322b7dfc8ef0512ea79d
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 440.0
       - Name: TextHorizontalAlignment
+        Id: g=39432cdb5c608f15d8909022b0d96c40
         Type: BaseVariableType
         DataType: TextHorizontalAlignment
         ModellingRule: Optional
         Value: 1
       - Name: HorizontalAlignment
+        Id: g=859ec1c776519dc688bd9ab8e60925b7
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
         Value: 3
       - Name: TextVerticalAlignment
+        Id: g=7f7aaebe7cb49bd8b3ec7768c87b535f
         Type: BaseVariableType
         DataType: TextVerticalAlignment
         ModellingRule: Optional
         Value: 1
       - Name: BottomMargin
+        Id: g=8a565530eb81b1aa382ac40474de9b65
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 4.0
       - Name: VerticalAlignment
+        Id: g=b870eb5162f4bdfb606b032875fbf758
         Type: BaseVariableType
         DataType: VerticalAlignment
         ModellingRule: Optional
       - Name: WordWrap
+        Id: g=16bb69fb16a7e02e4a29ccdb2252f83b
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
         Value: true
     - Name: HorizontalLayout1
+      Id: g=8bfd56d128d7073068ac8730dda6898d
       Type: RowLayout
       Children:
       - Name: Width
+        Id: g=0a0fef1e1f7237a62b6dee070f9a4409
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: -1.0
       - Name: Height
+        Id: g=8147981fd08928ecd74d203bc5c883ae
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: -1.0
       - Name: AcceptIncomingConnectionRequestButton
+        Id: g=c78a85bc5aad750aa5946661584ee34b
         Type: Button
         Children:
         - Name: Text
+          Id: g=ec91ce50dedf28ae64b0ee2258230bd8
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
           Value: {"NamespaceIndex":18,"TextId":"Yes"}
         - Name: LeftMargin
+          Id: g=8c5ebc39744c9fc2a1b6b508c9905600
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
         - Name: TopMargin
+          Id: g=d58932b0502151dd571d7a3c6f064641
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
         - Name: Height
+          Id: g=622db45e8a9f245ceb972fea1213adae
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
           Value: 50.0
         - Name: Width
+          Id: g=aee648ac5abc0f076a786061bff9ad92
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
           Value: 50.0
         - Name: MouseClickEventHandler1
+          Id: g=c0463274ed18d6e31c387b7dc12978e6
           Type: EventHandler
           Children:
           - Name: ListenEventType
+            Id: g=b4bd529ff86b0e88d252467e770af976
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
+            Id: g=6f4c7a46ee1c5af3e3c1ece3bd5a2d4d
             Type: BaseObjectType
             Children:
             - Name: MethodContainer1
+              Id: g=45933fd1f499341f9c321d50c731799e
               Type: BaseObjectType
               Children:
               - Name: ns=3;ObjectPointer
+                Id: g=2f7fbfdbb5ab83045e84b551bbb6972a
                 Type: NodePointer
                 DataType: NodeId
                 Children:
                 - Name: Kind
+                  Id: g=67fd4b85b2450dbba6f4ce7bdf739faa
                   Type: PropertyType
                   DataType: NodeId
                   Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
+                  Id: g=e0f62cccb956250a352dbc2dba400f29
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../../../../IncomingConnectionApprovalLogic@NodeId"
                   Children:
                   - Name: Mode
+                    Id: g=5c91411a997fbe86329002439a685267
                     Type: BaseVariableType
                     DataType: DynamicLinkMode
                     ModellingRule: Optional
                     Value: 2
               - Name: ns=3;Method
+                Id: g=58a95abdb894246c2d80435ffe97fc2a
                 Type: BaseDataVariableType
                 DataType: String
                 Value: "AcceptIncomingConnection"
           - Name: EventArguments
+            Id: g=3d61b2543e08bb8a39c4befa76347d7b
             Type: MouseClickEvent
             Children:
             - Name: EventId
+              Id: g=f92d22db0d8e779b756379976e7532bb
               Type: PropertyType
               DataType: ByteString
             - Name: EventType
+              Id: g=34816732b9e41d8aa015ad8accc8e588
               Type: PropertyType
               DataType: NodeId
             - Name: SourceNode
+              Id: g=5aabb149ac18aec6f68b87bcb49548d3
               Type: PropertyType
               DataType: NodeId
             - Name: SourceName
+              Id: g=ff92cda1cd6d68dcb5c24659e7791ab4
               Type: PropertyType
               DataType: String
             - Name: Time
+              Id: g=816d7a7443821744ae6ad08d01ccab0e
               Type: PropertyType
               DataType: UtcTime
             - Name: ReceiveTime
+              Id: g=78b08fb16ca7ae39ffeefdc50baaf53e
               Type: PropertyType
               DataType: UtcTime
             - Name: Message
+              Id: g=46b273d8abe13704d84fbb50245ce87c
               Type: PropertyType
               DataType: LocalizedText
             - Name: Severity
+              Id: g=7971317411b5e5e44173ddfa3a9d47e4
               Type: PropertyType
               DataType: UInt16
         - Name: HorizontalAlignment
+          Id: g=7bacdecc54157ec194f19ce6728b843c
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
           Value: 2
         - Name: RightMargin
+          Id: g=11bd074ddf69eb3d95c65a13bd471801
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
           Value: 30.0
       - Name: DenyIncomingConnectionRequestButton
+        Id: g=8a32805031a24f422280208ae786ae96
         Type: Button
         Children:
         - Name: Text
+          Id: g=bde02cb70667cbc84b852e5003bc33ed
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
           Value: {"NamespaceIndex":18,"TextId":"No"}
         - Name: LeftMargin
+          Id: g=d585866844c8170140d0e26bd7f14b96
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
         - Name: TopMargin
+          Id: g=58e7a96a45111e787981afb9dd4384e8
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
         - Name: Height
+          Id: g=60396c425c7c42d547eacb52a53a4e92
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
           Value: 50.0
         - Name: Width
+          Id: g=c426541f1299831809dbb96c917d269f
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
           Value: 50.0
         - Name: MouseClickEventHandler1
+          Id: g=84ddaca742ba0d07cf2159296d6db787
           Type: EventHandler
           Children:
           - Name: ListenEventType
+            Id: g=de65c369c47ef2f9e73c3c800f17eaf1
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
+            Id: g=87221b64fed2293cc5efe05346fdaf78
             Type: BaseObjectType
             Children:
             - Name: MethodContainer1
+              Id: g=4427c61a5e929bbe20e5f5909e7ceb2b
               Type: BaseObjectType
               Children:
               - Name: ns=3;ObjectPointer
+                Id: g=7aa588fb4b49e057d37ceb38411d80af
                 Type: NodePointer
                 DataType: NodeId
                 Children:
                 - Name: Kind
+                  Id: g=26e794467700163dc89cdb37aca24b21
                   Type: PropertyType
                   DataType: NodeId
                   Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
+                  Id: g=2f9f0a103e8206af0642c9a1a500f24e
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../../../../IncomingConnectionApprovalLogic@NodeId"
                   Children:
                   - Name: Mode
+                    Id: g=98177c2a030fc25a9c3690a3287346a2
                     Type: BaseVariableType
                     DataType: DynamicLinkMode
                     ModellingRule: Optional
                     Value: 2
               - Name: ns=3;Method
+                Id: g=02c002ecea96238fd74dae5339abc1c3
                 Type: BaseDataVariableType
                 DataType: String
                 Value: "DenyIncomingConnection"
           - Name: EventArguments
+            Id: g=8f2492a554eb0881445bad49639c560e
             Type: MouseClickEvent
             Children:
             - Name: EventId
+              Id: g=155b5d7751092d246b348e73d8d6bc15
               Type: PropertyType
               DataType: ByteString
             - Name: EventType
+              Id: g=deb821b070844780b9468082215ef707
               Type: PropertyType
               DataType: NodeId
             - Name: SourceNode
+              Id: g=8aa411032d7e6a9bacaf9fda0b2c6425
               Type: PropertyType
               DataType: NodeId
             - Name: SourceName
+              Id: g=eaa6666f4a156be167b577a2d839e86c
               Type: PropertyType
               DataType: String
             - Name: Time
+              Id: g=6d5852e8445aac3126472fe844a282e1
               Type: PropertyType
               DataType: UtcTime
             - Name: ReceiveTime
+              Id: g=2abb12dbccc19c11f10941339d2e6adc
               Type: PropertyType
               DataType: UtcTime
             - Name: Message
+              Id: g=f70bf797dff1aa742d480ffcdbde37d1
               Type: PropertyType
               DataType: LocalizedText
             - Name: Severity
+              Id: g=c6df83072cdbc11c6052aa6eb4042e47
               Type: PropertyType
               DataType: UInt16
         - Name: HorizontalAlignment
+          Id: g=527b695c635d5ce7c79f801620b7124a
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
           Value: 2
       - Name: HorizontalAlignment
+        Id: g=b78652f30e4078b24b2abb31b9e48b5a
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
         Value: 2
       - Name: ContentAlignment
+        Id: g=580b1945c04db77b4e25a715659b67e8
         Type: BaseVariableType
         DataType: ContentHorizontalAlignment
         ModellingRule: Optional
         Value: 1
     - Name: ContentAlignment
+      Id: g=5355dcdca607e82387ac48dec4f5d49e
       Type: BaseVariableType
       DataType: ContentVerticalAlignment
       ModellingRule: Optional
   - Name: HorizontalAlignment
+    Id: g=32d92dc99ed243c31bd5674e4b520dc7
     Type: BaseVariableType
     DataType: HorizontalAlignment
     ModellingRule: Optional
     Value: 3
   - Name: VerticalAlignment
+    Id: g=f74ef85220cbb88cb26842ca006ad247
     Type: BaseVariableType
     DataType: VerticalAlignment
     ModellingRule: Optional
@@ -1247,304 +1540,375 @@ Children:
   ReferenceType: HasComponent
   Children:
   - Name: Width
+    Id: g=26f15ec8dc8b4abc10294e2081fc2c4f
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 364.0
   - Name: Height
+    Id: g=10611d1c7c430348d615011976142102
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 99.0
   - Name: FTRemoteAccessWidgetDataObject
+    Id: g=017503fa6a951485019f32f4c815a272
     Type: Alias
     DataType: NodeId
     Children:
     - Name: Kind
+      Id: g=85ea7aa0a6f73fd8f75ad7f0114eec49
       Type: PropertyType
       DataType: NodeId
       Value: "/Objects/HMIOptixStandard1/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/FTRemoteAccessWidgetDataObject"
   - Name: VerticalLayout2
+    Id: g=e4a93f68c33049f22e746195032cba9d
     Type: ColumnLayout
     Children:
     - Name: Width
+      Id: g=74a83443b55d38f1e847b24ad2923baa
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
     - Name: Height
+      Id: g=048c3f8348735e15bf87c869d37dc1fa
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
     - Name: DescriptionLabel
+      Id: g=285cf6471fd6c6de73ae2012ce32646a
       Type: Label
       Children:
       - Name: Text
+        Id: g=59aeb2ced5bbcb813fd63c7f3e7704c4
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
         Value: {"NamespaceIndex":18,"TextId":"RegisterToDomainString"}
       - Name: LeftMargin
+        Id: g=e6c9c0a036a3384bb53b50507290a61b
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
       - Name: TopMargin
+        Id: g=e1d174007d0a7b70bf815f8f8da4145f
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
       - Name: TextHorizontalAlignment
+        Id: g=f9ace7fb5052427300ca87665a60fd4a
         Type: BaseVariableType
         DataType: TextHorizontalAlignment
         ModellingRule: Optional
       - Name: TextVerticalAlignment
+        Id: g=90cfb46e7722192acae70eda8d2bf987
         Type: BaseVariableType
         DataType: TextVerticalAlignment
         ModellingRule: Optional
         Value: 1
       - Name: HorizontalAlignment
+        Id: g=aa910f764de05285b7e41ef91d3b6fee
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
         Value: 3
       - Name: BottomMargin
+        Id: g=3d2408457cea29a564c57babd5fa3142
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 12.0
       - Name: WordWrap
+        Id: g=6e920585a8157391af7e16a9b41faa29
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
         Value: true
     - Name: HorizontalLayout1
+      Id: g=62e4ec05074760b76f0d4a96d8aa51fc
       Type: RowLayout
       Children:
       - Name: Width
+        Id: g=d92942d363c88eccbebf2bc9ff05ee7a
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: -1.0
       - Name: Height
+        Id: g=3951d62dacd34612afea1ec718aee7c0
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: -1.0
       - Name: VerticalLayout1
+        Id: g=6e4bea9d8f2ff9f6eaf73723c9755fc0
         Type: ColumnLayout
         Children:
         - Name: Width
+          Id: g=3633cf9eff394dcbd432d654f9d0a159
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
         - Name: Height
+          Id: g=ae108670bdd27f165abd64cdc9230c3d
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
         - Name: IDLabel
+          Id: g=1d9f5644ec23a412fd1f8b2e9698609a
           Type: Label
           Children:
           - Name: Text
+            Id: g=1f80bfac92fbe18d3c0edacdd5cca548
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
             Value: {"NamespaceIndex":18,"TextId":"RegisterToDomainDeviceID"}
           - Name: LeftMargin
+            Id: g=3025c1e24cd8bc04b50c92e0625a5bb7
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
           - Name: TopMargin
+            Id: g=b1b3f929f6bccfeaf16f9204b315c92a
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
           - Name: HorizontalAlignment
+            Id: g=4eaafa08afe68323ae1c5ebeee6d59d3
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
           - Name: VerticalAlignment
+            Id: g=59624114a0a84aba7e89609bfd976178
             Type: BaseVariableType
             DataType: VerticalAlignment
             ModellingRule: Optional
           - Name: RightMargin
+            Id: g=9bde5783bd1d327f1a196f2f87850dcc
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
             Value: 16.0
           - Name: Rotation
+            Id: g=77832de83cd88c79b4e1d131797c3827
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
           - Name: BottomMargin
+            Id: g=4b1fa8dc6a904aaa7f85e8606b60ce9a
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
             Value: 12.0
         - Name: PWLabel
+          Id: g=aee2eedf3c74726127fc8a642515b45f
           Type: Label
           Children:
           - Name: Text
+            Id: g=4d1739ea83bded0259e060b9a8a0e5c0
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
             Value: {"NamespaceIndex":18,"TextId":"RegisterToDomainPassword"}
           - Name: LeftMargin
+            Id: g=faae804b250cccefa2723a3d75cc277e
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
           - Name: TopMargin
+            Id: g=95fb3819cfbc5722b937cb9fbfd6ccc1
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
           - Name: HorizontalAlignment
+            Id: g=0a21af5d4622345caee2cb0dd0e58098
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
           - Name: VerticalAlignment
+            Id: g=d8539c0523c9a634f5d3fd7f8231d11d
             Type: BaseVariableType
             DataType: VerticalAlignment
             ModellingRule: Optional
           - Name: RightMargin
+            Id: g=0b95a77e93755ae8911ce9f62cb21e59
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
             Value: 16.0
         - Name: RightMargin
+          Id: g=6e2fe50d30ced705fc7c378c7e5a75d5
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
           Value: 20.0
       - Name: VerticalLayout2
+        Id: g=44078e4f142950339e7b2b724374edbc
         Type: ColumnLayout
         Children:
         - Name: Width
+          Id: g=6c3495a6880d132e208af2a33ec46ea7
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
         - Name: Height
+          Id: g=247fa6cf756a928e76e3ff5a38a5e9bb
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
           Value: -1.0
         - Name: IDValueLabel
+          Id: g=eb1b4aad35ceff0cd1dbb3e0b87372a4
           Type: Label
           Children:
           - Name: Text
+            Id: g=42a75e66af2905a10b62d2d17b3f98bb
             Type: BaseDataVariableType
             DataType: LocalizedText
             Children:
             - Name: DynamicLink
+              Id: g=4ceed16387d86823e8edf3288730f4d7
               Type: DynamicLink
               DataType: NodePath
               Value: "{FTRemoteAccessWidgetDataObject}/FTRemoteAccessNode/AnonymousId"
           - Name: LeftMargin
+            Id: g=c56cc20b0ab3209928f6f11ebd4cd85f
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
           - Name: TopMargin
+            Id: g=fe75a37176499416f9efd7915e471fe5
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
           - Name: HorizontalAlignment
+            Id: g=740dfa3578d600480150b609922c3fc5
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
           - Name: VerticalAlignment
+            Id: g=ecba22ceb390f5bc8be7a5b7edc3136f
             Type: BaseVariableType
             DataType: VerticalAlignment
             ModellingRule: Optional
           - Name: RightMargin
+            Id: g=90c27d5071bd465685b18cb2ad054a14
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
           - Name: BottomMargin
+            Id: g=a71a2f8634242f312f7ba65e7240269d
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
             Value: 12.0
           - Name: FontWeight
+            Id: g=629f09e8d84297d1faf8d093fa34c425
             Type: BaseDataVariableType
             DataType: FontWeightEnum
             ModellingRule: Optional
             Value: 700
         - Name: PWValueLabel
+          Id: g=40e7eea4bcee34f0cb728b59edf7a2f9
           Type: Label
           Children:
           - Name: Text
+            Id: g=47beffb03c6847a94e2b219f3d7da314
             Type: BaseDataVariableType
             DataType: LocalizedText
             Children:
             - Name: DynamicLink
+              Id: g=357040a6f74c4e0a4a27cd5d369419dc
               Type: DynamicLink
               DataType: NodePath
               Value: "{FTRemoteAccessWidgetDataObject}/FTRemoteAccessNode/AnonymousPassword"
           - Name: LeftMargin
+            Id: g=528d681f8c8cb5935b9d5e08b3d34642
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
           - Name: TopMargin
+            Id: g=ea12eb733ec9f7e23f96eaa4268358dc
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
           - Name: HorizontalAlignment
+            Id: g=bc4da5e827b7a7f4bcaa67e9cfca2b33
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
           - Name: VerticalAlignment
+            Id: g=19af35e397742621d11e8cd57d01c05f
             Type: BaseVariableType
             DataType: VerticalAlignment
             ModellingRule: Optional
           - Name: FontWeight
+            Id: g=4c579ad1c3668173982809aaeb0184b7
             Type: BaseDataVariableType
             DataType: FontWeightEnum
             ModellingRule: Optional
             Value: 700
         - Name: RightMargin
+          Id: g=2aae943299c14e1d40f950afe238912a
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
         - Name: LeftMargin
+          Id: g=673d9f4d099ae7f426a0b435fc869b69
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
       - Name: LeftMargin
+        Id: g=72cc2dcf4fa5e36cbea133b079b14813
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
     - Name: HorizontalAlignment
+      Id: g=8dd7cf1d0e4f07b1e04ba839883cc3ea
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
       Value: 3
     - Name: VerticalAlignment
+      Id: g=ab3cd89918d2f9a8fbbe4891bc762687
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 3
     - Name: LeftMargin
+      Id: g=425badf7897f0fd01b1cac7d52b6145f
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
     - Name: RightMargin
+      Id: g=92d8e4e5de61337c3b7989bbf71c1646
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
     - Name: TopMargin
+      Id: g=705578a62d44276d774bd3921e49828d
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
     - Name: BottomMargin
+      Id: g=1af4619f31c5d391edc922cd24989641
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
   - Name: HorizontalAlignment
+    Id: g=28f38325b157d4fb5cb65d5762b46f7f
     Type: BaseVariableType
     DataType: HorizontalAlignment
     ModellingRule: Optional
     Value: 3
   - Name: VerticalAlignment
+    Id: g=466a1dfb9cf14b2d45391e5e18132d1c
     Type: BaseVariableType
     DataType: VerticalAlignment
     ModellingRule: Optional
@@ -1555,116 +1919,141 @@ Children:
   ReferenceType: HasComponent
   Children:
   - Name: Width
+    Id: g=21eb36b15f496a2522d3dda7f5c49e82
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 400.0
   - Name: Height
+    Id: g=ac9529f1c5dae0eebba037f087c0d332
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 226.0
   - Name: RequestAssistanceLoader
+    Id: g=ce06409a97ce3afda6577c50ca574ffb
     Type: PanelLoader
     Children:
     - Name: Panel
+      Id: g=ded8b581cbb6fa4bec44b25ec6d20212
       Type: NodePointer
       DataType: NodeId
       Children:
       - Name: Kind
+        Id: g=3644d278562bf33d34ef987fb9da603e
         Type: PropertyType
         DataType: NodeId
         Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
       - Name: ConditionalConverter1
+        Id: g=b337fcefafb56d95e95d78c7103248cd
         Type: ConditionalConverter
         Children:
         - Name: Condition
+          Id: g=43fa902430ae0ed7c3d8e7c5e910d4ce
           Type: BaseDataVariableType
           DataType: Boolean
           ReferenceType: HasSource
           Children:
           - Name: ExpressionEvaluator1
+            Id: g=4ad75fefe3f3d03b2bd3f7152164098e
             Type: ExpressionEvaluator
             Children:
             - Name: Expression
+              Id: g=7e561212a70e46cfab6b3fcc630263c8
               Type: BaseDataVariableType
               DataType: String
               ReferenceType: HasParameter
               ModellingRule: Optional
               Value: "{0}!=0"
             - Name: ns=3;Source0
+              Id: g=fe437aac5afdcc8888e4d7d8f0942935
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
+                Id: g=cccf4a0a5811be5e79f2a55013c129b8
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{FTRemoteAccessWidgetDataObject}/FTRemoteAccessNode/AssistanceRequestMode"
         - Name: TrueValue
+          Id: g=888666d01bd13a0a34baf7cfda98cc5f
           Type: BaseDataVariableType
           DataType: NodeId
           ReferenceType: HasParameter
           Value: "/Objects/HMIOptixStandard1/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/RequestAssistanceEnabledPanel"
         - Name: FalseValue
+          Id: g=35cc0dc253b6f27feafb5c1e03b4e582
           Type: BaseDataVariableType
           DataType: NodeId
           ReferenceType: HasParameter
           Value: "/Objects/HMIOptixStandard1/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/RequestAssistanceDisabledPanel"
     - Name: CurrentPanel
+      Id: g=fcef67f2bb405ffdb78520a099aea4cf
       Type: NodePointer
       DataType: NodeId
       AccessLevel: Read
       Children:
       - Name: Kind
+        Id: g=06bf18e61a7bc92c66b52a5fc4a8824b
         Type: PropertyType
         DataType: NodeId
         Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
     - Class: Reference
       Target: ns=5;i=478
     - Name: Width
+      Id: g=5e1a4a4ff32c7412abba303077e0bdc2
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 300.0
     - Name: Height
+      Id: g=0aadae2bee838bf7c0acc4cd1f420a65
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 300.0
     - Name: PanelAliasNode
+      Id: g=56c7f0e9451229b8b64f52dbb6c17d7e
       Type: BaseDataVariableType
       DataType: NodeId
       ValueRank: ScalarOrOneDimension
       Children:
       - Name: DynamicLink
+        Id: g=4ed6a9b9aeb9a72f6c19cc0d5f1f8ceb
         Type: DynamicLink
         DataType: NodePath
         Value: "{FTRemoteAccessWidgetDataObject}@NodeId"
     - Name: HorizontalAlignment
+      Id: g=f8da9543f2a53bb0f5f40f5fc7da17fe
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
       Value: 3
     - Name: VerticalAlignment
+      Id: g=c38de12711cb7cbca7933a0c2c653907
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 3
   - Name: FTRemoteAccessWidgetDataObject
+    Id: g=f56e2487ca63df25af9e4afbef541478
     Type: Alias
     DataType: NodeId
     Children:
     - Name: Kind
+      Id: g=563d96b4dcf7ffff3de6d75ce1035b81
       Type: PropertyType
       DataType: NodeId
       Value: "/Objects/HMIOptixStandard1/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/FTRemoteAccessWidgetDataObject"
   - Name: HorizontalAlignment
+    Id: g=522188de8e7695d9090eaa1a069613ff
     Type: BaseVariableType
     DataType: HorizontalAlignment
     ModellingRule: Optional
     Value: 3
   - Name: VerticalAlignment
+    Id: g=f193a8648ff1c4a769a212fd5c17a8c7
     Type: BaseVariableType
     DataType: VerticalAlignment
     ModellingRule: Optional
@@ -1675,365 +2064,448 @@ Children:
   ReferenceType: HasComponent
   Children:
   - Name: Width
+    Id: g=87aaf6c0ed84778ddd32b103b5b11343
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 400.0
   - Name: Height
+    Id: g=3b78848ce23403d9d90fb6cf602540ea
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 226.0
   - Name: FTRemoteAccessWidgetDataObject
+    Id: g=63a0d0dc2fe564946e240e9aa34563a4
     Type: Alias
     DataType: NodeId
     Children:
     - Name: Kind
+      Id: g=835820ce4009d58a8fba881dd1b280b6
       Type: PropertyType
       DataType: NodeId
       Value: "/Objects/HMIOptixStandard1/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/FTRemoteAccessWidgetDataObject"
   - Name: VerticalLayout1
+    Id: g=e5046df0d10e32296fafed9fbcf59479
     Type: ColumnLayout
     Children:
     - Name: Width
+      Id: g=9e98161fc795abc48018c25f912a0dd3
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
     - Name: Height
+      Id: g=f7ca3e279a45d1fd3a988be21a99b133
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
     - Name: NameTextBox
+      Id: g=4307a586c69e4cd367586eec34baea49
       Type: TextBox
       Children:
       - Name: Text
+        Id: g=6848b4c4cbd4598e6251900139f63de1
         Type: BaseDataVariableType
         DataType: LocalizedText
       - Name: Width
+        Id: g=c9ef255c266389a5f72009f1b5686261
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 200.0
       - Name: HorizontalAlignment
+        Id: g=6537da293870b744b6c2e4e4aa887b5c
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
         Value: 3
       - Name: TopMargin
+        Id: g=a5ac33d31e2e9ccc032cdc1ddf28d4e8
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
       - Name: LeftMargin
+        Id: g=dc3d534d8c118b9e5924fd18a15042e1
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
       - Name: PlaceholderText
+        Id: g=50929fda1bb970058f7ec76a5b9e8c37
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
         Value: {"NamespaceIndex":18,"TextId":"Name"}
       - Name: BottomMargin
+        Id: g=f93dc26d74a487f53f2f7215c7dc0645
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 10.0
       - Name: Visible
+        Id: g=5ef1428451762a66f66b52386fd528b0
         Type: BaseDataVariableType
         DataType: Boolean
         Value: true
         Children:
         - Name: ExpressionEvaluator1
+          Id: g=c9ac3a30409d989854be2e2a28b4b0a5
           Type: ExpressionEvaluator
           Children:
           - Name: Expression
+            Id: g=e3d3e33b67a7e2f8a91fc5fbf323f4a8
             Type: BaseDataVariableType
             DataType: String
             ReferenceType: HasParameter
             ModellingRule: Optional
             Value: "{0}==2"
           - Name: ns=3;Source0
+            Id: g=5642c9105de04283744413f50338b190
             Type: BaseDataVariableType
             DataType: BaseDataType
             ReferenceType: HasSource
             Children:
             - Name: DynamicLink
+              Id: g=c838697887b588d646598d982340b594
               Type: DynamicLink
               DataType: NodePath
               Value: "{FTRemoteAccessWidgetDataObject}/FTRemoteAccessNode/AssistanceRequestMode"
       - Name: ValueChangeBehaviour
+        Id: g=a6c7faf04185b29d69239c8dbaabbdc7
         Type: BaseDataVariableType
         DataType: ValueChangeBehaviour
         ModellingRule: Optional
         Value: 1
       - Name: ReadOnly
+        Id: g=779647dbd75170d69a49ec5c7f3eaea8
         Type: BaseDataVariableType
         DataType: Boolean
       - Name: Enabled
+        Id: g=49838ab8e0c6ad86773d29327bae1bd9
         Type: BaseDataVariableType
         DataType: Boolean
         Value: true
         Children:
         - Name: ExpressionEvaluator1
+          Id: g=e9068006fdf0e43178cfa40ceb7be190
           Type: ExpressionEvaluator
           Children:
           - Name: Expression
+            Id: g=17d0010e58a00090e563e0ff5e2e2c1e
             Type: BaseDataVariableType
             DataType: String
             ReferenceType: HasParameter
             ModellingRule: Optional
             Value: "!{0}"
           - Name: ns=3;Source0
+            Id: g=4fe04e3e627cdde8343b5e1f0bbec9a5
             Type: BaseDataVariableType
             DataType: BaseDataType
             ReferenceType: HasSource
             Children:
             - Name: DynamicLink
+              Id: g=9046df97b3124bc22e810c4b2f4f5d65
               Type: DynamicLink
               DataType: NodePath
               Value: "{FTRemoteAccessWidgetDataObject}/FTRemoteAccessNode/AssistanceRequested"
     - Name: ContactInfoTextBox
+      Id: g=9028d09778230697839cd0da171ef529
       Type: TextBox
       Children:
       - Name: Text
+        Id: g=88b7a03d23029d0d6a5cb80ef6b5bf13
         Type: BaseDataVariableType
         DataType: LocalizedText
       - Name: Width
+        Id: g=401aaf21710d49f8b774d054f4278b77
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 200.0
       - Name: HorizontalAlignment
+        Id: g=82c0768518d6e0bcd050639d514b669d
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
         Value: 3
       - Name: TopMargin
+        Id: g=dc2a0f33f9db1821882764ccd67b8fe5
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: -1.0
       - Name: RightMargin
+        Id: g=df5ad5186529150e029b1afc70628920
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
       - Name: PlaceholderText
+        Id: g=48af6786121b100036248155f58b4933
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
         Value: {"NamespaceIndex":18,"TextId":"ContactInformation"}
       - Name: BottomMargin
+        Id: g=90b1a3846334b29af8e7b17867d004ab
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 10.0
       - Name: ValueChangeBehaviour
+        Id: g=d7e838b0915deee417dfa316db1bac49
         Type: BaseDataVariableType
         DataType: ValueChangeBehaviour
         ModellingRule: Optional
         Value: 1
       - Name: Visible
+        Id: g=279866f826aade55a54a359d72d8deda
         Type: BaseDataVariableType
         DataType: Boolean
         Value: true
         Children:
         - Name: ExpressionEvaluator1
+          Id: g=29f803480c67b3c79c74479f3196bd53
           Type: ExpressionEvaluator
           Children:
           - Name: Expression
+            Id: g=5948e96656d24f63383829be0a27a090
             Type: BaseDataVariableType
             DataType: String
             ReferenceType: HasParameter
             ModellingRule: Optional
             Value: "{0}==2"
           - Name: ns=3;Source0
+            Id: g=f9f98af303776670f6fecb3ebeefde00
             Type: BaseDataVariableType
             DataType: BaseDataType
             ReferenceType: HasSource
             Children:
             - Name: DynamicLink
+              Id: g=95a29bfe83bccd796593d57ed0ee393f
               Type: DynamicLink
               DataType: NodePath
               Value: "{FTRemoteAccessWidgetDataObject}/FTRemoteAccessNode/AssistanceRequestMode"
       - Name: ReadOnly
+        Id: g=63a2d096ed40d4f1584781e43324c816
         Type: BaseDataVariableType
         DataType: Boolean
       - Name: Enabled
+        Id: g=2c5cb49c60dd0d6856072ecfadce7d1b
         Type: BaseDataVariableType
         DataType: Boolean
         Value: true
         Children:
         - Name: ExpressionEvaluator1
+          Id: g=f68b21926dd5ff8747ff72455ce5f609
           Type: ExpressionEvaluator
           Children:
           - Name: Expression
+            Id: g=c83847abb8688febc19e7ee23c16baac
             Type: BaseDataVariableType
             DataType: String
             ReferenceType: HasParameter
             ModellingRule: Optional
             Value: "!{0}"
           - Name: ns=3;Source0
+            Id: g=e14cb191441b8f89c1b9fc85041add07
             Type: BaseDataVariableType
             DataType: BaseDataType
             ReferenceType: HasSource
             Children:
             - Name: DynamicLink
+              Id: g=41fec3364751f82646bf5bc2ae26f699
               Type: DynamicLink
               DataType: NodePath
               Value: "{FTRemoteAccessWidgetDataObject}/FTRemoteAccessNode/AssistanceRequested"
     - Name: DescriptionTextBox
+      Id: g=e493e57bc76bc7f27e03ad379bda7e59
       Type: TextBox
       Children:
       - Name: Text
+        Id: g=98a34dc2d49b5a71f9e684b50f84199a
         Type: BaseDataVariableType
         DataType: LocalizedText
       - Name: Width
+        Id: g=a273d0486e63487c68d45383af7c373a
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 425.0
       - Name: HorizontalAlignment
+        Id: g=25d6b0042b86fb2fb11c99490d958f19
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
         Value: 3
       - Name: TopMargin
+        Id: g=f3d177d1ee90f39554b30e2cf2f23f0f
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 1.0
       - Name: Height
+        Id: g=79f3b6ec56a6a626a96b126f4b599451
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: -1.0
       - Name: PlaceholderText
+        Id: g=b1657bc67cf2a2848e3e20d255dfd3a4
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
         Value: {"NamespaceIndex":18,"TextId":"Description"}
       - Name: ContentType
+        Id: g=818f0163cd342331d4b1c7c75a252068
         Type: BaseVariableType
         DataType: InputTypeEnum
         ModellingRule: Optional
       - Name: BottomMargin
+        Id: g=53386e89070ca141dbb89cfd0426c5a9
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 10.0
       - Name: ValueChangeBehaviour
+        Id: g=57f4bee969182a3f8fd46d5ac7d46a0c
         Type: BaseDataVariableType
         DataType: ValueChangeBehaviour
         ModellingRule: Optional
         Value: 1
       - Name: Visible
+        Id: g=95d59d9127a37a62dbf30fcc56c70ef8
         Type: BaseDataVariableType
         DataType: Boolean
         Value: true
         Children:
         - Name: ExpressionEvaluator1
+          Id: g=39ce1a09197fc1908a3f670050aff996
           Type: ExpressionEvaluator
           Children:
           - Name: Expression
+            Id: g=8e6ec0592ac55887adb0485aacc2a1c8
             Type: BaseDataVariableType
             DataType: String
             ReferenceType: HasParameter
             ModellingRule: Optional
             Value: "{0}==2"
           - Name: ns=3;Source0
+            Id: g=23de6b28cadf2b2e0b404e07805ef82d
             Type: BaseDataVariableType
             DataType: BaseDataType
             ReferenceType: HasSource
             Children:
             - Name: DynamicLink
+              Id: g=499a63a2780f98cbadf7501cba6fd558
               Type: DynamicLink
               DataType: NodePath
               Value: "{FTRemoteAccessWidgetDataObject}/FTRemoteAccessNode/AssistanceRequestMode"
       - Name: ReadOnly
+        Id: g=b7f24158a6dad5733f54e0397dbe6734
         Type: BaseDataVariableType
         DataType: Boolean
       - Name: Enabled
+        Id: g=037654d5c90a642ca31586311a4b16a2
         Type: BaseDataVariableType
         DataType: Boolean
         Value: true
         Children:
         - Name: ExpressionEvaluator1
+          Id: g=9530822e3612da5c950f9acb4c131d1a
           Type: ExpressionEvaluator
           Children:
           - Name: Expression
+            Id: g=e8772bd6a8c078918fc7126dce64eaa4
             Type: BaseDataVariableType
             DataType: String
             ReferenceType: HasParameter
             ModellingRule: Optional
             Value: "!{0}"
           - Name: ns=3;Source0
+            Id: g=1aa3928c92a8b488eb07dcad4953e933
             Type: BaseDataVariableType
             DataType: BaseDataType
             ReferenceType: HasSource
             Children:
             - Name: DynamicLink
+              Id: g=1b2dfb9278bb68e2cd90b531c51baff2
               Type: DynamicLink
               DataType: NodePath
               Value: "{FTRemoteAccessWidgetDataObject}/FTRemoteAccessNode/AssistanceRequested"
     - Name: HorizontalAlignment
+      Id: g=b58e65533b5f49e7c3ae8cdbeb75395a
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
       Value: 3
     - Name: VerticalAlignment
+      Id: g=a2e3279344359f80a1d45c3dd1fb845f
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 3
     - Name: HorizontalLayout1
+      Id: g=e8add5c2f663c5b01ccddd4729248786
       Type: RowLayout
       Children:
       - Name: Width
+        Id: g=243ad417090c8ad08aeabb424c59db80
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: -1.0
       - Name: Height
+        Id: g=2bf30dceef86be37f69e12698d9251a8
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: -1.0
       - Name: RequestAssistanceSwitch
+        Id: g=ecc73ac35248a6df52a83b0734d8c8bc
         Type: Switch
         Children:
         - Name: Checked
+          Id: g=cf44d8b6c9ad25c49aa69373747509fd
           Type: BaseDataVariableType
           DataType: Boolean
         - Name: HorizontalAlignment
+          Id: g=bf91135bfe894275ec39c943c84f3d4e
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
         - Name: VerticalAlignment
+          Id: g=3c2a0012750681c8570e086791df8855
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
         - Name: BottomMargin
+          Id: g=66476ca4263f8fbb848d7207e956d049
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
         - Name: UncheckedText
+          Id: g=f9d03f6a27aafba5b9ff9332380542e0
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
           Value: {"NamespaceIndex":18,"TextId":"RequestAssistance"}
         - Name: CheckedText
+          Id: g=e6e3bfc4da22d1ecd46b1b1f8d37a540
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
           Value: {"NamespaceIndex":18,"TextId":"AssistanceRequested"}
         - Name: RequestAssistanceSwitchLogic
+          Id: g=13a0f916d1e41954cfdd900726c3ba51
           Type: NetLogic
           Children:
           - Class: Method
             Name: HandleRequestAssistanceSwitch
+            Id: g=55e1e3e2e2f8798696cf7d12a38a2f91
             Children:
             - Name: ns=0;InputArguments
+              Id: g=0a899dec067aca2db93548b22e55bcf6
               Type: BaseVariableType
               DataType: Argument
               ReferenceType: HasProperty
@@ -2041,283 +2513,349 @@ Children:
               ArrayDimensions: [0]
               Value: [{"TypeId":{"Id":296},"Body":{"Name":"name","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"contactInfo","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"description","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
         - Name: Enabled
+          Id: g=49cb33311b8a85e9d79c9351e31f9f48
           Type: BaseDataVariableType
           DataType: Boolean
           Value: true
           Children:
           - Name: ExpressionEvaluator1
+            Id: g=35f0e5020485efecdfaff067393a6b46
             Type: ExpressionEvaluator
             Children:
             - Name: Expression
+              Id: g=a2dd731868c107cfc1809bffd65213bc
               Type: BaseDataVariableType
               DataType: String
               ReferenceType: HasParameter
               ModellingRule: Optional
               Value: "({0}!=\"\" && {1}!=\"\" && {2}!=\"\" && {3}==2) || ({3}==1) || ({4}==1)"
             - Name: ns=3;Source0
+              Id: g=a0d4c7da0fd62194249b1c4e8758e103
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
+                Id: g=92da2ea763ff6d1a7da2603d0477a56d
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../../NameTextBox/Text"
             - Name: ns=3;Source1
+              Id: g=7939e1d2f04363ea4251aa64152a2661
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
+                Id: g=4fd0563c9eba3c7ec7ef5515cfafbbb6
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../../ContactInfoTextBox/Text"
             - Name: ns=3;Source2
+              Id: g=83641b158dd60c769f60608d2bcaf42b
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
+                Id: g=767e7d2f9555fd939d3adf0a9d3dae01
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../../DescriptionTextBox/Text"
             - Name: ns=3;Source3
+              Id: g=208e4b290f1bf4e55818a3fece0747b8
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
+                Id: g=86293366f8c2842a22228e666d19aa84
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{FTRemoteAccessWidgetDataObject}/FTRemoteAccessNode/AssistanceRequestMode"
             - Name: ns=3;Source4
+              Id: g=9b97b44201ad8da45ea215c1e8a75fae
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
+                Id: g=e7a6cf0c5d6abcd66742d6557242340c
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{FTRemoteAccessWidgetDataObject}/FTRemoteAccessNode/AssistanceRequested"
         - Name: ModifiedValueHandler1
+          Id: g=cb75d4ece4febb77e1561b01fa47c446
           Type: EventHandler
           Children:
           - Name: ListenEventType
+            Id: g=bf0750f907ba269eef9c4907ac2010cd
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/EventTypes/BaseEventType/UserValueChanged"
           - Name: MethodsToCall
+            Id: g=72c5284821e27a644f5567b9d160ae10
             Type: BaseObjectType
             Children:
             - Name: MethodContainer1
+              Id: g=31d1f44d15d8656ef6e5a0fdc8fd6133
               Type: BaseObjectType
               Children:
               - Name: ns=3;ObjectPointer
+                Id: g=9e707e37d1fed139db07050db9cf1302
                 Type: NodePointer
                 DataType: NodeId
                 Children:
                 - Name: Kind
+                  Id: g=2ee9147408f3f0de8e76b7ed3c8b63bd
                   Type: PropertyType
                   DataType: NodeId
                   Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
+                  Id: g=20051fb5304526c9a27f1670a0c4867d
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../RequestAssistanceSwitchLogic@NodeId"
                   Children:
                   - Name: Mode
+                    Id: g=9ca38e65a4133e89effda4599a7bf237
                     Type: BaseVariableType
                     DataType: DynamicLinkMode
                     ModellingRule: Optional
                     Value: 2
               - Name: ns=3;Method
+                Id: g=3a0adcaceb026b31fad5ea96cd8f3df4
                 Type: BaseDataVariableType
                 DataType: String
                 Value: "HandleRequestAssistanceSwitch"
               - Name: InputArguments
+                Id: g=e6e2fe32874289168fbea7b34a1aa92e
                 Type: BaseObjectType
                 Children:
                 - Name: name
+                  Id: g=de69ed2b2ce96745e965d8e6e899a9ea
                   Type: BaseDataVariableType
                   DataType: String
                   Children:
                   - Name: DynamicLink
+                    Id: g=3cf4ad56f0595c96a9142396cbb437f8
                     Type: DynamicLink
                     DataType: NodePath
                     Value: "../../../../../../../NameTextBox/Text"
                     Children:
                     - Name: Mode
+                      Id: g=c9e6bdc6f963bf94f7f9205323e8e162
                       Type: BaseVariableType
                       DataType: DynamicLinkMode
                       ModellingRule: Optional
                       Value: 2
                 - Name: contactInfo
+                  Id: g=4ee344b2fedb6bec2c997a3460101e05
                   Type: BaseDataVariableType
                   DataType: String
                   Children:
                   - Name: DynamicLink
+                    Id: g=70310503a78bd1fa63f35cee4f621fab
                     Type: DynamicLink
                     DataType: NodePath
                     Value: "../../../../../../../ContactInfoTextBox/Text"
                     Children:
                     - Name: Mode
+                      Id: g=474c7e5028d4120d763401582e62fa0e
                       Type: BaseVariableType
                       DataType: DynamicLinkMode
                       ModellingRule: Optional
                       Value: 2
                 - Name: description
+                  Id: g=fa2a32648685dd5b418ab238c1692994
                   Type: BaseDataVariableType
                   DataType: String
                   Children:
                   - Name: DynamicLink
+                    Id: g=df9af308b2f2dc97d3df275a17b376e5
                     Type: DynamicLink
                     DataType: NodePath
                     Value: "../../../../../../../DescriptionTextBox/Text"
                     Children:
                     - Name: Mode
+                      Id: g=08fadf004418ddd86f27164d1a7bb6d6
                       Type: BaseVariableType
                       DataType: DynamicLinkMode
                       ModellingRule: Optional
                       Value: 2
           - Name: EventArguments
+            Id: g=4d47f99b86acc3ba7f146671c7c18dd2
             Type: UserValueChanged
             Children:
             - Name: NewValue
+              Id: g=3ad3cf399e1aa27d02ee48a29c67a152
               Type: BaseDataVariableType
               DataType: BaseDataType
             - Name: EventId
+              Id: g=2602c742d8d6bf0531587f93e55c096d
               Type: PropertyType
               DataType: ByteString
             - Name: EventType
+              Id: g=a8440cb9d625f2eace06a5f90ad20afd
               Type: PropertyType
               DataType: NodeId
             - Name: SourceNode
+              Id: g=8cfa62aaed08c950734ef6c9c256bddd
               Type: PropertyType
               DataType: NodeId
             - Name: SourceName
+              Id: g=cb3f7685758cbd17119805cf62239846
               Type: PropertyType
               DataType: String
             - Name: Time
+              Id: g=cb8f67383cc590d7aa396fcfa222b727
               Type: PropertyType
               DataType: UtcTime
             - Name: ReceiveTime
+              Id: g=172d2885d1ae86f8a5b984e917ada2ef
               Type: PropertyType
               DataType: UtcTime
             - Name: Message
+              Id: g=579c2c56d4f7153cc16bad163d0eb975
               Type: PropertyType
               DataType: LocalizedText
             - Name: Severity
+              Id: g=3600248dcc54abd6e14fe964e098c749
               Type: PropertyType
               DataType: UInt16
         - Name: Width
+          Id: g=3e43273e3a6cf782ca9d471145e69e56
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
           Value: 170.0
         - Name: RightMargin
+          Id: g=ea07dca5d519205916efd66669599a42
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
           Value: 4.0
       - Name: HorizontalAlignment
+        Id: g=eb8e4b39aac611b57793ae18fc098a2a
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
         Value: 3
       - Name: VerticalAlignment
+        Id: g=edb853cdc5207012843a59b349ff93c0
         Type: BaseVariableType
         DataType: VerticalAlignment
         ModellingRule: Optional
       - Name: FillOutFieldsLabel
+        Id: g=f563abcba574e3ef58b751c6f41325a4
         Type: Label
         Children:
         - Name: Text
+          Id: g=b386e8a25f151dfb223bdf741a4ceeb8
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
           Value: {"NamespaceIndex":18,"TextId":"FillOutFieldsMessage"}
         - Name: VerticalAlignment
+          Id: g=17926ffd779aa4fedee72e31f2538439
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
           Value: 2
         - Name: HorizontalAlignment
+          Id: g=f8e04b3fc51781b6e69886001c1fa8f5
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
           Value: 3
         - Name: RightMargin
+          Id: g=26a85385d1c6a8ee4c2f3ebf240bbf26
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
         - Name: Visible
+          Id: g=b7c06500ac236c008a5c8deb675db4c1
           Type: BaseDataVariableType
           DataType: Boolean
           Value: true
           Children:
           - Name: ExpressionEvaluator1
+            Id: g=dfe0159c41475200905ec283ba080953
             Type: ExpressionEvaluator
             Children:
             - Name: Expression
+              Id: g=14cd823fb6714071364e1a6a4766893c
               Type: BaseDataVariableType
               DataType: String
               ReferenceType: HasParameter
               ModellingRule: Optional
               Value: "{0}==0 && {1}==2"
             - Name: ns=3;Source0
+              Id: g=dd90bf5f1da603b8e79f2f12af5ffced
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
+                Id: g=3f931987e61187f92e68fb06c33684ca
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../RequestAssistanceSwitch/Enabled"
             - Name: ns=3;Source1
+              Id: g=af9dd913b546d149e6fb77bde33f7de7
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
+                Id: g=162535fbd4a6ccfb16caafe051644f5c
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{FTRemoteAccessWidgetDataObject}/FTRemoteAccessNode/AssistanceRequestMode"
         - Name: TextHorizontalAlignment
+          Id: g=20de66ed2c724be07482f4cd5cb8f9bf
           Type: BaseVariableType
           DataType: TextHorizontalAlignment
           ModellingRule: Optional
           Value: 2
         - Name: WordWrap
+          Id: g=a97bb34ac83c872b048dd32908eebc12
           Type: BaseDataVariableType
           DataType: Boolean
           ModellingRule: Optional
           Value: true
     - Name: TopMargin
+      Id: g=f806a4b9e034f3136370b1ae7061a579
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 8.0
     - Name: LeftMargin
+      Id: g=ddf24f160687b83935ba4a8f9a586f85
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 8.0
     - Name: RightMargin
+      Id: g=9a7c850c75084a9d6d638dc13e5e1c0b
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 8.0
     - Name: BottomMargin
+      Id: g=2cd6c10df1ff5ad56bc58227b6286f7d
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 8.0
   - Name: HorizontalAlignment
+    Id: g=10fff5bc748bdc4eccc207fa1c10b4be
     Type: BaseVariableType
     DataType: HorizontalAlignment
     ModellingRule: Optional
     Value: 3
   - Name: VerticalAlignment
+    Id: g=fe853b45a06355d6edfe0a5311a91579
     Type: BaseVariableType
     DataType: VerticalAlignment
     ModellingRule: Optional
@@ -2328,119 +2866,144 @@ Children:
   ReferenceType: HasComponent
   Children:
   - Name: Width
+    Id: g=9b01b63280f7ca44d2f1d6318e382429
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 400.0
   - Name: Height
+    Id: g=bd5b3916bdeb7fa492eacc6be0a9091f
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 226.0
   - Name: RequestAssistanceDisabledLabel
+    Id: g=1e1fb53182d08f6ec2ad4adba32d3085
     Type: Label
     Children:
     - Name: Text
+      Id: g=489fe710e8322707f77f393843035d96
       Type: BaseDataVariableType
       DataType: LocalizedText
       Children:
       - Name: ConditionalConverter1
+        Id: g=13d2ba68b9b5dcb54ebece7ea9985bdb
         Type: ConditionalConverter
         Children:
         - Name: Condition
+          Id: g=82a2bd317962f5777e24cdf30749938b
           Type: BaseDataVariableType
           DataType: Boolean
           ReferenceType: HasSource
           Children:
           - Name: ExpressionEvaluator1
+            Id: g=a5022ac67ab9f490bf4e5f7e972b266b
             Type: ExpressionEvaluator
             Children:
             - Name: Expression
+              Id: g=b8cd818ce8f5c43a4ebf957d5cbfee7b
               Type: BaseDataVariableType
               DataType: String
               ReferenceType: HasParameter
               ModellingRule: Optional
               Value: "{0}==2 && {1}"
             - Name: ns=3;Source0
+              Id: g=40cc4dd04a6d9f294c15e1489337c163
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
+                Id: g=841be358da7b7e7390318253728fb45c
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{FTRemoteAccessWidgetDataObject}/FTRemoteAccessNode/ServerConnection"
             - Name: ns=3;Source1
+              Id: g=01723d61b3698ce209e599412cf17f88
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
+                Id: g=d9aab3d43df1147e1eb70201cb851f3a
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{FTRemoteAccessWidgetDataObject}/FTRemoteAccessNode/RegisteredToDomain"
         - Name: TrueValue
+          Id: g=f0fb99edc7ae6bab2063691dada5d81d
           Type: BaseDataVariableType
           DataType: LocalizedText
           ReferenceType: HasParameter
           ModellingRule: Optional
           Value: {"NamespaceIndex":18,"TextId":"RequestsDisabled"}
         - Name: FalseValue
+          Id: g=bb782d83bf190b42480195db69e1403f
           Type: BaseDataVariableType
           DataType: LocalizedText
           ReferenceType: HasParameter
           ModellingRule: Optional
           Value: {"NamespaceIndex":18,"TextId":"RequestsUnavailable"}
     - Name: TextHorizontalAlignment
+      Id: g=119816fd75306bf0dc19802fe06a74ee
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
       ModellingRule: Optional
       Value: 1
     - Name: TextVerticalAlignment
+      Id: g=bd7d3a6b16909fb797e997df4c3a192a
       Type: BaseVariableType
       DataType: TextVerticalAlignment
       ModellingRule: Optional
       Value: 1
     - Name: WordWrap
+      Id: g=c3e04939e3ee3789c8b9e3bad99f9738
       Type: BaseDataVariableType
       DataType: Boolean
       ModellingRule: Optional
       Value: true
     - Name: HorizontalAlignment
+      Id: g=18f9bcf6168a8b53f15536011b960e2e
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
       Value: 3
     - Name: VerticalAlignment
+      Id: g=0e3fdda34bfa3081ad475d751873a290
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 2
     - Name: LeftMargin
+      Id: g=f80370b1e229d2c3e7cb0755460fcfb2
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 8.0
     - Name: RightMargin
+      Id: g=849ed5fe3bb13e12cb80a0d7ff57e973
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 8.0
   - Name: HorizontalAlignment
+    Id: g=00921b692e5d7f62fed69291372fe5ea
     Type: BaseVariableType
     DataType: HorizontalAlignment
     ModellingRule: Optional
     Value: 3
   - Name: VerticalAlignment
+    Id: g=114f38752686f778a66594b5d2f9aac0
     Type: BaseVariableType
     DataType: VerticalAlignment
     ModellingRule: Optional
     Value: 3
   - Name: FTRemoteAccessWidgetDataObject
+    Id: g=cb815c2320a0eb6ccc2f5a091c2ae8dc
     Type: Alias
     DataType: NodeId
     Children:
     - Name: Kind
+      Id: g=8b425b440b26e7c5eac1c5337e424e6f
       Type: PropertyType
       DataType: NodeId
       Value: "/Objects/HMIOptixStandard1/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/FTRemoteAccessWidgetDataObject"
@@ -2450,21 +3013,25 @@ Children:
   ReferenceType: HasComponent
   Children:
   - Name: Width
+    Id: g=f0ad048fd7ba2fb05fe61a6ff5f3ff07
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 364.0
   - Name: Height
+    Id: g=9324d452adc17b7e1ece3137dce7c266
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 99.0
   - Name: HorizontalAlignment
+    Id: g=08a78eecbc4c0b6aa81e8fa9fe1b18a9
     Type: BaseVariableType
     DataType: HorizontalAlignment
     ModellingRule: Optional
     Value: 3
   - Name: VerticalAlignment
+    Id: g=5fd1033fc4411e47fdfef151ba9e663d
     Type: BaseVariableType
     DataType: VerticalAlignment
     ModellingRule: Optional

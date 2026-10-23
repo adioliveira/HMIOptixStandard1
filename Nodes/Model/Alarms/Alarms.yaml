@@ -1,6 +1,8 @@
 Name: Alarms
+Id: g=74aea2b8439c3e657c9d141b0f63122c
 Type: FolderType
 Children:
 - Name: xAlarm1
+  Id: g=75127e42078db4f93e0cb09c5ff7aa4a
   Type: BaseDataVariableType
   DataType: Boolean

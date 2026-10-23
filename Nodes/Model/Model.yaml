@@ -1,55 +1,69 @@
 Name: Model
+Id: g=21499675b350f5c37c751451b3d834fc
 Type: ModelCategoryFolder
 Children:
 - Name: AnalogVariable1
+  Id: g=5998360b3238e86e93beb5e7e815fdbd
   Type: AnalogItemType
   DataType: Float
   Children:
   - Name: EURange
+    Id: g=6fd15c7c37dd33aec84abd6b090cca33
     Type: RangeType
     DataType: Range
     Children:
     - Name: Low
+      Id: g=6fe66e246aa29114d9e734492f65de51
       Type: BaseDataVariableType
       DataType: Double
     - Name: High
+      Id: g=5366ff3973d6e59bae5579b4cf0b6b00
       Type: BaseDataVariableType
       DataType: Double
       Value: 100.0
     - Name: Constrain
+      Id: g=09db464c322c0300ca9bfc107ce05ce2
       Type: BaseDataVariableType
       DataType: Boolean
   - Name: DynamicLink
+    Id: g=2325a4edb05ec0c00a82f9189b0ed87e
     Type: DynamicLink
     DataType: NodePath
     Value: "../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Out_12H_OEE"
     Children:
     - Name: Mode
+      Id: g=6a72f2d44f3f60ca456d666725dcf664
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
 - Name: sql_query_delete_table
+  Id: g=1b18552f087a8f089162d0418816f89d
   Type: BaseDataVariableType
   DataType: String
   Value: "DELETE from DataLogger"
 - Name: DT_query_truncate_table
+  Id: g=c7924414ace1806598a2261706031894
   Type: BaseDataVariableType
   DataType: String
   Value: "TRUNCATE TABLE DataLogger"
 - Name: HMITab11
+  Id: g=0c516fa8da4f8d0d0105ad3a09d54957
   Type: BaseDataVariableType
   DataType: Int32
   Value: 13
 - Name: Aux_OutStateCurrenTime
+  Id: g=4a6cd969a9fc73e08fb7ff15c4ff590f
   Type: BaseDataVariableType
   DataType: Int16
   Children:
   - Name: DynamicLink
+    Id: g=58a3e6aa0223842162f97c5eb64b97e3
     Type: DynamicLink
     DataType: NodePath
     Value: "../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Out_StateCurrentTime"
     Children:
     - Name: Mode
+      Id: g=78acf294de38abdc3e6f55ec9d9f0379
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
@@ -57,4 +71,5 @@ Children:
 - File: OEE06H/OEE06H.yaml
 - File: OEE1H/OEE1H.yaml
 - File: Alarms/Alarms.yaml
+- File: OPCUA/OPCUA.yaml
 - File: MQTT/MQTT.yaml

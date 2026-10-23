@@ -1,4 +1,5 @@
 Name: UI
+Id: g=d3528a6d1c0b442db333491d1f584a5b
 Type: UICategoryFolder
 Children:
 - Name: DefaultStyleSheet
@@ -6,344 +7,444 @@ Children:
   Type: StyleSheet
   Children:
   - Name: ButtonStyles
+    Id: g=49b5550fdaa88ebcda16bad67d27397f
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=fc357bd5bb1cc384a8de4cb94c591b28
       Type: ButtonStyle
     - Name: Accent
+      Id: g=fe33a154f8e35794e1fe3b13b320f868
       Type: ButtonStyle
       Children:
       - Name: Color
+        Id: g=f837f283fe204c9d58a058c4d8527ef4
         Type: BaseDataVariableType
         DataType: Color
         Value: "#0fafff"
       - Name: BorderColor
+        Id: g=2b657d829628fff49bb79404c56e339b
         Type: BaseDataVariableType
         DataType: Color
         Value: "#075982"
       - Name: TextColor
+        Id: g=66b86ee79b3877c6182e1786830ebc61
         Type: BaseDataVariableType
         DataType: Color
         Value: "#ffffff"
     - Name: BorderedRectangular
+      Id: g=038408c557eb53e0212b3aa49c8528b6
       Type: ButtonStyle
       Children:
       - Name: Color
+        Id: g=d452b8c59524f40b290285e1d5d213c6
         Type: BaseDataVariableType
         DataType: Color
         Value: "#0fafff"
       - Name: TextColor
+        Id: g=9b09b06b546169081db8c9e403d8d935
         Type: BaseDataVariableType
         DataType: Color
         Value: "#ffffff"
       - Name: BorderColor
+        Id: g=7cdbb7e90447015062ad63bab2c687f0
         Type: BaseDataVariableType
         DataType: Color
         Value: "#e4e4e4"
       - Name: BorderWidth
+        Id: g=509ba1ae8f4ba0cdd2f83c2fbc4754cb
         Type: BaseDataVariableType
         DataType: Size
         Value: 5.0
     - Name: BorderedCircular
+      Id: g=8ab63b955e7b9ef6ae1436dccd85e36f
       Type: ButtonStyle
       Children:
       - Name: Color
+        Id: g=b61b1f5bf6aead978015a03a2ebd6b3b
         Type: BaseDataVariableType
         DataType: Color
         Value: "#0fafff"
       - Name: TextColor
+        Id: g=16741771ed4767cafeb46afa31dabd11
         Type: BaseDataVariableType
         DataType: Color
         Value: "#ffffff"
       - Name: BorderColor
+        Id: g=d6292b2dedaf73c76c2f16b660d77465
         Type: BaseDataVariableType
         DataType: Color
         Value: "#e4e4e4"
       - Name: BorderWidth
+        Id: g=8e023ccc35658db977671f36192e4cf7
         Type: BaseDataVariableType
         DataType: Size
         Value: 5.0
       - Name: Radius
+        Id: g=91c55795ae4818d8887a45fcdc53f2ac
         Type: BaseDataVariableType
         DataType: Size
         Value: -1.0
     - Name: Emergency
+      Id: g=82a42019ae00e0160b1f3ac67d30a9ae
       Type: ButtonStyle
       Children:
       - Name: Color
+        Id: g=417297580d2e72d7c53286417fddeeae
         Type: BaseDataVariableType
         DataType: Color
         Value: "#eb001b"
       - Name: TextColor
+        Id: g=14ef2147b5fd3ec38c70bceb4d7e12c0
         Type: BaseDataVariableType
         DataType: Color
         Value: "#ffffff"
       - Name: BorderColor
+        Id: g=e04f5e9ffab54bed7df2e1e7729d8af5
         Type: BaseDataVariableType
         DataType: Color
         Value: "#f8e71c"
       - Name: BorderWidth
+        Id: g=d53791513a0982ee40291ce68f85c2b2
         Type: BaseDataVariableType
         DataType: Size
         Value: 5.0
       - Name: Radius
+        Id: g=d1d0e9291c5815f3679b9ff9b7352b04
         Type: BaseDataVariableType
         DataType: Size
         Value: -1.0
     - Name: Transparent
+      Id: g=3a3a1debe0789af88725de8805198f07
       Type: ButtonStyle
       Children:
       - Name: Color
+        Id: g=8f06b81e654415b977701bdad3dac0e6
         Type: BaseDataVariableType
         DataType: Color
       - Name: BorderColor
+        Id: g=04b6fc31e67d07c8f14f0378b0bb2875
         Type: BaseDataVariableType
         DataType: Color
       - Name: BorderWidth
+        Id: g=c70a944369a3b39330f2c42f0c0fa927
         Type: BaseDataVariableType
         DataType: Size
   - Name: InputBoxStyles
+    Id: g=97defbaaa6ef4894dd30ebea1dd196e0
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=88a3fdcb3ab168abf6da605fd9ab76f1
       Type: InputBoxStyle
   - Name: SwitchStyles
+    Id: g=cf330fc66504ed74e840983b9b01bdd3
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=0e8a00e86f9f265dcb72b4311a666bac
       Type: SwitchStyle
   - Name: GaugeStyles
+    Id: g=5f47a716b4a0e8c0a8bcab7f53cff588
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=ba2b3280ce78c019054b7c7391d47ac5
       Type: GaugeStyle
   - Name: NavigationPanelStyles
+    Id: g=95030429aa563aeeb4847ef89758d891
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=658c722e7d444ac5f06d162d2948d634
       Type: NavigationPanelStyle
   - Name: ChartStyles
+    Id: g=b80948bb7037feaa3f8a4dd3e5795601
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=dd5382a29128e6ef7f0976e79f1bf8e8
       Type: ChartStyle
       Children:
       - Name: GridColor
+        Id: g=97ba1c7432c5eb941a31095c2cbbb93f
         Type: BaseDataVariableType
         DataType: Color
         Value: "#8997b2"
       - Name: BackgroundColor
+        Id: g=9fec404a54725fec487d4691619abc37
         Type: BaseDataVariableType
         DataType: Color
         Value: "#213951"
       - Name: TextColor
+        Id: g=d2e151ab3cfcef1e15b28ae3e2f5ef7b
         Type: BaseDataVariableType
         DataType: Color
         Value: "#8997b2"
       - Name: FontSize
+        Id: g=be87f5c57ccd5d6c2f9b0811cbeaaa57
         Type: BaseDataVariableType
         DataType: Size
         Value: 12.0
       - Name: FontWeight
+        Id: g=2611b078e9d431302249985e387349e0
         Type: BaseDataVariableType
         DataType: FontWeightEnum
         Value: 600
       - Name: FontFamily
+        Id: g=8aab2abf19aaf33b265d50f847562297
         Type: BaseDataVariableType
         DataType: Font
         Value: "Barlow SemiBold"
   - Name: DataListStyles
+    Id: g=26de136e359f456b02024519b0170dfe
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=403babbf2ea8cd85435fc083528bb4df
       Type: DataListStyle
   - Name: ToolTipStyles
+    Id: g=f6da9c32aab5f9208ab141421e36a45a
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=4fa5309220e4e4174e1ddb0315bab5fb
       Type: ToolTipStyle
   - Name: ScrollBarStyles
+    Id: g=6a3087bbacf24a57411fbaec6d2bf45f
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=e5254d17d514b4f53bfae1b01079ca97
       Type: ScrollBarStyle
   - Name: AccordionStyles
+    Id: g=3430f32253506a7b78775cbc7454a6a9
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=fc475b7d8a5fe18b9ccd62182319f960
       Type: AccordionStyle
   - Name: PieChartStyles
+    Id: g=1a0974668490f6dfd1e4e6ed09ed0de0
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=2fded3994ab9a767eacff7331be99ba8
       Type: PieChartStyle
   - Name: HistogramChartStyles
+    Id: g=5f47fde5ef84915f510f320cf370e266
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=6cfa2a0fc9f2589a73e6623f1bbc34f8
       Type: HistogramChartStyle
   - Name: LabelStyles
+    Id: g=6950eed76333c114d49e2a4c0c0d6551
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=e6999b39b94b3744ef8b18ffd660141f
       Type: LabelStyle
   - Name: RadioButtonStyles
+    Id: g=307c853108be805d91ded1fce70f9b33
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=e7381a7c7494762226e2ac2580d30f3f
       Type: RadioButtonStyle
   - Name: CheckBoxStyles
+    Id: g=7fc7ed0b477df4e0677896d274ccc8d5
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=3770b347e6b0a1a29e6ac5d55d31b09a
       Type: CheckBoxStyle
   - Name: RectangleStyles
+    Id: g=c2bd4e53750f0e73c65594156252eac8
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=97f604b979d3036d1c8b85cb041bdf4e
       Type: RectangleStyle
       Children:
       - Name: BorderThickness
+        Id: g=3ad25952772eb539452631f30a736bd4
         Type: BaseDataVariableType
         DataType: Size
         Value: 1.0
   - Name: ScreenStyles
+    Id: g=ffae6576b9f2d1b18ad7636f34d68d8c
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=6c9cd9152b50c3cd5db1be9477481fd4
       Type: ScreenStyle
 - Name: NativePresentationEngine
+  Id: g=cdc344195cfbb59c48b5efa6efec54b6
   Type: NativePresentationEngine
   ReferenceType: HasOrderedComponent
   Children:
   - Name: VirtualKeyboard
+    Id: g=ca4d595a86acde22265278c8fa8424d8
     Type: BaseDataVariableType
     DataType: VirtualKeyboardEngineTypeEnum
     Value: 1
   - Name: StartWindow
+    Id: g=0f4a94dc70bb219294cee0ac5bff9e99
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/HMIOptixStandard1/UI/MainWindow1"
     Children:
     - Name: Kind
+      Id: g=555d8d0e5551c3ef25c10f0d4cd94d2b
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Window"
   - Name: StyleSheet
+    Id: g=b312ddf95535e4d9038e0c4b62b7e488
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/HMIOptixStandard1/UI/DefaultStyleSheet"
     Children:
     - Name: Kind
+      Id: g=1af20d4f34a7bfc3704f6a43586f2954
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
   - Name: StartingUser
+    Id: g=cd126a91a720b3b5a1fa685f6933d196
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/Users/Anonymous"
     Children:
     - Name: Kind
+      Id: g=470ba6bfe88b5f337594dbad4a5385b2
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/UserType"
   - Name: Sessions
+    Id: g=0146e94491ebdfba129068f121fd22a5
     Type: BaseObjectType
 - Name: WebPresentationEngine
+  Id: g=ef1b194c7d351400b2545a05046126d5
   Type: ns=29;PresentationEngine
   Children:
   - Name: Protocol
+    Id: g=bb1bd50800ac5039886bcdfe5410742e
     Type: BaseDataVariableType
     DataType: Protocol
   - Name: IPAddress
+    Id: g=04c21f5e5ab264830efb2f10bcd44937
     Type: BaseDataVariableType
     DataType: String
     Value: "0.0.0.0"
   - Name: Port
+    Id: g=d43ac26e046cf918d6e191ceeb133fc9
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 4060
   - Name: StartWindow
+    Id: g=f7a3d9f390c79f0c5f076b07387d25c4
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/HMIOptixStandard1/UI/MainWindow"
     Children:
     - Name: Kind
+      Id: g=9d88d85499c6d00e4c68e6c50e8ad2aa
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Window"
   - Name: StyleSheet
+    Id: g=957a1539e53a1157a76d5dea80e7bff3
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/HMIOptixStandard1/UI/DefaultStyleSheet"
     Children:
     - Name: Kind
+      Id: g=57e17e1221d57097a59591e1ea564421
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
   - Name: StartingUser
+    Id: g=5cc64003535f5338fb5ade0bbb4cfa89
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/Users/Anonymous"
     Children:
     - Name: Kind
+      Id: g=bf7e9f5e58ff05354f0d97f11e995f44
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/UserType"
   - Name: Sessions
+    Id: g=1b0cdc50d4d4db40137483222137f304
     Type: BaseObjectType
     Children:
     - Name: Session1
+      Id: g=0fb347881a8b83054f562a3efd4b65a0
       Type: UISession
       Children:
       - Name: IsInteractive
+        Id: g=47d7a51045832a5dc578a940ec10333d
         Type: BaseDataVariableType
         DataType: Boolean
         AccessLevel: Read
         Value: true
       - Name: IsNative
+        Id: g=9ed4bdb2b95a3c67fe91ef1300a24f49
         Type: BaseDataVariableType
         DataType: Boolean
         AccessLevel: Read
       - Name: IsWeb
+        Id: g=a3b6f11fa104e8ee1e90d319b8c9e251
         Type: BaseDataVariableType
         DataType: Boolean
         AccessLevel: Read
       - Name: IpAddress
+        Id: g=61068954f8ab2c4a4c9df08a8e01128a
         Type: BaseDataVariableType
         DataType: String
         AccessLevel: Read
       - Name: User
+        Id: g=03eaa2f62c55cbb3b2a98f38c1c97bbb
         Type: NodePointer
         DataType: NodeId
         AccessLevel: Read
         Children:
         - Name: Kind
+          Id: g=9f7d594266bd36d5aa4e2d212a131b38
           Type: PropertyType
           DataType: NodeId
           Value: "/Types/ObjectTypes/BaseObjectType/UserType"
       - Name: ActualLocaleId
+        Id: g=8bbd3cc1255a9e49265271e1c6b89d88
         Type: BaseVariableType
         DataType: LocaleId
         ReferenceType: HasProperty
       - Name: ActualLanguage
+        Id: g=717236df118f3f29321922c63a6ed4c8
         Type: BaseVariableType
         DataType: LocaleId
         ReferenceType: HasProperty
       - Name: ActualMeasurementSystem
+        Id: g=e8eb7c22a4e8f5e44baeee06aa57154d
         Type: BaseVariableType
         DataType: MeasurementSystem
         ReferenceType: HasProperty
       - Name: TimeZoneOffset
+        Id: g=583d8bef824b03d9d598e1803b3f887a
         Type: BaseVariableType
         DataType: TimeZoneDataType
         ReferenceType: HasProperty
         AccessLevel: Read
       - Name: Groups
+        Id: g=f13b6cc3bd8a02546ca21bd2af056725
         Type: BaseObjectType
       - Name: Roles
+        Id: g=9af436f59f04c78de3ecbec54579c716
         Type: BaseObjectType
       - Name: Rights
+        Id: g=a04c6056102d7f5fed2a462058bf2af6
         Type: BaseObjectType
       - Class: Reference
         Target: ns=1;i=146
@@ -358,6 +459,7 @@ Children:
         Target: ns=1;i=272
         Direction: Forward
       - Name: LoggedIn
+        Id: g=ff34225e49ab3741dac4ad1dbe5b906f
         Type: BaseVariableType
         DataType: Boolean
         AccessLevel: Read
@@ -368,32 +470,40 @@ Children:
         Target: ns=1;i=324
         Direction: Forward
       - Name: BearerAccessToken
+        Id: g=778cb26b6eae8a2dd06cfe545879cc2b
         Type: BaseVariableType
         DataType: String
         AccessLevel: Read
       - Name: StyleSheet
+        Id: g=33af7095f7c6ce5614fed12658742478
         Type: NodePointer
         DataType: NodeId
         Children:
         - Name: Kind
+          Id: g=9d3a7678d9f502afb7f287a478f75340
           Type: PropertyType
           DataType: NodeId
           Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
       - Name: ScaleFactor
+        Id: g=6f8441f1f0afabdf7f86775d93f65e67
         Type: BaseDataVariableType
         DataType: Double
         Value: 1.0
   - Name: MaxNumberOfWebConnections
+    Id: g=728c560ba3bab36bf4a41decb55beaaa
     Type: BaseDataVariableType
     DataType: UInt32
     Value: 3
   - Name: Hostname
+    Id: g=5d2617eede5263746cd75d2a74f6e306
     Type: BaseDataVariableType
     DataType: String
   - Name: VirtualKeyboard
+    Id: g=6e624d6f216fd4af1004e1a989250070
     Type: BaseDataVariableType
     DataType: VirtualKeyboardEngineTypeEnum
   - Name: AllowedLocalSources
+    Id: g=870f7a2c0e531686bf1f6891046f7abc
     Type: BaseDataVariableType
     DataType: String
     ValueRank: OneDimension
@@ -404,159 +514,199 @@ Children:
   Supertype: Window
   Children:
   - Name: Width
+    Id: g=f0eb5c770c12ff5d2605077d35485429
     Type: BaseDataVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 1280.0
   - Name: Height
+    Id: g=7328e1c5a4aa6896501a9aa156c94a1d
     Type: BaseDataVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 800.0
   - Name: Caption
+    Id: g=bb2092468f0cdb674ea3c2dc92600728
     Type: BaseDataVariableType
     DataType: String
     Children:
     - Name: DynamicLink
+      Id: g=53acfdae2283e774d819d16a78a4e7b4
       Type: DynamicLink
       DataType: NodePath
       Value: "/Objects/HMIOptixStandard1@BrowseName"
   - Name: AlwaysOnTop
+    Id: g=eea9666d9f8c8a7ae0680b738d778cf6
     Type: BaseDataVariableType
     DataType: Boolean
     ModellingRule: Optional
     Value: true
   - Name: Image1
+    Id: g=5cc5b16db5d0293b48f12aea5c499e4e
     Type: Image
     Children:
     - Name: Path
+      Id: g=02c9defc88ca9f35167e000d93430f41
       Type: BaseDataVariableType
       DataType: ResourceUri
       Value: "ns=18;%PROJECTDIR%/2019_RA_Logo_Bug-LeftText_rgb.svg"
     - Name: LeftMargin
+      Id: g=dedd75899cd3858650acc6aa0e7f4bfe
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
     - Name: TopMargin
+      Id: g=b3b2f1864229f7049c208f50a5703a95
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
     - Name: Width
+      Id: g=6b3f015cb4484a1eee8158f3ac69f76d
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 200.0
     - Name: Height
+      Id: g=95028c6c72fd16f5bdff4f1375e35876
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
   - Name: NavigationPanel1
+    Id: g=4f2590f66bd3f279516f030cf9737266
     Type: NavigationPanel
     Children:
     - Name: Panels
+      Id: g=5d569c57f5acc4c6c139dea8ff6e4f0a
       Type: BaseObjectType
       Children:
       - Name: Panel1
+        Id: g=df57b5a5a192689292732f783b5f68db
         Type: NavigationPanelItem
         Children:
         - Name: Title
+          Id: g=984171a6f97f68768d12c04755f124c9
           Type: BaseDataVariableType
           DataType: LocalizedText
         - Name: Panel
+          Id: g=daca738bb301520a1f591795ad5989cb
           Type: NodePointer
           DataType: NodeId
           Value: "/Objects/HMIOptixStandard1/UI/Pages/ControlHMI"
           Children:
           - Name: Kind
+            Id: g=6906efe3d54dba88c06d9a315c6b9335
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
       - Name: Panel2
+        Id: g=3f3edd4641e9ca3634b9b87ece8d1a55
         Type: NavigationPanelItem
         Children:
         - Name: Title
+          Id: g=1d7ef79317623ecf36369e1792e6db96
           Type: BaseDataVariableType
           DataType: LocalizedText
         - Name: Panel
+          Id: g=bdc7fe59b3b97307e1c8465d840f1a0c
           Type: NodePointer
           DataType: NodeId
           Value: "/Objects/HMIOptixStandard1/UI/Pages/OEE01H"
           Children:
           - Name: Kind
+            Id: g=04a4fcfaa2626d6a03a1818a6ad52db3
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
       - Name: Panel3
+        Id: g=ece4f28f97c9ee701e96403625039641
         Type: NavigationPanelItem
         Children:
         - Name: Title
+          Id: g=e2938728e9a3b28640f70662e1ad2bfe
           Type: BaseDataVariableType
           DataType: LocalizedText
         - Name: Panel
+          Id: g=1aea3924dca99f9b29ecc3617e958f8c
           Type: NodePointer
           DataType: NodeId
           Value: "/Objects/HMIOptixStandard1/UI/Pages/OEE06H"
           Children:
           - Name: Kind
+            Id: g=c8d7c6fc45bf4aae93c6c3fd3d38f634
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
       - Name: Panel4
+        Id: g=f08567293f9e3b2ca9e20e61adb9a342
         Type: NavigationPanelItem
         Children:
         - Name: Title
+          Id: g=6ff9dffd5643ac62634b1c06c3bb5566
           Type: BaseDataVariableType
           DataType: LocalizedText
         - Name: Panel
+          Id: g=2cce8ff0199aaf22a6a7e2a66c7a563b
           Type: NodePointer
           DataType: NodeId
           Value: "/Objects/HMIOptixStandard1/UI/Pages/OEE12H"
           Children:
           - Name: Kind
+            Id: g=7b2aad8a12edef8085c159c9a1519167
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
       - Name: Panel5
+        Id: g=858b4477c54665732685dd951a243c8e
         Type: NavigationPanelItem
         Children:
         - Name: Title
+          Id: g=cee2668a49e0097bee672f5a0be8c30f
           Type: BaseDataVariableType
           DataType: LocalizedText
         - Name: Panel
+          Id: g=8848145c579b89c1af3a6f433f9e6475
           Type: NodePointer
           DataType: NodeId
           Value: "/Objects/HMIOptixStandard1/UI/Pages/DataOEE01H"
           Children:
           - Name: Kind
+            Id: g=b2d74e661457ad062fac080f208d1241
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
       - Name: Panel6
+        Id: g=a38cd521f306643667840ba38e811e23
         Type: NavigationPanelItem
         Children:
         - Name: Title
+          Id: g=235f2dda85263287cf83b5421bbdf191
           Type: BaseDataVariableType
           DataType: LocalizedText
         - Name: Panel
+          Id: g=9e0836654e8f6c5a61584c8027dcfdd2
           Type: NodePointer
           DataType: NodeId
           Value: "/Objects/HMIOptixStandard1/UI/Pages/StatusMachine"
           Children:
           - Name: Kind
+            Id: g=541f68be89d5ee41d1af38a885fe6649
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
     - Name: CurrentPanel
+      Id: g=f750a561defd61e8cec86a4789541911
       Type: NodePointer
       DataType: NodeId
       AccessLevel: Read
       Children:
       - Name: Kind
+        Id: g=0b70fd34a2e2d8068d5b2e012c6e6ac1
         Type: PropertyType
         DataType: NodeId
         Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
     - Name: CurrentTabIndex
+      Id: g=a902bd8bce03795cc0fef9c9e4a10818
       Type: BaseDataVariableType
       DataType: Int32
     - Class: Reference
@@ -566,335 +716,427 @@ Children:
       Target: ns=5;i=1183
       Direction: Forward
     - Name: Width
+      Id: g=b1f2ecbaeb09619b57765169713344c5
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 300.0
     - Name: Height
+      Id: g=38376e66dde9b210c814e1e97dfb634d
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 300.0
     - Name: HorizontalAlignment
+      Id: g=db5190c045cfcc844620a65ff19d4401
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
       Value: 3
     - Name: TopMargin
+      Id: g=50cb4036161ccaa8d2f48aafc21cb1ae
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
     - Name: VerticalAlignment
+      Id: g=4beec163e75526746f9ac83bfe1be65f
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 3
     - Name: CurrentTabIndexTransitioned
+      Id: g=d7e762519b795c0e5aa3a44f27fdc204
       Type: VariableTransitionEventDispatcher
       Children:
       - Name: Value
+        Id: g=f796a3433fcfc5d601e9192b668c0a6f
         Type: BaseVariableType
         DataType: Double
         Value: 1.0
       - Name: Transition
+        Id: g=73be77f5276f04dad7d4f0218e36acf0
         Type: BaseVariableType
         DataType: VariableTransition
       - Name: VariableNodePath
+        Id: g=678c0cc29516687df78bf49f28c056e1
         Type: BaseVariableType
         DataType: NodePath
         Value: "../CurrentTabIndex"
       - Name: VariableTransitionEventHandler1
+        Id: g=f0a33f6cf639e50962e5727dc663d57d
         Type: EventHandler
         Children:
         - Name: ListenEventType
+          Id: g=18e7f36b9bc89c9410a182fbfa396363
           Type: PropertyType
           DataType: NodeId
           Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableTransitionEvent"
         - Name: MethodsToCall
+          Id: g=c07841ef2bcaef87a31d379f878a9088
           Type: BaseObjectType
           Children:
           - Name: MethodContainer1
+            Id: g=e6f172853d21e9b4363d3b29ea6ab397
             Type: BaseObjectType
             Children:
             - Name: ns=3;ObjectPointer
+              Id: g=3513109258f61643fc2de3bd1577d74c
               Type: NodePointer
               DataType: NodeId
               Value: "/Objects/Commands/VariableCommands"
               Children:
               - Name: Kind
+                Id: g=2a41410265598e3af47fd17215123687
                 Type: PropertyType
                 DataType: NodeId
                 Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: ns=3;Method
+              Id: g=672546444c1937e28705d40d5f8bbe07
               Type: BaseDataVariableType
               DataType: String
               Value: "Set"
             - Name: InputArguments
+              Id: g=f47246c9c52effc2ad4edde3ea5c88fa
               Type: BaseObjectType
               Children:
               - Name: VariableToModify
+                Id: g=b46314a50dd14cc01782a0dd6f588979
                 Type: BaseDataVariableType
                 DataType: VariablePointer
                 Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
                 Value: "/Objects/HMIOptixStandard1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/HMI_Tab"
               - Name: Value
+                Id: g=c60516200eba18c604b407bb3d456676
                 Type: BaseDataVariableType
                 DataType: Int32
                 Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
                 Value: 13
               - Name: ArrayIndex
+                Id: g=e8efc6a25848613fb675b36332c8f6f0
                 Type: BaseDataVariableType
                 DataType: UInt32
                 Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
                 ValueRank: ScalarOrOneDimension
         - Name: EventArguments
+          Id: g=cb4de327f40f1699129bdb8254e00f0a
           Type: VariableTransitionEvent
           Children:
           - Name: VariableNodeId
+            Id: g=b72eb2007e035c46acd3abd6ce1acfe0
             Type: BaseVariableType
             DataType: NodeId
           - Name: NewValue
+            Id: g=50283134983467d9f4d9f9ac178c876d
             Type: BaseVariableType
             DataType: BaseDataType
           - Name: OldValue
+            Id: g=4f1cbf90c38de1ea47aa4c423e87327c
             Type: BaseVariableType
             DataType: BaseDataType
           - Name: EventId
+            Id: g=d4e31613b9f9dd9c220fb68a60f23d98
             Type: PropertyType
             DataType: ByteString
           - Name: EventType
+            Id: g=80deae0ce33a20eab2dc4dba60ea3bc7
             Type: PropertyType
             DataType: NodeId
           - Name: SourceNode
+            Id: g=3010064e5f6adf6212412442bd350404
             Type: PropertyType
             DataType: NodeId
           - Name: SourceName
+            Id: g=f387ff561b0e142f566e617a8cce7f26
             Type: PropertyType
             DataType: String
           - Name: Time
+            Id: g=2972e69b9165ff8cf29533dd2afb310a
             Type: PropertyType
             DataType: UtcTime
           - Name: ReceiveTime
+            Id: g=5d0594afb9176ba114e6496678c4ca81
             Type: PropertyType
             DataType: UtcTime
           - Name: Message
+            Id: g=8faea9757d33cacf2dbbb18e0fea786f
             Type: PropertyType
             DataType: LocalizedText
           - Name: Severity
+            Id: g=6f6158ed2d21529ca72a4aef0d919636
             Type: PropertyType
             DataType: UInt16
     - Name: CurrentTabIndexTransitioned1
+      Id: g=10b182967372d5f77ad75078d37e82ed
       Type: VariableTransitionEventDispatcher
       Children:
       - Name: Value
+        Id: g=0c35e7716f96375561e4abf970fb4fca
         Type: BaseVariableType
         DataType: Double
         Value: 2.0
       - Name: Transition
+        Id: g=f6be7d01f75fb1076f9871d2a70ba2b8
         Type: BaseVariableType
         DataType: VariableTransition
       - Name: VariableNodePath
+        Id: g=6577af3d6ae6b0e7f5260d2a170a84e9
         Type: BaseVariableType
         DataType: NodePath
         Value: "../CurrentTabIndex"
       - Name: VariableTransitionEventHandler1
+        Id: g=49d60f61e13468d006197fd3dfb39528
         Type: EventHandler
         Children:
         - Name: ListenEventType
+          Id: g=6804d3a19fe719a47af661c86f517979
           Type: PropertyType
           DataType: NodeId
           Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableTransitionEvent"
         - Name: MethodsToCall
+          Id: g=8ae0f2f91be6a9c7cd4ecc4731e074d5
           Type: BaseObjectType
           Children:
           - Name: MethodContainer1
+            Id: g=e0cb060bcb4967fa8c144fcb2b1d51fc
             Type: BaseObjectType
             Children:
             - Name: ns=3;ObjectPointer
+              Id: g=63333b73b773e873e2433872c081549a
               Type: NodePointer
               DataType: NodeId
               Value: "/Objects/Commands/VariableCommands"
               Children:
               - Name: Kind
+                Id: g=37963e8a3ffb5e36574d34d614b1e5c4
                 Type: PropertyType
                 DataType: NodeId
                 Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: ns=3;Method
+              Id: g=72df0fae61b8d04ef4592daaba179471
               Type: BaseDataVariableType
               DataType: String
               Value: "Set"
             - Name: InputArguments
+              Id: g=acddbd57fc4867252f69c71f998dd6cb
               Type: BaseObjectType
               Children:
               - Name: VariableToModify
+                Id: g=87ee084465e2ae3c0a73523d1e41fad5
                 Type: BaseDataVariableType
                 DataType: VariablePointer
                 Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
                 Value: "/Objects/HMIOptixStandard1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/HMI_Tab"
               - Name: Value
+                Id: g=cb32a65f79b195de1cec8f37c4b60e94
                 Type: BaseDataVariableType
                 DataType: Int32
                 Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
                 Value: 12
               - Name: ArrayIndex
+                Id: g=0b4cafdc905193611da5b64edc46d7cd
                 Type: BaseDataVariableType
                 DataType: UInt32
                 Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
                 ValueRank: ScalarOrOneDimension
         - Name: EventArguments
+          Id: g=dc99a0fb192ab06da01e8dca9529be7c
           Type: VariableTransitionEvent
           Children:
           - Name: VariableNodeId
+            Id: g=b16f1797f5da925cc0673bdaf462eaca
             Type: BaseVariableType
             DataType: NodeId
           - Name: NewValue
+            Id: g=8460b6a686d551ef7ee278263a533b69
             Type: BaseVariableType
             DataType: BaseDataType
           - Name: OldValue
+            Id: g=7938ce3e9f36feb67b47a7a878440e38
             Type: BaseVariableType
             DataType: BaseDataType
           - Name: EventId
+            Id: g=bcec1b6213a323069b686e8c1fdf03fa
             Type: PropertyType
             DataType: ByteString
           - Name: EventType
+            Id: g=071b04ced9ae364bc1c0002468fb0677
             Type: PropertyType
             DataType: NodeId
           - Name: SourceNode
+            Id: g=60097da8227dc10823b49e7497b48c78
             Type: PropertyType
             DataType: NodeId
           - Name: SourceName
+            Id: g=4512aca3eab3a634ff9c30eec869c703
             Type: PropertyType
             DataType: String
           - Name: Time
+            Id: g=5e3ffe2d9fa08273c204c84f6ab15b54
             Type: PropertyType
             DataType: UtcTime
           - Name: ReceiveTime
+            Id: g=8e4ab02328343b58e91673c9455017e2
             Type: PropertyType
             DataType: UtcTime
           - Name: Message
+            Id: g=251264149a8c336120216e8276aaaffc
             Type: PropertyType
             DataType: LocalizedText
           - Name: Severity
+            Id: g=b0ebe26cb160233f2d37450e9a5939cd
             Type: PropertyType
             DataType: UInt16
     - Name: CurrentTabIndexTransitioned2
+      Id: g=a05ecd631f0c35795467af40e74b0d23
       Type: VariableTransitionEventDispatcher
       Children:
       - Name: Value
+        Id: g=a70ab20379a00007b966e7299a4ba09c
         Type: BaseVariableType
         DataType: Double
         Value: 3.0
       - Name: Transition
+        Id: g=d407fc09a2a9b728027e3a4faedaf154
         Type: BaseVariableType
         DataType: VariableTransition
       - Name: VariableNodePath
+        Id: g=8125cd2bc4d8a6656f8ebfb20d6bdb33
         Type: BaseVariableType
         DataType: NodePath
         Value: "../CurrentTabIndex"
       - Name: VariableTransitionEventHandler1
+        Id: g=ba1fc7b7fd5f612986bd3917435230dc
         Type: EventHandler
         Children:
         - Name: ListenEventType
+          Id: g=15e6a67e629423ea8db5c0ae06696418
           Type: PropertyType
           DataType: NodeId
           Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableTransitionEvent"
         - Name: MethodsToCall
+          Id: g=ee372fa127fcae2af9332eb2bdd3af91
           Type: BaseObjectType
           Children:
           - Name: MethodContainer1
+            Id: g=e2a5acae69577bd2738b5004b0eae6a2
             Type: BaseObjectType
             Children:
             - Name: ns=3;ObjectPointer
+              Id: g=5ee112c0e25281ca209f17b9535ad948
               Type: NodePointer
               DataType: NodeId
               Value: "/Objects/Commands/VariableCommands"
               Children:
               - Name: Kind
+                Id: g=8a9dba45e74c9ec1c562a2538ef8ee77
                 Type: PropertyType
                 DataType: NodeId
                 Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: ns=3;Method
+              Id: g=4cef48958a9d80ba25409fff330c69dc
               Type: BaseDataVariableType
               DataType: String
               Value: "Set"
             - Name: InputArguments
+              Id: g=48a8502ea2a610c2f5c53a2bc9f25e82
               Type: BaseObjectType
               Children:
               - Name: VariableToModify
+                Id: g=e3ae6a4e8615743fd1ca1070556a6c20
                 Type: BaseDataVariableType
                 DataType: VariablePointer
                 Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
                 Value: "/Objects/HMIOptixStandard1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/HMI_Tab"
               - Name: Value
+                Id: g=d348e4f856ce56e1b5edbacdcad574d0
                 Type: BaseDataVariableType
                 DataType: Int32
                 Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
                 Value: 11
               - Name: ArrayIndex
+                Id: g=e8330bde0cda4113457e045a8cdd0e25
                 Type: BaseDataVariableType
                 DataType: UInt32
                 Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
                 ValueRank: ScalarOrOneDimension
         - Name: EventArguments
+          Id: g=1714c2b78b9c09dfce89a23e29a84709
           Type: VariableTransitionEvent
           Children:
           - Name: VariableNodeId
+            Id: g=fd151a6cd02ce12a03f7671e7845cfe9
             Type: BaseVariableType
             DataType: NodeId
           - Name: NewValue
+            Id: g=db670deb96e766260c9bf3e9303d50f2
             Type: BaseVariableType
             DataType: BaseDataType
           - Name: OldValue
+            Id: g=1c5a77ae2949202ede5e4ca96e247689
             Type: BaseVariableType
             DataType: BaseDataType
           - Name: EventId
+            Id: g=29474332a3ff891b1e3002d39855dd97
             Type: PropertyType
             DataType: ByteString
           - Name: EventType
+            Id: g=77ed711a8104ef791f70303a07a21bd7
             Type: PropertyType
             DataType: NodeId
           - Name: SourceNode
+            Id: g=4683f937559f4245f2212472592262b9
             Type: PropertyType
             DataType: NodeId
           - Name: SourceName
+            Id: g=ab658552a3ea6d6a730158ba2e616397
             Type: PropertyType
             DataType: String
           - Name: Time
+            Id: g=135c94963846eb5e32413112a0bf95da
             Type: PropertyType
             DataType: UtcTime
           - Name: ReceiveTime
+            Id: g=41ea5ff809bf0bc51208b6eed33654bd
             Type: PropertyType
             DataType: UtcTime
           - Name: Message
+            Id: g=7ad2ab93588a513b76c3a40731b395e4
             Type: PropertyType
             DataType: LocalizedText
           - Name: Severity
+            Id: g=4ebf481e8a725317d9a27ddb62135bbd
             Type: PropertyType
             DataType: UInt16
   - Name: Image2
+    Id: g=591d63a2b9c04fe0df1884c2d4f754fe
     Type: Image
     Children:
     - Name: Path
+      Id: g=628774e531d3a557ffccb47110615472
       Type: BaseDataVariableType
       DataType: ResourceUri
       Value: "ns=18;%PROJECTDIR%/WhatsApp Image 2024-04-12 at 7.14.27 PM.jpeg"
     - Name: Width
+      Id: g=c61a421dd9f1b44cdb2be0484c79705d
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 720.0
     - Name: Height
+      Id: g=b78aa754ce13893d6350b20402c19439
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
     - Name: LeftMargin
+      Id: g=63b6433968be3ad85c3827b01d5b1437
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 562.0
     - Name: TopMargin
+      Id: g=8e4f80c758ec86bc458b78ed27ce953f
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
@@ -904,43 +1146,53 @@ Children:
   Supertype: Window
   Children:
   - Name: Width
+    Id: g=437d0e0a1874e77fc147dc1c70282708
     Type: BaseDataVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 1366.0
   - Name: Height
+    Id: g=153109212c1983614bb4e14f0e952739
     Type: BaseDataVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 768.0
   - Name: ApplicationScreen1
+    Id: g=7c781c483cb7cc2978ea8b159bbb688f
     Type: ApplicationScreen
     Children:
     - Name: Panel_Center
+      Id: g=f3d4c3e805077fc18cac9de82615c4d7
       Type: Image
       Children:
       - Name: Path
+        Id: g=9dea170ef04bcdd99e5754a3d6ca95d2
         Type: BaseDataVariableType
         DataType: ResourceUri
         Value: "ns=18;%PROJECTDIR%/png/Panel_Center.png"
     - Name: ScreenLoader
+      Id: g=11a202f8926ddbe1aeab62aed8b4928d
       Type: PanelLoader
       Children:
       - Name: Panel
+        Id: g=0233594b95a68ff83aade3b7ac3cb746
         Type: NodePointer
         DataType: NodeId
         Value: "/Objects/HMIOptixStandard1/UI/Templates/Screens/Welcome"
         Children:
         - Name: Kind
+          Id: g=d76a3d96529251ee41c635ef5054df84
           Type: PropertyType
           DataType: NodeId
           Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
       - Name: CurrentPanel
+        Id: g=dfd13a17c912bfacc58eea267239ae78
         Type: NodePointer
         DataType: NodeId
         AccessLevel: Read
         Children:
         - Name: Kind
+          Id: g=05299c6f8e585787a43aba50f6f016f7
           Type: PropertyType
           DataType: NodeId
           Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
@@ -948,809 +1200,1041 @@ Children:
         Target: ns=5;i=478
         Direction: Forward
       - Name: LeftMargin
+        Id: g=065af1a24249055c2a5f902ca359b3d3
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 200.0
       - Name: TopMargin
+        Id: g=a94ea4d3f2fdba84ee1c71f615b43cb0
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 60.0
     - Name: Panel_Header
+      Id: g=5971630dc4c156af60e8bf633c6c068e
       Type: Image
       Children:
       - Name: Path
+        Id: g=ff1275f379c4cc1886a21f0d3047e740
         Type: BaseDataVariableType
         DataType: ResourceUri
         Value: "ns=18;%PROJECTDIR%/png/Panel_Header.png"
       - Name: Image1
+        Id: g=9fc728a363218a40e1fe6049ed1d189e
         Type: Image
         Children:
         - Name: Path
+          Id: g=91af874e2d52246a3bbdf14d19669c69
           Type: BaseDataVariableType
           DataType: ResourceUri
           Value: "ns=18;%PROJECTDIR%/images/FTIconOnly.svg"
       - Name: Factory
+        Id: g=4c0dd998cd2bdfedaeb743ef2d2ba77b
         Type: Label
       - Name: Talk
+        Id: g=740d3e24568551496bb3fd762efe3c7e
         Type: Label
       - Name: Optix
+        Id: g=b652e614854e72aa74227bf5458acc57
         Type: Label
       - Name: TM
+        Id: g=83b3ce78306eabdd51ba9f2185067f3e
         Type: Label
       - Name: R
+        Id: g=fca97cb418689486d566550e54d5e718
         Type: Label
       - Name: CenterText
+        Id: g=1c3574e8c5775f88b5642639de619920
         Type: Label
       - Name: CenterTextBelow
+        Id: g=18969f50bc19683b50e4f51ba24362b2
         Type: Label
     - Name: Panel_Menu_L
+      Id: g=85242c7aeeb1005777507dbf6c459c10
       Type: Rectangle
       Children:
       - Name: Panel_Menu_L_back
+        Id: g=7c5c56034ac58a9d0fff20bd9870de07
         Type: Image
         Children:
         - Name: Path
+          Id: g=98bf404fa8661284d487ddbc7dd6eb5d
           Type: BaseDataVariableType
           DataType: ResourceUri
           Value: "ns=18;%PROJECTDIR%/png/Panel_Left.png"
         - Name: Rockwell Automation
+          Id: g=455bfd5883b3ef37ca331bafe1809d38
           Type: Label
         - Name: expanding
+          Id: g=6bebe1a0d05f6721df3d80121922e3b3
           Type: Label
         - Name: human possibility
+          Id: g=55f8dbcf5ba9fe923dfc1cc9904f2333
           Type: Label
       - Name: VerticalLayout1
+        Id: g=9dc448b2c8bec6d59c3caa7da22faf16
         Type: ColumnLayout
         Children:
         - Name: 'SidePanelNavButton1-OEE'
+          Id: g=1bb3085c09094e7d4a60e5d12a57737b
           Type: SidePanelNavButton
           Children:
           - Name: HorizontalLayout
+            Id: g=7b14be19d481a9d4116e3c6e6b31a280
             Type: RowLayout
             Children:
             - Name: SelectionPanel
+              Id: g=fed7021cb5ed501df7d04828a152c388
               Type: Panel
               Children:
               - Name: SelectionIndicator
+                Id: g=72409ae32a0802e1863955c1a1afb718
                 Type: Rectangle
                 Children:
                 - Name: Visible
+                  Id: g=0e91d0a65f8a715700474fbde7810f0d
                   Type: BaseDataVariableType
                   DataType: Boolean
                   Value: true
                   Children:
                   - Name: ExpressionEvaluator1
+                    Id: g=3cd77d901795dc8a7f440aab1d385b97
                     Type: ExpressionEvaluator
                     Children:
                     - Name: Source0
+                      Id: g=435e23add2885a80bf18df1bad9ef6ff
                       Type: BaseDataVariableType
                       DataType: BaseDataType
                       ReferenceType: HasSource
                       Children:
                       - Name: DynamicLink
+                        Id: g=adc1547a5cd5d42c6fc9f9d21671390d
                         Type: DynamicLink
                         DataType: NodePath
                         Value: "../../../../../../Screen"
                     - Name: Source1
+                      Id: g=1dc5170abbd770ac4a98fbe170d32e14
                       Type: BaseDataVariableType
                       DataType: BaseDataType
                       ReferenceType: HasSource
                       Children:
                       - Name: DynamicLink
+                        Id: g=e3682fc609ec31ac321bf2037fe408a1
                         Type: DynamicLink
                         DataType: NodePath
                         Value: "{MainPanelLoader}/Panel"
             - Name: Icon
+              Id: g=04b50188cd5d618953ce04c715e23a2d
               Type: Image
               Children:
               - Name: Path
+                Id: g=53ee77ddd5054c866800275658dd8eab
                 Type: BaseDataVariableType
                 DataType: ResourceUri
                 Value: "ns=18;%PROJECTDIR%/icons/icon-process-data-overview.svg"
             - Name: Label
+              Id: g=8491baaad42036b1659ae580ff6ed7b2
               Type: Label
               Children:
               - Name: Text
+                Id: g=434a65289c80cd0ed04650cc2c93e276
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 Value: {"LocaleId":"en-US","Text":"OEE Dashboard"}
           - Name: Icon
+            Id: g=e75a727eb335c449fa0c219d0ee0b129
             Type: BaseDataVariableType
             DataType: ResourceUri
           - Name: NavButton
+            Id: g=8f45841c8fb01d2929ffdf46ff5e8599
             Type: Button
             Children:
             - Name: MouseClickEventHandler1
+              Id: g=aaf345bd9186d5dc63e003c885ea320c
               Type: EventHandler
               Children:
               - Name: ListenEventType
+                Id: g=82a5068b065da1003eac4d14256af3c8
                 Type: PropertyType
                 DataType: NodeId
                 Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
               - Name: MethodsToCall
+                Id: g=e08847efbd1124a0d1fe86ab0f7079b4
                 Type: BaseObjectType
                 Children:
                 - Name: MethodContainer1
+                  Id: g=9cfc806d3fe2f581facd7a74b28cebc9
                   Type: BaseObjectType
                   Children:
                   - Name: ObjectPointer
+                    Id: g=b4b6cf9fb1a984e8c613db066e41385f
                     Type: NodePointer
                     DataType: NodeId
                     Children:
                     - Name: Kind
+                      Id: g=dedd3a4329aabe09322b648b71b91803
                       Type: PropertyType
                       DataType: NodeId
                       Value: "/Types/ObjectTypes/BaseObjectType"
                     - Name: DynamicLink
+                      Id: g=dabc0ba71976ee1caa41f959f233ad73
                       Type: DynamicLink
                       DataType: NodePath
                       Value: "{ScreenLoader}@NodeId"
                   - Name: Method
+                    Id: g=7ab865a2352f19ec3856a8ae8026bba9
                     Type: BaseDataVariableType
                     DataType: String
                     Value: "ChangePanel"
                   - Name: InputArguments
+                    Id: g=1db8e5f95baa9261b5ec61d1ac516f3e
                     Type: BaseObjectType
                     Children:
                     - Name: NewPanel
+                      Id: g=9a6a9f7283b99b0af261c7ac7e7cd7ea
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Value: "/Objects/HMIOptixStandard1/UI/Pages/OEE01H"
                     - Name: AliasNode
+                      Id: g=cb09b6c7e53a19748f239974b1f24c97
                       Type: BaseDataVariableType
                       DataType: NodeId
                       ValueRank: ScalarOrOneDimension
               - Name: EventArguments
+                Id: g=fe7189ce775a3c41786f055441f882b8
                 Type: MouseClickEvent
                 Children:
                 - Name: EventId
+                  Id: g=eedd1fb71427c5e2e372c11f87dd99ef
                   Type: PropertyType
                   DataType: ByteString
                 - Name: EventType
+                  Id: g=71fcb8a2b49dc351a5b351e285189b5f
                   Type: PropertyType
                   DataType: NodeId
                 - Name: SourceNode
+                  Id: g=9524c3ab180f63c6eb7742b48d5dc638
                   Type: PropertyType
                   DataType: NodeId
                 - Name: SourceName
+                  Id: g=43bfd18777c22b0d3e3680e3fa2d00dc
                   Type: PropertyType
                   DataType: String
                 - Name: Time
+                  Id: g=7de367f804ce4f1cdb6afdbc686cf9fb
                   Type: PropertyType
                   DataType: UtcTime
                 - Name: ReceiveTime
+                  Id: g=9e1220426db446fdff5463adbe819f34
                   Type: PropertyType
                   DataType: UtcTime
                 - Name: Message
+                  Id: g=57061e286f391283d6f7707f02d9b0e8
                   Type: PropertyType
                   DataType: LocalizedText
                 - Name: Severity
+                  Id: g=020e75328efa072797c833a22767b306
                   Type: PropertyType
                   DataType: UInt16
           - Name: Screen
+            Id: g=5280380cae5eb9d6189a956939054132
             Type: Alias
             DataType: NodeId
             Children:
             - Name: Kind
+              Id: g=60faf0e5f8a32ccc6339e45e2d5f6efe
               Type: PropertyType
               DataType: NodeId
         - Name: 'SidePanelNavButton2-Machine'
+          Id: g=909e9656a5652e85efc1d5e2873dadcb
           Type: SidePanelNavButton
           Children:
           - Name: HorizontalLayout
+            Id: g=8a22b8d3a853f1efa897a04b55208af0
             Type: RowLayout
             Children:
             - Name: SelectionPanel
+              Id: g=b97d02d601fb072863af1bfd45cc13aa
               Type: Panel
               Children:
               - Name: SelectionIndicator
+                Id: g=bf9698b748bf86f2aeb115d296b601d2
                 Type: Rectangle
                 Children:
                 - Name: Visible
+                  Id: g=5520b1058cd0f173b764894087275ffd
                   Type: BaseDataVariableType
                   DataType: Boolean
                   Value: true
                   Children:
                   - Name: ExpressionEvaluator1
+                    Id: g=f7a98a5c31d70698284542eed68b4bc2
                     Type: ExpressionEvaluator
                     Children:
                     - Name: Source0
+                      Id: g=dbc28bcdcae38736851e99512b259831
                       Type: BaseDataVariableType
                       DataType: BaseDataType
                       ReferenceType: HasSource
                       Children:
                       - Name: DynamicLink
+                        Id: g=88205b557df6693bb7bc9f03bb4a0875
                         Type: DynamicLink
                         DataType: NodePath
                         Value: "../../../../../../Screen"
                     - Name: Source1
+                      Id: g=bcb9767ff5201399a93591f35af3072e
                       Type: BaseDataVariableType
                       DataType: BaseDataType
                       ReferenceType: HasSource
                       Children:
                       - Name: DynamicLink
+                        Id: g=4d0825d0bcf1623dd99f9f0dd8c0ad39
                         Type: DynamicLink
                         DataType: NodePath
                         Value: "{MainPanelLoader}/Panel"
             - Name: Icon
+              Id: g=328d72339fdf32378bd6add3990ae52c
               Type: Image
               Children:
               - Name: Path
+                Id: g=7489f2641c9d3bc01f761f0ab771623b
                 Type: BaseDataVariableType
                 DataType: ResourceUri
                 Value: "ns=18;%PROJECTDIR%/icons/icon-application-architecture.svg"
             - Name: Label
+              Id: g=064559462e6bc5e12314fcbe5c5321b2
               Type: Label
               Children:
               - Name: Text
+                Id: g=2df6a4e9b79d05203189c91816f6881a
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 Value: {"LocaleId":"en-US","Text":"Machine"}
           - Name: Icon
+            Id: g=5db6b035830c829ff510af591839dea1
             Type: BaseDataVariableType
             DataType: ResourceUri
           - Name: NavButton
+            Id: g=65d495bdee17c119ebd3b559d9fcd34b
             Type: Button
             Children:
             - Name: MouseClickEventHandler1
+              Id: g=078f7eb6c1ab748f187eec158e497a85
               Type: EventHandler
               Children:
               - Name: ListenEventType
+                Id: g=b7ac0fedc85cf5c5313350a46164077d
                 Type: PropertyType
                 DataType: NodeId
                 Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
               - Name: MethodsToCall
+                Id: g=1a50af3e62f254b463673703fb5e1e13
                 Type: BaseObjectType
                 Children:
                 - Name: MethodContainer1
+                  Id: g=638bd800161aad9665671f682e7b1b5f
                   Type: BaseObjectType
                   Children:
                   - Name: ObjectPointer
+                    Id: g=cf94d673b3f69a26147b023c14002bc8
                     Type: NodePointer
                     DataType: NodeId
                     Children:
                     - Name: Kind
+                      Id: g=76bb175c982454bd220091050be8aecf
                       Type: PropertyType
                       DataType: NodeId
                       Value: "/Types/ObjectTypes/BaseObjectType"
                     - Name: DynamicLink
+                      Id: g=c70befb9f7ebb4167ef452f034ae6a36
                       Type: DynamicLink
                       DataType: NodePath
                       Value: "{ScreenLoader}@NodeId"
                   - Name: Method
+                    Id: g=5d697f78f258a6c23ed51b3967823275
                     Type: BaseDataVariableType
                     DataType: String
                     Value: "ChangePanel"
                   - Name: InputArguments
+                    Id: g=dd6ee94e33b31df6f6f43fc591fe5372
                     Type: BaseObjectType
                     Children:
                     - Name: NewPanel
+                      Id: g=f706ebcf7ddf5d51459fe1342b0ee251
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Value: "/Objects/HMIOptixStandard1/UI/Pages/ControlHMI"
                     - Name: AliasNode
+                      Id: g=6df7bab252481028bfd9bc9e91da09ac
                       Type: BaseDataVariableType
                       DataType: NodeId
                       ValueRank: ScalarOrOneDimension
               - Name: EventArguments
+                Id: g=288efd564dc39fd912e33552272b0ecc
                 Type: MouseClickEvent
                 Children:
                 - Name: EventId
+                  Id: g=417b4797279727711531f425d006d46e
                   Type: PropertyType
                   DataType: ByteString
                 - Name: EventType
+                  Id: g=5577384018e3699476a404133d1638f1
                   Type: PropertyType
                   DataType: NodeId
                 - Name: SourceNode
+                  Id: g=d951b74dbe626e2eaa10edef95cccfce
                   Type: PropertyType
                   DataType: NodeId
                 - Name: SourceName
+                  Id: g=c9f6988e0debe0a0df31df00d2265d91
                   Type: PropertyType
                   DataType: String
                 - Name: Time
+                  Id: g=cfd289e1050f9aff3d42bb8a6d2f330a
                   Type: PropertyType
                   DataType: UtcTime
                 - Name: ReceiveTime
+                  Id: g=a6f8accc663a719d5a374d359dab782a
                   Type: PropertyType
                   DataType: UtcTime
                 - Name: Message
+                  Id: g=1e54e2a69bf6368e22f2ea5dc4d9688a
                   Type: PropertyType
                   DataType: LocalizedText
                 - Name: Severity
+                  Id: g=9f909df7c670a3c4fd869ce489c887a4
                   Type: PropertyType
                   DataType: UInt16
           - Name: Screen
+            Id: g=548b36188d34408fb7d8e54202287d8d
             Type: Alias
             DataType: NodeId
             Children:
             - Name: Kind
+              Id: g=64d0caa73eb2e78d85308c9d1e4d5d14
               Type: PropertyType
               DataType: NodeId
         - Name: 'SidePanelNavButton5-Status'
+          Id: g=55dbbee3b0feb4f2704ce45977e098bb
           Type: SidePanelNavButton
           Children:
           - Name: HorizontalLayout
+            Id: g=5beeb5b995b7a703b238ffd6a722194a
             Type: RowLayout
             Children:
             - Name: SelectionPanel
+              Id: g=ecfcfdd0e557ef21eb82ef0d41360678
               Type: Panel
               Children:
               - Name: SelectionIndicator
+                Id: g=461bd711d866293ff6596f9b50a72aea
                 Type: Rectangle
                 Children:
                 - Name: Visible
+                  Id: g=1a6f270a821fc9b51fab0e58e5fdaf1b
                   Type: BaseDataVariableType
                   DataType: Boolean
                   Value: true
                   Children:
                   - Name: ExpressionEvaluator1
+                    Id: g=e179dd79f0599792db42932337ead5bc
                     Type: ExpressionEvaluator
                     Children:
                     - Name: Source0
+                      Id: g=999029e123912b71cb972663c992b86c
                       Type: BaseDataVariableType
                       DataType: BaseDataType
                       ReferenceType: HasSource
                       Children:
                       - Name: DynamicLink
+                        Id: g=97af48ef4f278aafbc817cca97e2e27d
                         Type: DynamicLink
                         DataType: NodePath
                         Value: "../../../../../../Screen"
                     - Name: Source1
+                      Id: g=7871598874747236246c0036055eb858
                       Type: BaseDataVariableType
                       DataType: BaseDataType
                       ReferenceType: HasSource
                       Children:
                       - Name: DynamicLink
+                        Id: g=ee3144d5facb947d2e250c29c71ae5ee
                         Type: DynamicLink
                         DataType: NodePath
                         Value: "{MainPanelLoader}/Panel"
             - Name: Icon
+              Id: g=e1cd1f34ae31e2897a52428f3969450e
               Type: Image
               Children:
               - Name: Path
+                Id: g=d348f3f58548741dd029023e55045136
                 Type: BaseDataVariableType
                 DataType: ResourceUri
                 Value: "ns=18;%PROJECTDIR%/icons/icon-communication-architecture.svg"
             - Name: Label
+              Id: g=31b3472b5e7af9446a01c097905a1d40
               Type: Label
               Children:
               - Name: Text
+                Id: g=329229e9ea95fb8c0339cea57751d528
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 Value: {"LocaleId":"en-US","Text":"Status"}
           - Name: Icon
+            Id: g=7cc69a0d2433bad9df4a59561117fdc0
             Type: BaseDataVariableType
             DataType: ResourceUri
           - Name: NavButton
+            Id: g=69a5bc3a192ef8b0611d2f96a213c5b4
             Type: Button
             Children:
             - Name: MouseClickEventHandler1
+              Id: g=e53dbaf6edaa254913104cf3c68c6997
               Type: EventHandler
               Children:
               - Name: ListenEventType
+                Id: g=990134cad626611bacfc53f596232cf6
                 Type: PropertyType
                 DataType: NodeId
                 Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
               - Name: MethodsToCall
+                Id: g=29835e7aac778fdf0685e9e2b96553f8
                 Type: BaseObjectType
                 Children:
                 - Name: MethodContainer1
+                  Id: g=29c9eef06bae11503934085dc60433c5
                   Type: BaseObjectType
                   Children:
                   - Name: ObjectPointer
+                    Id: g=0c9faed1d85dfe03a0578586559948c8
                     Type: NodePointer
                     DataType: NodeId
                     Children:
                     - Name: Kind
+                      Id: g=0fbfd611490f1b55d24b77a982676efc
                       Type: PropertyType
                       DataType: NodeId
                       Value: "/Types/ObjectTypes/BaseObjectType"
                     - Name: DynamicLink
+                      Id: g=f4297c3f43e141b4501b4538e34d64d2
                       Type: DynamicLink
                       DataType: NodePath
                       Value: "{ScreenLoader}@NodeId"
                   - Name: Method
+                    Id: g=482a28b23f9fdb4ebdffe89266d01c6a
                     Type: BaseDataVariableType
                     DataType: String
                     Value: "ChangePanel"
                   - Name: InputArguments
+                    Id: g=d8455b1078187f8ac21f8c896ece9030
                     Type: BaseObjectType
                     Children:
                     - Name: NewPanel
+                      Id: g=b36d09f81e0e583b18f6e7f1e4cfe674
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Value: "/Objects/HMIOptixStandard1/UI/Pages/StatusMachine"
                     - Name: AliasNode
+                      Id: g=ae36b4724feca1f8eab4beb692ce3f55
                       Type: BaseDataVariableType
                       DataType: NodeId
                       ValueRank: ScalarOrOneDimension
               - Name: EventArguments
+                Id: g=d28dae7f1f6861708d253847d9beca0a
                 Type: MouseClickEvent
                 Children:
                 - Name: EventId
+                  Id: g=9abfeee2baf1871a43bf662e9f0b2b0f
                   Type: PropertyType
                   DataType: ByteString
                 - Name: EventType
+                  Id: g=b982a22e2c7e0f09528afda9d0a8f422
                   Type: PropertyType
                   DataType: NodeId
                 - Name: SourceNode
+                  Id: g=b9d6dcc283fd82724727fd7a97fe8309
                   Type: PropertyType
                   DataType: NodeId
                 - Name: SourceName
+                  Id: g=eb9966f09701d8dc4ea958c017ea5d64
                   Type: PropertyType
                   DataType: String
                 - Name: Time
+                  Id: g=11365992c766fe9f97b730ddb19dfd96
                   Type: PropertyType
                   DataType: UtcTime
                 - Name: ReceiveTime
+                  Id: g=60dd71c592c65a90d6a0d4e7a5dd969f
                   Type: PropertyType
                   DataType: UtcTime
                 - Name: Message
+                  Id: g=8dee3c406e94c5ac251767db9219f3e3
                   Type: PropertyType
                   DataType: LocalizedText
                 - Name: Severity
+                  Id: g=0122b9322b70442734ec782ac46d99fc
                   Type: PropertyType
                   DataType: UInt16
           - Name: Screen
+            Id: g=c0286eebf90ece1ff4ac82f2e0e35597
             Type: Alias
             DataType: NodeId
             Children:
             - Name: Kind
+              Id: g=07cd74c5fdec56d79536ac7e06172b53
               Type: PropertyType
               DataType: NodeId
-        - Name: 'SidePanelNavButton5-MQTT'
+        - Name: 'SidePanelNavButton5-DataLog'
+          Id: g=07ced980f777381e6c1d5c1bec1e06be
           Type: SidePanelNavButton
           Children:
           - Name: HorizontalLayout
+            Id: g=7966c2d062844627ed7d3bd21b66ebb8
             Type: RowLayout
             Children:
             - Name: SelectionPanel
+              Id: g=a96429c0903773d2452f1118bf152b1c
               Type: Panel
               Children:
               - Name: SelectionIndicator
+                Id: g=35abbc4cc64fa0ec6fe01db6b06d5989
                 Type: Rectangle
                 Children:
                 - Name: Visible
+                  Id: g=6a9a1ef6bdf9e2dad81c0982bd2d7773
                   Type: BaseDataVariableType
                   DataType: Boolean
                   Value: true
                   Children:
                   - Name: ExpressionEvaluator1
+                    Id: g=db22926e6a7c4d6df3f133a986dc92c8
                     Type: ExpressionEvaluator
                     Children:
                     - Name: Source0
+                      Id: g=13e05cfccd5f59bd23a4612f983b893f
                       Type: BaseDataVariableType
                       DataType: BaseDataType
                       ReferenceType: HasSource
                       Children:
                       - Name: DynamicLink
+                        Id: g=92bc443dc40581135f2a7e57fd392f32
                         Type: DynamicLink
                         DataType: NodePath
                         Value: "../../../../../../Screen"
                     - Name: Source1
+                      Id: g=636a9fbb47a783b2e5c3f6d622c1c84f
                       Type: BaseDataVariableType
                       DataType: BaseDataType
                       ReferenceType: HasSource
                       Children:
                       - Name: DynamicLink
+                        Id: g=f93c8a0b97a12c601516bba434e89adc
                         Type: DynamicLink
                         DataType: NodePath
                         Value: "{MainPanelLoader}/Panel"
             - Name: Icon
+              Id: g=3636a1acdedc1677f41dc755b6281a28
               Type: Image
               Children:
               - Name: Path
+                Id: g=a90e1de7efdc3013ce166257ea8afeb6
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/icons/Searches32x.svg"
+            - Name: Label
+              Id: g=171e3af5ab37b2dec2fdf92a5b211e7d
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=d396785638b67d4aaafdd40913edd2e6
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"LocaleId":"en-US","Text":"DataLog"}
+          - Name: Icon
+            Id: g=1c6cabada2bf2516e0a50c8f990f444d
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+          - Name: NavButton
+            Id: g=d75a5058ffb56655dccbe006e709f3fa
+            Type: Button
+            Children:
+            - Name: MouseClickEventHandler1
+              Id: g=80882b36cfe7faee968555a344a2ffb5
+              Type: EventHandler
+              Children:
+              - Name: ListenEventType
+                Id: g=1933bebbb858909ccbd059474b1e0c81
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+              - Name: MethodsToCall
+                Id: g=fffaaaad65b56739819636ded2400dd2
+                Type: BaseObjectType
+                Children:
+                - Name: MethodContainer1
+                  Id: g=6e9bc530c20cd88481b17e4885d40f6c
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ObjectPointer
+                    Id: g=20a315aae80ac9720edfc698d1395e24
+                    Type: NodePointer
+                    DataType: NodeId
+                    Children:
+                    - Name: Kind
+                      Id: g=a745c697edbbeae13ca8c22baf5b5520
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                    - Name: DynamicLink
+                      Id: g=e5635d8a4ba6797a3e0fe551a6c1aacf
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "{ScreenLoader}@NodeId"
+                  - Name: Method
+                    Id: g=caa23e57ef01c20c5bb89fcc6ebbd59b
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "ChangePanel"
+                  - Name: InputArguments
+                    Id: g=c695fd72251074af73e3a98069a8e254
+                    Type: BaseObjectType
+                    Children:
+                    - Name: NewPanel
+                      Id: g=b2984b8720777295db388246af60afc2
+                      Type: BaseDataVariableType
+                      DataType: NodeId
+                      Value: "/Objects/HMIOptixStandard1/UI/Pages/DataOEE01H"
+                    - Name: AliasNode
+                      Id: g=942de454c778b06051fc2f1021a38527
+                      Type: BaseDataVariableType
+                      DataType: NodeId
+                      ValueRank: ScalarOrOneDimension
+              - Name: EventArguments
+                Id: g=f6ed0a0692e7f6e7e58d39f4043cd95c
+                Type: MouseClickEvent
+                Children:
+                - Name: EventId
+                  Id: g=5b7bc3d83c9ad45b219311b00fb16e5d
+                  Type: PropertyType
+                  DataType: ByteString
+                - Name: EventType
+                  Id: g=398eeb9324a87df4ad3fcbf32ece6c36
+                  Type: PropertyType
+                  DataType: NodeId
+                - Name: SourceNode
+                  Id: g=a75e2c7d0350d50d3fc8265e86c311f8
+                  Type: PropertyType
+                  DataType: NodeId
+                - Name: SourceName
+                  Id: g=127cc93e97829b435d79791332fcc53d
+                  Type: PropertyType
+                  DataType: String
+                - Name: Time
+                  Id: g=b3b9717623124cdd41cfd69c8773d381
+                  Type: PropertyType
+                  DataType: UtcTime
+                - Name: ReceiveTime
+                  Id: g=a4c08fbad3dfd10956cbf9f78176cf01
+                  Type: PropertyType
+                  DataType: UtcTime
+                - Name: Message
+                  Id: g=e5d1376fadf8bdae2522d787925ae4d0
+                  Type: PropertyType
+                  DataType: LocalizedText
+                - Name: Severity
+                  Id: g=6a622ba486efaa89a55a72b16532f324
+                  Type: PropertyType
+                  DataType: UInt16
+          - Name: Screen
+            Id: g=cd185d2fa7889adfa783cf9cae291e1a
+            Type: Alias
+            DataType: NodeId
+            Children:
+            - Name: Kind
+              Id: g=62542897aeab9d37c195ae6e671bcc04
+              Type: PropertyType
+              DataType: NodeId
+        - Name: 'SidePanelNavButton5-MQTT'
+          Id: g=dd0bedd53585ec5ddc9dde788c3ba176
+          Type: SidePanelNavButton
+          Children:
+          - Name: HorizontalLayout
+            Id: g=71c10ade0aa1e55af9995a15c96bba9e
+            Type: RowLayout
+            Children:
+            - Name: SelectionPanel
+              Id: g=521561883156499319d029ca6ba98473
+              Type: Panel
+              Children:
+              - Name: SelectionIndicator
+                Id: g=d74ce1cb447162cf2fb37be1f2439818
+                Type: Rectangle
+                Children:
+                - Name: Visible
+                  Id: g=741ce85e587a2a9e461f6d470e7f9c22
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Value: true
+                  Children:
+                  - Name: ExpressionEvaluator1
+                    Id: g=b5cfb1391a2b3acdaa1590d797b3dc82
+                    Type: ExpressionEvaluator
+                    Children:
+                    - Name: Source0
+                      Id: g=6c9ad44cc240d29d57470c399c8b8e1c
+                      Type: BaseDataVariableType
+                      DataType: BaseDataType
+                      ReferenceType: HasSource
+                      Children:
+                      - Name: DynamicLink
+                        Id: g=f2f886a2e286195f0f216db16ee2ab2f
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../../../../../Screen"
+                    - Name: Source1
+                      Id: g=3bc51fd8de08c964cf2ae77a60cf656c
+                      Type: BaseDataVariableType
+                      DataType: BaseDataType
+                      ReferenceType: HasSource
+                      Children:
+                      - Name: DynamicLink
+                        Id: g=f4c49380c6b77bd44bea0829a24c55fd
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "{MainPanelLoader}/Panel"
+            - Name: Icon
+              Id: g=a4ee0ba3f4be57fe0e0bb41408ddf0e3
+              Type: Image
+              Children:
+              - Name: Path
+                Id: g=9ab9bd65829910e932e3b8d1364677c2
                 Type: BaseDataVariableType
                 DataType: ResourceUri
                 Value: "ns=18;%PROJECTDIR%/icons/IoT32x.svg"
             - Name: Label
+              Id: g=c6a256255dbd4a630d058b82fdc73a87
               Type: Label
               Children:
               - Name: Text
+                Id: g=593a80f0dd46e0c50014dd727a35e35d
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 Value: {"LocaleId":"en-US","Text":"MQTT"}
           - Name: Icon
+            Id: g=4cb78f4fa37ac22dc832ca498e39ddc1
             Type: BaseDataVariableType
             DataType: ResourceUri
           - Name: NavButton
+            Id: g=7072394094bee256870c727792380584
             Type: Button
             Children:
             - Name: MouseClickEventHandler1
+              Id: g=4c50da7747a17e1e8def71072792f45b
               Type: EventHandler
               Children:
               - Name: ListenEventType
+                Id: g=5d051cb8d4ca6b92848e6a02e5a4faf9
                 Type: PropertyType
                 DataType: NodeId
                 Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
               - Name: MethodsToCall
+                Id: g=fcd7b8f614fc8027f4b5360944a14acd
                 Type: BaseObjectType
                 Children:
                 - Name: MethodContainer1
+                  Id: g=402e677194f6a30112e2acf5e9b427f4
                   Type: BaseObjectType
                   Children:
                   - Name: ObjectPointer
+                    Id: g=da3b8e80b41ca056cf3aa10b1eee11b8
                     Type: NodePointer
                     DataType: NodeId
                     Children:
                     - Name: Kind
+                      Id: g=765f979c553a83b2f81f74e21deea7e0
                       Type: PropertyType
                       DataType: NodeId
                       Value: "/Types/ObjectTypes/BaseObjectType"
                     - Name: DynamicLink
+                      Id: g=3da787faf75f61ecc12a3b5b6de4bd9e
                       Type: DynamicLink
                       DataType: NodePath
                       Value: "{ScreenLoader}@NodeId"
                   - Name: Method
+                    Id: g=5e7974709a8ebe31522f06fcf756a85f
                     Type: BaseDataVariableType
                     DataType: String
                     Value: "ChangePanel"
                   - Name: InputArguments
+                    Id: g=6d7da5e5f6d840ee191288c67f82148f
                     Type: BaseObjectType
                     Children:
                     - Name: NewPanel
+                      Id: g=80e636d08ec985265459e4c9a6174fdc
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Value: "/Objects/HMIOptixStandard1/UI/Templates/Screens/MQTT_Chat"
                     - Name: AliasNode
+                      Id: g=8a49b3f407dbca4e39ce2b6ebeb485f1
                       Type: BaseDataVariableType
                       DataType: NodeId
                       ValueRank: ScalarOrOneDimension
               - Name: EventArguments
+                Id: g=66819636eb3b63738c904c5b82e4898b
                 Type: MouseClickEvent
                 Children:
                 - Name: EventId
+                  Id: g=155d224d2d94080aa2b111bb7e7bb845
                   Type: PropertyType
                   DataType: ByteString
                 - Name: EventType
+                  Id: g=10345ac063a6ff6cdd7930466aa26e1a
                   Type: PropertyType
                   DataType: NodeId
                 - Name: SourceNode
+                  Id: g=2fe3d9677788943eafe1bfe531eb63bf
                   Type: PropertyType
                   DataType: NodeId
                 - Name: SourceName
+                  Id: g=60127441502549831ba973062110fa68
                   Type: PropertyType
                   DataType: String
                 - Name: Time
+                  Id: g=d75bf225001e543aefcdcdc7cc50fce4
                   Type: PropertyType
                   DataType: UtcTime
                 - Name: ReceiveTime
+                  Id: g=d2c57945928ca95f5022f8cb49dc7975
                   Type: PropertyType
                   DataType: UtcTime
                 - Name: Message
+                  Id: g=9530b9f63a76e2709af741cbde64f0b3
                   Type: PropertyType
                   DataType: LocalizedText
                 - Name: Severity
+                  Id: g=db235c38687927451be90d680ad0513e
                   Type: PropertyType
                   DataType: UInt16
           - Name: Screen
+            Id: g=a05e1b0ba1cd1b7fb3be624c072ee84a
             Type: Alias
             DataType: NodeId
             Children:
             - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-        - Name: 'SidePanelNavButton5-Alarms'
-          Type: SidePanelNavButton
-          Children:
-          - Name: HorizontalLayout
-            Type: RowLayout
-            Children:
-            - Name: SelectionPanel
-              Type: Panel
-              Children:
-              - Name: SelectionIndicator
-                Type: Rectangle
-                Children:
-                - Name: Visible
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  Value: true
-                  Children:
-                  - Name: ExpressionEvaluator1
-                    Type: ExpressionEvaluator
-                    Children:
-                    - Name: Source0
-                      Type: BaseDataVariableType
-                      DataType: BaseDataType
-                      ReferenceType: HasSource
-                      Children:
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "../../../../../../Screen"
-                    - Name: Source1
-                      Type: BaseDataVariableType
-                      DataType: BaseDataType
-                      ReferenceType: HasSource
-                      Children:
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "{MainPanelLoader}/Panel"
-            - Name: Icon
-              Type: Image
-              Children:
-              - Name: Path
-                Type: BaseDataVariableType
-                DataType: ResourceUri
-                Value: "ns=18;%PROJECTDIR%/icons/icon-alarms.svg"
-            - Name: Label
-              Type: Label
-              Children:
-              - Name: Text
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                Value: {"NamespaceIndex":18,"TextId":"AlarmState"}
-          - Name: Icon
-            Type: BaseDataVariableType
-            DataType: ResourceUri
-          - Name: NavButton
-            Type: Button
-            Children:
-            - Name: MouseClickEventHandler1
-              Type: EventHandler
-              Children:
-              - Name: ListenEventType
-                Type: PropertyType
-                DataType: NodeId
-                Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
-              - Name: MethodsToCall
-                Type: BaseObjectType
-                Children:
-                - Name: MethodContainer1
-                  Type: BaseObjectType
-                  Children:
-                  - Name: ObjectPointer
-                    Type: NodePointer
-                    DataType: NodeId
-                    Children:
-                    - Name: Kind
-                      Type: PropertyType
-                      DataType: NodeId
-                      Value: "/Types/ObjectTypes/BaseObjectType"
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "{ScreenLoader}@NodeId"
-                  - Name: Method
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "ChangePanel"
-                  - Name: InputArguments
-                    Type: BaseObjectType
-                    Children:
-                    - Name: NewPanel
-                      Type: BaseDataVariableType
-                      DataType: NodeId
-                      Value: "/Objects/HMIOptixStandard1/UI/Templates/Screens/Alarms"
-                    - Name: AliasNode
-                      Type: BaseDataVariableType
-                      DataType: NodeId
-                      ValueRank: ScalarOrOneDimension
-              - Name: EventArguments
-                Type: MouseClickEvent
-                Children:
-                - Name: EventId
-                  Type: PropertyType
-                  DataType: ByteString
-                - Name: EventType
-                  Type: PropertyType
-                  DataType: NodeId
-                - Name: SourceNode
-                  Type: PropertyType
-                  DataType: NodeId
-                - Name: SourceName
-                  Type: PropertyType
-                  DataType: String
-                - Name: Time
-                  Type: PropertyType
-                  DataType: UtcTime
-                - Name: ReceiveTime
-                  Type: PropertyType
-                  DataType: UtcTime
-                - Name: Message
-                  Type: PropertyType
-                  DataType: LocalizedText
-                - Name: Severity
-                  Type: PropertyType
-                  DataType: UInt16
-          - Name: Screen
-            Type: Alias
-            DataType: NodeId
-            Children:
-            - Name: Kind
+              Id: g=afc33efa7538ed3e6feade4f91844c82
               Type: PropertyType
               DataType: NodeId
     - Name: Panel_Footer
+      Id: g=8f80c7a60f6d96f4f7b3f4af23348b69
       Type: Image
       Children:
       - Name: Path
+        Id: g=56c423ecdd5bb2d1928d28aeeb835bb1
         Type: BaseDataVariableType
         DataType: ResourceUri
         Value: "ns=18;%PROJECTDIR%/png/Panel_Footer.png"
       - Name: AlarmBanner1
+        Id: g=89da3d462a4074c8e60da6750571e169
         Type: RowLayout
         WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
         Children:
         - Name: CurrentAlarmText
+          Id: g=2661498928e745bf3633e728a3bc4f2a
           Type: Label
           Children:
           - Name: Text
+            Id: g=cff583d5b78b56c7b11398e110f99a78
             Type: BaseDataVariableType
             DataType: LocalizedText
             Value: {"LocaleId":"en-US","Text":"####"}
             Children:
             - Name: StringFormatter1
+              Id: g=4cb5a74a3b609191ed9e6a29f4749273
               Type: StringFormatter
               Children:
               - Name: Source0
+                Id: g=0928ddf7e7b233a598f24187ea8303f5
                 Type: BaseDataVariableType
                 DataType: BaseDataType
                 ReferenceType: HasSource
                 Children:
                 - Name: ExpressionEvaluator1
+                  Id: g=8737b0c71deac77157db901dfdf983dd
                   Type: ExpressionEvaluator
                   Children:
                   - Name: Source0
+                    Id: g=dd1b577e58461c2828d7b0d418827fd7
                     Type: BaseDataVariableType
                     DataType: BaseDataType
                     ReferenceType: HasSource
                     Children:
                     - Name: DynamicLink
+                      Id: g=15820f61fc8f678dedf40516d132bd86
                       Type: DynamicLink
                       DataType: NodePath
                       Value: "../../../../../../AlarmBannerLogic/CurrentDisplayedAlarm/Time"
                   - Name: Source1
+                    Id: g=d47567d1e89d89ed16895d7bc992496d
                     Type: BaseDataVariableType
                     DataType: BaseDataType
                     ReferenceType: HasSource
                     Children:
                     - Name: DynamicLink
+                      Id: g=b2e8a7324016697164ea86ac958b63d5
                       Type: DynamicLink
                       DataType: NodePath
                       Value: "../../../../../../AlarmBannerLogic/CurrentDisplayedAlarm/LocalTime"
               - Name: Source1
+                Id: g=c149f1d954714e71fd03a0d0d3402b1c
                 Type: BaseDataVariableType
                 DataType: BaseDataType
                 ReferenceType: HasSource
                 Children:
                 - Name: DynamicLink
+                  Id: g=8afa026a9c3a3daa0ec37a57be3c9de5
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../AlarmBannerLogic/CurrentDisplayedAlarm/Message"
           - Name: Visible
+            Id: g=26a3ccc989bbac1288de0c1003a888dc
             Type: BaseDataVariableType
             DataType: Boolean
             Value: true
             Children:
             - Name: ExpressionEvaluator1
+              Id: g=7905904fa6491024331d16f6bf1660df
               Type: ExpressionEvaluator
               Children:
               - Name: Source0
+                Id: g=b35c3a3322049897a06c3d14ca51b8d7
                 Type: BaseDataVariableType
                 DataType: BaseDataType
                 ReferenceType: HasSource
                 Children:
                 - Name: DynamicLink
+                  Id: g=77f45db96f05ec75a626441f2ebef679
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../AlarmBannerLogic/AlarmCount"
           - Name: Opacity
+            Id: g=7e2e4fce95975396463e4fb329700404
             Type: BaseVariableType
             DataType: Float
             Value: 100.0
           - Name: Blink
+            Id: g=8c1810521a6a0e3765985b4ead9b75f7
             Type: BaseDataVariableType
             DataType: Boolean
             Children:
             - Name: DynamicLink
+              Id: g=ffcf8c7eaf0ff00d034f879a12683e3b
               Type: DynamicLink
               DataType: NodePath
               Value: "../../BlinkEnabled"
         - Name: AlarmBannerLogic
+          Id: g=cda82a6bf910d4156f4997280acf9993
           Type: NetLogic
           Children:
           - Class: Reference
@@ -1760,197 +2244,253 @@ Children:
             Target: g=9c3640bdd85b2212772aa25b33e9eee1
             Direction: Forward
           - Name: AlarmCount
+            Id: g=aea8f70cdac00344139f489bd6f0519d
             Type: BaseDataVariableType
             DataType: Int32
           - Name: CurrentDisplayedAlarm
+            Id: g=553431fe3ce47f0e882bf2934f779d8b
             Type: NodePointer
             DataType: NodeId
             Children:
             - Name: Kind
+              Id: g=51cf4c762c56ed1e49dc21b30bac1868
               Type: PropertyType
               DataType: NodeId
               Value: "/Types/EventTypes/BaseEventType/ConditionType/AcknowledgeableConditionType/AlarmConditionType"
           - Name: CurrentDisplayedAlarmIndex
+            Id: g=66e5d49bebfa0df1f8045e1f638c1d3c
             Type: BaseDataVariableType
             DataType: Int32
           - Name: RotationTime
+            Id: g=b53d3832c8bd9d2c8672d52edf6fcfac
             Type: BaseDataVariableType
             DataType: Duration
             Children:
             - Name: DynamicLink
+              Id: g=2a995653712e2a3026fb5e0e9d68886f
               Type: DynamicLink
               DataType: NodePath
               Value: "../../RotationTime"
         - Name: RotationTime
+          Id: g=b4a603a31ce32959288e3fa9d0fdce6b
           Type: BaseDataVariableType
           DataType: Duration
           Value: "0:00:00:05.0000000"
         - Name: BlinkEnabled
+          Id: g=e4fc899827f6bb6fc20dcf274b62d097
           Type: BaseDataVariableType
           DataType: Boolean
           Value: true
         - Name: PreviousAlarm
+          Id: g=180b1ae5cbef3162196bc7f0f5c139c7
           Type: Button
           Children:
           - Name: EventHandler1
+            Id: g=4066d8f14812953fe86be62a9a8ad7f0
             Type: EventHandler
             Children:
             - Name: ListenEventType
+              Id: g=3466e2a584c6c8f7d38f49d8a04e3b68
               Type: PropertyType
               DataType: NodeId
               Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
             - Name: MethodsToCall
+              Id: g=44b32ba4f0936bcd3fc52cfed115de43
               Type: BaseObjectType
               Children:
               - Name: MethodContainer1
+                Id: g=aa59ca0d524d9d0553569e7ef0129c74
                 Type: BaseObjectType
                 Children:
                 - Name: ObjectPointer
+                  Id: g=0b240f071f4d00ec9d0275a46e3ddb72
                   Type: NodePointer
                   DataType: NodeId
                   Children:
                   - Name: Kind
+                    Id: g=988f515196d0525ba56c8b3fc0cfddb9
                     Type: PropertyType
                     DataType: NodeId
                     Value: "/Types/ObjectTypes/BaseObjectType"
                   - Name: DynamicLink
+                    Id: g=6ba85b11422792f6a2223d253da02e34
                     Type: DynamicLink
                     DataType: NodePath
                     Value: "../../../../../AlarmBannerLogic@NodeId"
                 - Name: Method
+                  Id: g=9e7dc80528c8087c6e67473df3589a8e
                   Type: BaseDataVariableType
                   DataType: String
                   Value: "PreviousAlarm"
             - Name: EventArguments
+              Id: g=bf5851b8e88ffcacdfdb728a29f6af0e
               Type: MouseClickEvent
               Children:
               - Name: EventId
+                Id: g=df0e0231939dbc28442ca802d0215c0a
                 Type: PropertyType
                 DataType: ByteString
               - Name: EventType
+                Id: g=65757951a415dc208e1124b17b60e381
                 Type: PropertyType
                 DataType: NodeId
               - Name: SourceNode
+                Id: g=f17e18d0e81825ccdfc3db0bab741604
                 Type: PropertyType
                 DataType: NodeId
               - Name: SourceName
+                Id: g=0d31684105f7e6a5be2bf7ad44c1edd4
                 Type: PropertyType
                 DataType: String
               - Name: Time
+                Id: g=208569198d7177e8b5ce9b55ba137058
                 Type: PropertyType
                 DataType: UtcTime
               - Name: ReceiveTime
+                Id: g=674a0c0f869c6f3234efd3e80d0be581
                 Type: PropertyType
                 DataType: UtcTime
               - Name: Message
+                Id: g=ec2968057a88d3312e30101fa988a960
                 Type: PropertyType
                 DataType: LocalizedText
               - Name: Severity
+                Id: g=552268d5edd78a2ec5a2304467d6ce36
                 Type: PropertyType
                 DataType: UInt16
           - Name: Visible
+            Id: g=0f962e0ae58b721351a33f2c57fd08a8
             Type: BaseDataVariableType
             DataType: Boolean
             Value: true
             Children:
             - Name: ExpressionEvaluator1
+              Id: g=8e82d061d996f53fe675a53fa1b6a8a3
               Type: ExpressionEvaluator
               Children:
               - Name: Source0
+                Id: g=6993e240a62284c9a7b9f659fa0a191a
                 Type: BaseDataVariableType
                 DataType: BaseDataType
                 ReferenceType: HasSource
                 Children:
                 - Name: DynamicLink
+                  Id: g=c3b6e0c3b5a01d6ec528a0879fc25d73
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../AlarmBannerLogic/AlarmCount"
         - Name: NextAlarm
+          Id: g=1dfac6a4b330f720eae61a8e1865a147
           Type: Button
           Children:
           - Name: EventHandler1
+            Id: g=419e54d01a2abd1010faecf701da9ad7
             Type: EventHandler
             Children:
             - Name: ListenEventType
+              Id: g=9e0d2c192b4943dd91a44ae919b746ff
               Type: PropertyType
               DataType: NodeId
               Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
             - Name: MethodsToCall
+              Id: g=51376694721c738e1fc6ed7503446fa5
               Type: BaseObjectType
               Children:
               - Name: MethodContainer1
+                Id: g=2729bb775fbd7ada9c03e08d64d60e3b
                 Type: BaseObjectType
                 Children:
                 - Name: ObjectPointer
+                  Id: g=057989f8881965cf5db00f88cc367b5f
                   Type: NodePointer
                   DataType: NodeId
                   Children:
                   - Name: Kind
+                    Id: g=eb218bc57fd5e1e5f10fe78c1ecfd529
                     Type: PropertyType
                     DataType: NodeId
                     Value: "/Types/ObjectTypes/BaseObjectType"
                   - Name: DynamicLink
+                    Id: g=ae69cdee0983330ef18fedcd4b00d54d
                     Type: DynamicLink
                     DataType: NodePath
                     Value: "../../../../../AlarmBannerLogic@NodeId"
                 - Name: Method
+                  Id: g=af2f016c2e7da587c36160f1d007e0d9
                   Type: BaseDataVariableType
                   DataType: String
                   Value: "NextAlarm"
             - Name: EventArguments
+              Id: g=a971a2ab99d4139ba9c6d97aa9862236
               Type: MouseClickEvent
               Children:
               - Name: EventId
+                Id: g=e273e4242781527be4ccfc53be16b46a
                 Type: PropertyType
                 DataType: ByteString
               - Name: EventType
+                Id: g=43a2bbd207e7d0aa7b645765c0a601dc
                 Type: PropertyType
                 DataType: NodeId
               - Name: SourceNode
+                Id: g=2ac16153daeecc6aae6acab6e1c8e182
                 Type: PropertyType
                 DataType: NodeId
               - Name: SourceName
+                Id: g=82f3e0fc571dee3e3c24e463b1f9ccf8
                 Type: PropertyType
                 DataType: String
               - Name: Time
+                Id: g=b85f5fdf1229948579c9f0cc61253b69
                 Type: PropertyType
                 DataType: UtcTime
               - Name: ReceiveTime
+                Id: g=7305d1937a0e995603a416b7778d95f8
                 Type: PropertyType
                 DataType: UtcTime
               - Name: Message
+                Id: g=dbf42877b29a25b5c6bb1faa6001a1ae
                 Type: PropertyType
                 DataType: LocalizedText
               - Name: Severity
+                Id: g=a9a9bae6839ec839b745c4edb3fb89e9
                 Type: PropertyType
                 DataType: UInt16
           - Name: Visible
+            Id: g=7fed1e4bea37cacf93993adf34bed59b
             Type: BaseDataVariableType
             DataType: Boolean
             Value: true
             Children:
             - Name: ExpressionEvaluator1
+              Id: g=26bafba1749e3cd9073f1996ed8558dc
               Type: ExpressionEvaluator
               Children:
               - Name: Source0
+                Id: g=5fd424f738cf0d19ffb9ec4a6379cc37
                 Type: BaseDataVariableType
                 DataType: BaseDataType
                 ReferenceType: HasSource
                 Children:
                 - Name: DynamicLink
+                  Id: g=a7f3dcd1f4926352c5c33ca40dca20f7
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../AlarmBannerLogic/AlarmCount"
       - Name: RALogo
+        Id: g=4c38376aa8bb1d4237d1b8a7ca958303
         Type: Image
         Children:
         - Name: Path
+          Id: g=07d29e8b646db3cfe4d7e4a91541f1a8
           Type: BaseDataVariableType
           DataType: ResourceUri
           Value: "ns=18;%PROJECTDIR%/images/RAIconOnly.svg"
       - Name: Label1
+        Id: g=8d8eab3e9e1e94ccba4dec2d7e482631
         Type: Label
       - Name: Label2
+        Id: g=87232bb68b449d30adf4417a510d79c2
         Type: Label
 - File: Screens/Screens.yaml
 - File: SettingsWidgets/SettingsWidgets.yaml

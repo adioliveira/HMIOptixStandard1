@@ -1,4 +1,5 @@
 Name: Screens
+Id: g=b57e50d7b996906e33ef8bba89c5f051
 Type: ScreensCategoryFolder
 Children:
 - Name: Page
@@ -7,11 +8,13 @@ Children:
   ReferenceType: HasComponent
   Children:
   - Name: LeftMargin
+    Id: g=3c256c8d12fe58ccc6efe6e68b7c8713
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 10.0
   - Name: TopMargin
+    Id: g=8fc6d319add5c177b9febf792fb02fd1
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
@@ -22,6 +25,7 @@ Children:
   ReferenceType: HasComponent
   Children:
   - Name: BackgroundColor
+    Id: g=aac870d7cb3eaf555c236155f4ffcb1e
     Type: BaseDataVariableType
     DataType: Color
     ModellingRule: Optional

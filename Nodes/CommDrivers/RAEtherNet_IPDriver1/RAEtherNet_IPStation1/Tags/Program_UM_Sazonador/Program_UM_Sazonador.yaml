@@ -1,90 +1,113 @@
 Name: 'Program:UM_Sazonador'
+Id: g=e77e1fc63fba3031a0db5325c35010a5
 Type: FolderType
 Children:
 - Name: ModeStateModel
+  Id: g=8ae30382cdf02d856df61025a99fc44f
   Type: RAEtherNetIPTagStructure
   DataType: raM_Opr_ISATR880002_2015
   Children:
   - Name: SymbolName
+    Id: g=73236ecfbf80af06bf85340258d669cc
     Type: BaseDataVariableType
     DataType: String
     Value: "Program:UM_Sazonador.ModeStateModel"
   - Name: BlockRead
+    Id: g=5ee00f3479a9de1bbcade962bcd69079
     Type: BaseDataVariableType
     DataType: Boolean
   - Name: Out_bState
+    Id: g=22b0d92762c2e711f66c0f08e59423a7
     Type: RAEtherNetIPTag
     DataType: Int32
     Children:
     - Name: SymbolName
+      Id: g=085d3579590766a6545c034cd1cb99e7
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:UM_Sazonador.ModeStateModel.Out_bState"
   - Name: Sts_bEnabledStates
+    Id: g=d9a5c31c2ff33973170828264c954af2
     Type: RAEtherNetIPTag
     DataType: Int32
     Children:
     - Name: SymbolName
+      Id: g=e9233f532fe349ce1d4ac49c3fdf0020
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:UM_Sazonador.ModeStateModel.Sts_bEnabledStates"
   - Name: OriginalTypeId
+    Id: g=b7549118e73b4702770a74f64802967b
     Type: BaseDataVariableType
     DataType: NodeId
     Value: "/Objects/HMIOptixStandard1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/raM_Opr_ISATR880002_2015"
 - Name: OCmd_Clear
+  Id: g=7fe1e7e5af305dcc484a54f38838864e
   Type: RAEtherNetIPTag
   DataType: Boolean
   Children:
   - Name: SymbolName
+    Id: g=85fa803ef4cd6aaa97de3014647d65b7
     Type: BaseDataVariableType
     DataType: String
     Value: "Program:UM_Sazonador.OCmd_Clear"
 - Name: OCmd_Hold
+  Id: g=1aff938e0e2929ef8a62366de3f53729
   Type: RAEtherNetIPTag
   DataType: Boolean
   Children:
   - Name: SymbolName
+    Id: g=fee5e1d6c09012d520301b70dadf8e00
     Type: BaseDataVariableType
     DataType: String
     Value: "Program:UM_Sazonador.OCmd_Hold"
 - Name: OCmd_Reset
+  Id: g=14cf40ef885428871e2428cc3c4d2c7e
   Type: RAEtherNetIPTag
   DataType: Boolean
   Children:
   - Name: SymbolName
+    Id: g=8216c270521c88f18ed009be3f7c5bd6
     Type: BaseDataVariableType
     DataType: String
     Value: "Program:UM_Sazonador.OCmd_Reset"
 - Name: OCmd_Start
+  Id: g=6c0a20e965b82bf7831e8ecb67ab47c8
   Type: RAEtherNetIPTag
   DataType: Boolean
   Children:
   - Name: SymbolName
+    Id: g=fbff8a2782e733cad69648de48fd3ccc
     Type: BaseDataVariableType
     DataType: String
     Value: "Program:UM_Sazonador.OCmd_Start"
 - Name: OCmd_Stop
+  Id: g=c385b78df6eb9916726e1c767fb33602
   Type: RAEtherNetIPTag
   DataType: Boolean
   Children:
   - Name: SymbolName
+    Id: g=089f9be2a7c2ac4cd156b21ea9725ed6
     Type: BaseDataVariableType
     DataType: String
     Value: "Program:UM_Sazonador.OCmd_Stop"
 - Name: OCmd_UnHold
+  Id: g=95a00ac4133eb9c32fbbc0c00c1a209d
   Type: RAEtherNetIPTag
   DataType: Boolean
   Children:
   - Name: SymbolName
+    Id: g=16c55b116730ac65be84f68cf4f74996
     Type: BaseDataVariableType
     DataType: String
     Value: "Program:UM_Sazonador.OCmd_UnHold"
 - Name: Out_bState
+  Id: g=f16b99285a95229d4b47d857939eb949
   Type: RAEtherNetIPTag
   DataType: Int32
   Children:
   - Name: SymbolName
+    Id: g=4ffd4252be4c33779833e1c4d684b9f4
     Type: BaseDataVariableType
     DataType: String
     Value: "Program:UM_Sazonador.Out_bState"

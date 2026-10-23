@@ -1,117 +1,147 @@
 Name: Controller Tags
+Id: g=51c312e46919d3cf72257f247556f72f
 Type: FolderType
 Children:
 - Name: ARRANCAR
+  Id: g=312f8c03c29623b6a04b20ac9437fae5
   Type: RAEtherNetIPTag
   DataType: Boolean
   Children:
   - Name: SymbolName
+    Id: g=7813db2de2059a25095a59dc1032fb46
     Type: BaseDataVariableType
     DataType: String
     Value: "ARRANCAR"
 - Name: MOTOR1
+  Id: g=44d61ec01b8edb3bca6b7f9956781703
   Type: GOTC_CORRIENTESIM
   DataType: GOTC_CORRIENTESIM
   Children:
   - Name: SymbolName
+    Id: g=1f146e4f9dee34c6589933f13e6e5367
     Type: BaseDataVariableType
     DataType: String
     Value: "MOTOR1"
   - Name: BlockRead
+    Id: g=b3629879ea34996d9535c9230e4daa09
     Type: BaseDataVariableType
     DataType: Boolean
   - Name: EnableIn
+    Id: g=7fb67d316755af9ab93b1c0d06aa4ee6
     Type: RAEtherNetIPTag
     DataType: Boolean
     Children:
     - Name: SymbolName
+      Id: g=336bc4b1e93641f9122fc12d2c9af82d
       Type: BaseDataVariableType
       DataType: String
       Value: "MOTOR1.EnableIn"
   - Name: EnableOut
+    Id: g=5568455ee8fdaf00b984514a640f5db4
     Type: RAEtherNetIPTag
     DataType: Boolean
     Children:
     - Name: SymbolName
+      Id: g=d8b20509fc7181ca80b6aeeb10f300c7
       Type: BaseDataVariableType
       DataType: String
       Value: "MOTOR1.EnableOut"
   - Name: CORRIENTESIM
+    Id: g=b700a2fe6519582cfaeebd57fc577799
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=9eeff0cc3116c47c10df7dfa443f371c
       Type: BaseDataVariableType
       DataType: String
       Value: "MOTOR1.CORRIENTESIM"
   - Name: VALORSIM
+    Id: g=3cc3bd6d7b956ca9974ea0816f628d14
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=7db369a852fa744dbe987a4ff10624f2
       Type: BaseDataVariableType
       DataType: String
       Value: "MOTOR1.VALORSIM"
 - Name: PARAR
+  Id: g=8f653bfaee07473126fe99e7d2b6dbc4
   Type: RAEtherNetIPTag
   DataType: Boolean
   Children:
   - Name: SymbolName
+    Id: g=bff5bde45485beadb003a191e6d75a4a
     Type: BaseDataVariableType
     DataType: String
     Value: "PARAR"
 - Name: PRODUCCION
+  Id: g=dcadf0d309e719a69b585333b3eefdf3
   Type: RAEtherNetIPTagStructure
   DataType: GOTC_Produccion
   Children:
   - Name: SymbolName
+    Id: g=e9072998b845ea642d5b7292064d8635
     Type: BaseDataVariableType
     DataType: String
     Value: "PRODUCCION"
   - Name: BlockRead
+    Id: g=7cd6d5d6acbf7580ea6418b1b2f51932
     Type: BaseDataVariableType
     DataType: Boolean
   - Name: NPxM
+    Id: g=d4ad5ba5caaf72a7fb5e4e2d18df03e4
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=c81f6a8af55ded6b562d6ef646147b13
       Type: BaseDataVariableType
       DataType: String
       Value: "PRODUCCION.NPxM"
   - Name: PORCDEEFECTIVIDAD
+    Id: g=2fa78391d260131be268a2b3904158b4
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
+      Id: g=9681dcf8f91e25d6b9f6d9b7139c0ead
       Type: BaseDataVariableType
       DataType: String
       Value: "PRODUCCION.PORCDEEFECTIVIDAD"
   - Name: ResetAll
+    Id: g=092f17061c1daec6a7000859aa8f18cc
     Type: RAEtherNetIPTag
     DataType: Boolean
     Children:
     - Name: SymbolName
+      Id: g=0021fef806dbd98db6d5991b4f276390
       Type: BaseDataVariableType
       DataType: String
       Value: "PRODUCCION.ResetAll"
   - Name: OriginalTypeId
+    Id: g=9e085ecb7815337527f58be8c00f2950
     Type: BaseDataVariableType
     DataType: NodeId
     Value: "/Objects/HMIOptixStandard1/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/GOTC_Produccion"
 - Name: SALIDA1
+  Id: g=e43fe7568679cde2538f4b7372707ccb
   Type: RAEtherNetIPTag
   DataType: Boolean
   Children:
   - Name: SymbolName
+    Id: g=8df1d53a9d7399583abd2bb1e504e21d
     Type: BaseDataVariableType
     DataType: String
     Value: "SALIDA1"
 - Name: Reset
+  Id: g=60da08853610fefd6dacd6016f638ba6
   Type: RAEtherNetIPTag
   DataType: Boolean
   Children:
   - Name: SymbolName
+    Id: g=aca8e4a2bd928b36ce24881b6b61cb26
     Type: BaseDataVariableType
     DataType: String
     Value: "Reset"
