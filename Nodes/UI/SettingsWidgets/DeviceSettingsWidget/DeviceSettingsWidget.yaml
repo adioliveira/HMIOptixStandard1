@@ -1,4 +1,5 @@
 Name: DeviceSettingsWidget
+Id: g=07f8f06209915a582f0fe8215eb5f1e9
 Type: FolderType
 Children:
 - Name: DeviceSettingsWidget
@@ -7,157 +8,195 @@ Children:
   ReferenceType: HasComponent
   Children:
   - Name: HorizontalAlignment
+    Id: g=f49670cdbc1e4d8d3c13f8252b492b3b
     Type: BaseVariableType
     DataType: HorizontalAlignment
     ModellingRule: Optional
   - Name: VerticalAlignment
+    Id: g=ba9a68c3283119ab9589edb66c97fad7
     Type: BaseVariableType
     DataType: VerticalAlignment
     ModellingRule: Optional
   - Name: Width
+    Id: g=41143293d7f97b9e9cdb7542578f32c8
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 400.0
   - Name: Height
+    Id: g=345840a9956d603e6dee754f6cbf8a34
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 240.0
   - Name: NavigationPanel1
+    Id: g=0b8ce6e35040d90a014d27d99f9a4669
     Type: NavigationPanel
     Children:
     - Name: Panels
+      Id: g=2c9f470a4854af5a4546ca0dbafdb373
       Type: BaseObjectType
       Children:
       - Name: Panel1
+        Id: g=b148bb697b975eaf1b347a1198811e92
         Type: NavigationPanelItem
         Children:
         - Name: Title
+          Id: g=ee77d82c0494bd9989e847b41b9d4269
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":18,"TextId":"Configuration"}
         - Name: Panel
+          Id: g=283016305d02a4a70fb4782b354fd293
           Type: NodePointer
           DataType: NodeId
           Value: "/Objects/HMIOptixStandard1/UI/SettingsWidgets/DeviceSettingsWidget/DeviceSettingsWidgetComponents/Configuration"
           Children:
           - Name: Kind
+            Id: g=02e697615ceba9f6e190e6383c51dcd4
             Type: PropertyType
             DataType: NodeId
             Value: {"Id":71,"Namespace":6}
         - Name: AliasNode
+          Id: g=418b0569cd57ea2e3de71f5d7e091590
           Type: BaseDataVariableType
           DataType: NodeId
           ValueRank: ScalarOrOneDimension
           Children:
           - Name: DynamicLink
+            Id: g=f90ba8212d874c2784bc8ed19f094236
             Type: DynamicLink
             DataType: NodePath
             Value: "../../../../SystemNode@NodeId"
       - Name: Panel2
+        Id: g=960590bf48367bea9e626f89a651b6e3
         Type: NavigationPanelItem
         Children:
         - Name: Title
+          Id: g=5f1222f0d7265f155106594c3e348a20
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":18,"TextId":"ProductInformation"}
         - Name: Panel
+          Id: g=8c3e358106bd98effdeb6890016d3166
           Type: NodePointer
           DataType: NodeId
           Value: "/Objects/HMIOptixStandard1/UI/SettingsWidgets/DeviceSettingsWidget/DeviceSettingsWidgetComponents/Product_Information"
           Children:
           - Name: Kind
+            Id: g=37f749dad1f9bfd3dc73c5fe92545019
             Type: PropertyType
             DataType: NodeId
             Value: {"Id":71,"Namespace":6}
         - Name: AliasNode
+          Id: g=cb0cef73d807a8d757861ab13baf1f35
           Type: BaseDataVariableType
           DataType: NodeId
           ValueRank: ScalarOrOneDimension
           Children:
           - Name: DynamicLink
+            Id: g=aa4b256b3f0b7ab7c3723d49aca0d232
             Type: DynamicLink
             DataType: NodePath
             Value: "../../../../SystemNode@NodeId"
       - Name: Panel3
+        Id: g=e7613c0a12df4fcbfeb6400389ed09e1
         Type: NavigationPanelItem
         Children:
         - Name: Title
+          Id: g=ab3c5134cf4c50e2913821e3280c00b9
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":18,"TextId":"Diagnostics"}
         - Name: Panel
+          Id: g=6b533d7488b382842551e4f530bce5e9
           Type: NodePointer
           DataType: NodeId
           Value: "/Objects/HMIOptixStandard1/UI/SettingsWidgets/DeviceSettingsWidget/DeviceSettingsWidgetComponents/Diagnostics"
           Children:
           - Name: Kind
+            Id: g=be1bc425bc75a061432a4005fb222af7
             Type: PropertyType
             DataType: NodeId
             Value: {"Id":71,"Namespace":6}
         - Name: AliasNode
+          Id: g=d1b14740c205b1b8804f959621538bbc
           Type: BaseDataVariableType
           DataType: NodeId
           ValueRank: ScalarOrOneDimension
           Children:
           - Name: DynamicLink
+            Id: g=bb50115dcd27965b5c28f2653a0fc55d
             Type: DynamicLink
             DataType: NodePath
             Value: "../../../../SystemNode@NodeId"
     - Name: CurrentPanel
+      Id: g=9d9e4ed0e2aa51fdcd753a26630fe514
       Type: NodePointer
       DataType: NodeId
       AccessLevel: Read
       Children:
       - Name: Kind
+        Id: g=1aa9360116801820748f623880ee3d06
         Type: PropertyType
         DataType: NodeId
         Value: {"Id":6,"Namespace":6}
     - Name: Width
+      Id: g=6beef889aea13904b5bab4ca558d4220
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 304.0
     - Name: Height
+      Id: g=2ed9610d4eee642238ee07368e48addd
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 240.0
     - Name: HorizontalAlignment
+      Id: g=57268a70f939a9969cb1a537934adb15
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
       Value: 3
     - Name: VerticalAlignment
+      Id: g=540cf3a61ebc37cdb87aed04eca47b19
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 3
     - Name: TopMargin
+      Id: g=b96063671aeb7c1729a9813c3f533d78
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
     - Name: BottomMargin
+      Id: g=524f3ade50e8b206c34ed69621546000
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
     - Name: CurrentTabIndex
+      Id: g=2ab25c6876feb24f888b2d065eabd008
       Type: BaseDataVariableType
       DataType: Int32
     - Class: Reference
       Target: ns=5;i=1181
+      Direction: Forward
     - Class: Reference
       Target: ns=5;i=1183
+      Direction: Forward
   - Name: SystemNode
+    Id: g=ff266e22229ef16cb8ea29637b7b7d00
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/HMIOptixStandard1/System/System"
     Children:
     - Name: Kind
+      Id: g=87d65d3e854fcb3c317a8954b5c7f6f2
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/System"
   - Name: DeviceSettingsWidgetLogic
+    Id: g=9a39fcb18bd1dc83899b521d97c3d94d
     Type: NetLogic
 - File: DeviceSettingsWidgetComponents/DeviceSettingsWidgetComponents.yaml

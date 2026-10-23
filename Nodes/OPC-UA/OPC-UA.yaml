@@ -1,2 +1,64 @@
 Name: 'OPC-UA'
+Id: g=dabb718c91dfb6defd2fe9f1f6a8b062
 Type: OPCUACategoryFolder
+Children:
+- Name: OPCUAServer
+  Id: g=0a29ca7c340cf01502cde2cb2285da70
+  Type: OPCUAServer
+  Children:
+  - Name: EndpointURL
+    Id: g=663242aa94dde138316787b06993f1c5
+    Type: PropertyType
+    DataType: ResourceUri
+    Value: "opc.tcp://localhost:59100"
+  - Name: NodesToPublish
+    Id: g=24243811af94e33a94a3e7bf15fc9170
+    Type: BaseObjectType
+    Children:
+    - Name: Configuration1
+      Id: g=15f2b9a11037d8253ddb906c6993eefe
+      Type: NodesToPublishConfigurationEntry
+      Children:
+      - Name: Nodes
+        Id: g=ec794abd6eab7257665e8a526f698d05
+        Type: BaseObjectType
+      - Name: Users
+        Id: g=8245d1eb1f761d12c8323ee3524db301
+        Type: BaseObjectType
+      - Name: PublishDynamicConfiguration
+        Id: g=979dd5176080f69001a3d24805d95c47
+        Type: BaseDataVariableType
+        DataType: Boolean
+  - Name: MinimumMessageSecurityMode
+    Id: g=879e1442aa6672421288658d0cb6c143
+    Type: PropertyType
+    DataType: MessageSecurityModeEnum
+  - Name: MinimumSecurityPolicy
+    Id: g=2e27ba2bb7e86830dc1b64496093ebff
+    Type: PropertyType
+    DataType: SecurityPolicyEnum
+  - Name: CertificateIsExpired
+    Id: g=12b498d168160358ca62578bf5c518f3
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: EnableAnonymousAccess
+    Id: g=2629addfc9c402c54380973a87a40f1f
+    Type: PropertyType
+    DataType: Boolean
+    Value: true
+  - Name: ProductURI
+    Id: g=5e04f060d818e050628e732b9a02e6df
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "urn:FactoryTalkOptixHMI:FTOptixApplicationEEC"
+  - Name: ProductName
+    Id: g=5dc972d757b2ecbfa79c5984836eecc8
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "FactoryTalkOptix HMI FTOptixApplicationEEC"
+  - Name: MaxNumberOfConnections
+    Id: g=bd83df9b34ef12944fdd1f561ba1bdd6
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 5

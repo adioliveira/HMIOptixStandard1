@@ -1,182 +1,226 @@
 Name: Loggers
+Id: g=4d8aaaa07789f27d5766331892d84713
 Type: LoggersCategoryFolder
 Children:
 - Name: DataLogger
+  Id: g=2af60951d5bc01c94f2eb1f96861168d
   Type: DataLogger
   Children:
   - Name: SamplingMode
+    Id: g=6d6fd0cb5590ae6185d1eb304a6b5a4c
     Type: PropertyType
     DataType: ns=23;SamplingModeEnum
     Value: 1
     Children:
     - Name: DynamicLink
+      Id: g=d75efaade7c70afa72e3060b96456c90
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Trigger_SendSQL"
       Children:
       - Name: Mode
+        Id: g=d35b4c886e13403f4392a56cdd0b1451
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: Store
+    Id: g=4b456b8195bb0d4ae6d058b7342622c1
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/HMIOptixStandard1/DataStores/Database"
     Children:
     - Name: Kind
+      Id: g=3aa3e5bb02ac8e3e7820fd432255717a
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/Store"
   - Name: VariablesToLog
+    Id: g=3970570a2be5753e6f584728927734e0
     Type: BaseObjectType
     Children:
     - Name: TotalParts
+      Id: g=75a8ec6eb70761e15d0db01ac9c4baf3
       Type: VariableToLog
       DataType: BaseDataType
       Children:
       - Name: LastValue
+        Id: g=57797f9c063bc54bd01620bb296cd3be
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=f3349ba077916e6c07efa744fd6a44a4
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
       - Name: LastOperationCode
+        Id: g=484ac73c02c7a0867030fb8f2c361876
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
       - Name: DynamicLink
+        Id: g=e2cb62b1863d95232d421ae25388693c
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Out_01H_ProducedTotalUnits"
         Children:
         - Name: Mode
+          Id: g=0de4bcb163f0f77541f7facb513fc28b
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: GoodParts
+      Id: g=f121385e8d631b1575d4030246c4fefd
       Type: VariableToLog
       DataType: BaseDataType
       Children:
       - Name: LastValue
+        Id: g=d390b6c68d4b958ef365afe9f2902625
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=0331c9bc0fed41ca7db2c9ac281502bd
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
       - Name: LastOperationCode
+        Id: g=8a0eaf34bc40d67a718020bd4afb8889
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
       - Name: DynamicLink
+        Id: g=a7250f841f4e4f96f8aef66c45695845
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Out_01H_ProducedGoodUnits"
         Children:
         - Name: Mode
+          Id: g=dba6fe75929a489241aa09f08adada93
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: OEE
+      Id: g=33e4fd92a1d6d9d62d23bbe6c8d47854
       Type: VariableToLog
       DataType: BaseDataType
       Children:
       - Name: LastValue
+        Id: g=c75776d68d6b24e7b92026cd5d0a18db
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=6c3ecbad48d150bfbdaadd81a4af2732
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
       - Name: LastOperationCode
+        Id: g=af0343e2566867254401554572e8ffb3
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
       - Name: DynamicLink
+        Id: g=8f6f98275243184d9f640698bdb2183c
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Out_01H_OEE"
         Children:
         - Name: Mode
+          Id: g=ee635dde3e5b6811757cba8937a5769e
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: Availability
+      Id: g=a78911a7427b4b2008c52aa3bdd3e9c4
       Type: VariableToLog
       DataType: BaseDataType
       Children:
       - Name: LastValue
+        Id: g=268ffcb9474d93937533d544de11e423
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=4264c7585428d7484a562818aeb1fa6d
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
       - Name: LastOperationCode
+        Id: g=d4d4345acccb9d7439ea12277a516c95
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
       - Name: DynamicLink
+        Id: g=f740b53d4758d2aa193e321be6c07383
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Out_01H_Availability"
         Children:
         - Name: Mode
+          Id: g=61c6862a07a3917ac4673bc1c8017b87
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: Performance
+      Id: g=3d3544415b6423e4d1fb0782b3d65deb
       Type: VariableToLog
       DataType: BaseDataType
       Children:
       - Name: LastValue
+        Id: g=aadaf993f40db6f58ac6314808470d04
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=f1340ea483697957f7a1447f1662c2ad
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
       - Name: LastOperationCode
+        Id: g=bba803e87e3b3c55cbb9c64b6b524367
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
       - Name: DynamicLink
+        Id: g=d5531aea0bd0c943ce67b939adf73e6f
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Out_01H_Performance"
         Children:
         - Name: Mode
+          Id: g=c3371f997dc9d3c02293765e98f95cb5
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: Quality
+      Id: g=f31f42d7646891bec7035f404e17c265
       Type: VariableToLog
       DataType: BaseDataType
       Children:
       - Name: LastValue
+        Id: g=7e117f523e950e2823451238f864c673
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=846639023d92a9f189e92579d28e7871
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
       - Name: LastOperationCode
+        Id: g=0048a4f2baaae22798bf69b764cd54ac
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
       - Name: DynamicLink
+        Id: g=a10741ef02d8c3454412bed06c1ecede
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Out_01H_Quality"
         Children:
         - Name: Mode
+          Id: g=cb2f6944e2ae10e90240c0338179adb8
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
@@ -184,86 +228,107 @@ Children:
     Target: ns=23;i=21
     Direction: Forward
   - Name: LogLocalTime
+    Id: g=7a93207f0f39cb9724e4e2404453fb93
     Type: PropertyType
     DataType: Boolean
     Value: true
   - Name: TableName
+    Id: g=d109d1d9e067573bfdda404a2fec1739
     Type: PropertyType
     DataType: String
   - Name: SamplingPeriod
+    Id: g=82cba5d426297eba35b838d6934dc04f
     Type: PropertyType
     DataType: Duration
     Value: "0:00:00:00.5000000"
   - Name: PollingPeriod
+    Id: g=c39d344b99dc052386a7fb090e9984a6
     Type: PropertyType
     DataType: Duration
     Value: "0:00:01:00.0000000"
 - Name: DataLogger1
+  Id: g=2bdf385e1dc8e706102b40fd28167d63
   Type: DataLogger
   Children:
   - Name: SamplingMode
+    Id: g=a4d6eec2e3a32540887e4ba00d753222
     Type: PropertyType
     DataType: ns=23;SamplingModeEnum
     Value: 1
   - Name: Store
+    Id: g=37c8ae3a98cddceb9fc1745a1e526c7c
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/HMIOptixStandard1/DataStores/EmbeddedDatabase1"
     Children:
     - Name: Kind
+      Id: g=8f9c1753c489e469463769c87f68e127
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/Store"
   - Name: VariablesToLog
+    Id: g=06dd481eb02ff122e190d274ac7e8ace
     Type: BaseObjectType
     Children:
     - Name: TotalProduction
+      Id: g=bd88916475aabab1b5999d72886dd38e
       Type: VariableToLog
       DataType: BaseDataType
       Children:
       - Name: LastValue
+        Id: g=bb374ad85005c73cecbe98e4e39db29c
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=42eac12f6fc0a4603bcca3680951376d
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
       - Name: LastOperationCode
+        Id: g=9e536eefd1b4dbce1265225244dea9f6
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
       - Name: DynamicLink
+        Id: g=d5e4efa37151fe3324a5d31f4b7c2095
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../Model/OEE1H/ProducedIdealAvailableUnits"
         Children:
         - Name: Mode
+          Id: g=c39855ed98540a8ffc7d26bf5fdbb836
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: GoodParts
+      Id: g=8a60dcee01abd154933261bfa94c2e2a
       Type: VariableToLog
       DataType: BaseDataType
       Children:
       - Name: LastValue
+        Id: g=6b6124e77d82770a1e63dc863afddb0e
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=f5387cf23224398de445814015fde032
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
       - Name: LastOperationCode
+        Id: g=934a11835676448441b59d62d9dec78f
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
       - Name: DynamicLink
+        Id: g=cb08c7a73d5b4d4599ad66ff38c50b68
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:Performance_Tracking/Wrk_PerformanceTracking_RAPID/Out_01H_ProducedGoodUnits"
         Children:
         - Name: Mode
+          Id: g=06fdf5e3957a6f9e0928af35e8a7d0b9
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
@@ -271,14 +336,17 @@ Children:
     Target: ns=23;i=21
     Direction: Forward
   - Name: LogLocalTime
+    Id: g=cc73df30aeb7407a0ba41a850fdcbb5a
     Type: PropertyType
     DataType: Boolean
     Value: true
   - Name: PollingPeriod
+    Id: g=9c3fdace0ae5825a3315135ef59f3559
     Type: PropertyType
     DataType: Duration
     Value: "0:00:00:01.0000000"
   - Name: SamplingPeriod
+    Id: g=fe31ec6b23487ca7a02c370c80ed5275
     Type: PropertyType
     DataType: Duration
     Value: "0:00:00:00.5000000"

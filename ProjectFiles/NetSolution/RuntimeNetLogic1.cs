@@ -22,6 +22,8 @@ using FTOptix.Modbus;
 using FTOptix.Alarm;
 using FTOptix.MQTTBroker;
 using FTOptix.MQTTClient;
+using FTOptix.OPCUAServer;
+using FTOptix.EventLogger;
 #endregion
 
 public class RuntimeNetLogic1 : BaseNetLogic

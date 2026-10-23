@@ -4,6 +4,8 @@ using FTOptix.NetLogic;
 using FTOptix.UI;
 using FTOptix.MQTTBroker;
 using FTOptix.MQTTClient;
+using FTOptix.OPCUAServer;
+using FTOptix.EventLogger;
 #endregion
 
 public class AlarmGridLogic : BaseNetLogic

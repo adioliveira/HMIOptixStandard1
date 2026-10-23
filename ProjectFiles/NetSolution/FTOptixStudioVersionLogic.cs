@@ -14,6 +14,7 @@ using FTOptix.Modbus;
 using FTOptix.Alarm;
 using FTOptix.MQTTBroker;
 using FTOptix.MQTTClient;
+using FTOptix.OPCUAServer;
 #endregion
 
 public class FTOptixStudioVersionLogic : BaseNetLogic

@@ -1,4 +1,9 @@
 Name: MQTT
+Id: g=211abe420c6daa3cb82b72394a6397ca
 Type: FolderType
 Children:
-- File: Publish_To_Main/Publish_To_Main.yaml
+- Name: MQTT_Message
+  Id: g=3d2a58d01695c4f9d693d455ca50159e
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"

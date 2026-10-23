@@ -1,4 +1,5 @@
 Name: DataStores
+Id: g=b2990587315d757a9625f0f39ed0a477
 Type: DataStoresCategoryFolder
 Children:
 - Name: Database
@@ -6,9 +7,11 @@ Children:
   Type: SQLiteStore
   Children:
   - Name: Tables
+    Id: g=f6d88e8e3344b1511ebc60fd5964a70e
     Type: BaseObjectType
     Children:
     - Name: DataLogger
+      Id: g=c42ffd02e53dede78bf42470230c5828
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -24,33 +27,43 @@ Children:
         Target: ns=25;i=20
         Direction: Forward
       - Name: Columns
+        Id: g=b3afe0ebbad99942f632f69c06c56b07
         Type: BaseObjectType
         Children:
         - Name: Timestamp
+          Id: g=ed33e16e2b0f02da830005f4e1cb2e93
           Type: StoreColumn
           DataType: UtcTime
         - Name: LocalTimestamp
+          Id: g=b1699e86b14f0eb1ab45688bf68d94d9
           Type: StoreColumn
           DataType: DateTime
         - Name: TotalParts
+          Id: g=8a2b6ed37d54390dbd686bb16e777239
           Type: StoreColumn
           DataType: Int32
         - Name: GoodParts
+          Id: g=b43d293be22363f21ec09a19b36be8fc
           Type: StoreColumn
           DataType: Int32
         - Name: OEE
+          Id: g=fcc02f567fa3eb6a2d0beb5f00569600
           Type: StoreColumn
           DataType: Float
         - Name: Availability
+          Id: g=9f9e1a6a375684ffa6aa4a0fb3cd654a
           Type: StoreColumn
           DataType: Float
         - Name: Performance
+          Id: g=4a2594258811f69e60f9091c8d457412
           Type: StoreColumn
           DataType: Float
         - Name: Quality
+          Id: g=2474e711359e77ee8e22a87f0a7f1faa
           Type: StoreColumn
           DataType: Float
       - Name: RecordLimit
+        Id: g=71a62a6046ea36750174b0c0cd1c7b01
         Type: BaseDataVariableType
         DataType: UInt32
         Value: 1000
@@ -61,20 +74,24 @@ Children:
     Target: ns=27;i=33
     Direction: Forward
   - Name: MaxColumnNameLength
+    Id: g=b95cb8a3cf0fb9a182b4c4cb4786d21d
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
   - Name: MaxColumnCount
+    Id: g=f5de8fc6971d64922fb28603fbde14b1
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
   - Name: DataTypeCompatibilityMap
+    Id: g=ccfc5316a2976d4ebbaf22196c07645e
     Type: BaseDataVariableType
     DataType: NodeId
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
   - Name: Status
+    Id: g=b604fd97ff76c744410a52a9f64d4a28
     Type: PropertyType
     DataType: StoreStatus
     AccessLevel: Read
@@ -120,9 +137,11 @@ Children:
   Type: SQLiteStore
   Children:
   - Name: Tables
+    Id: g=d56dbd7dad79a65e2a698e8b2e858edc
     Type: BaseObjectType
     Children:
     - Name: DataLogger1
+      Id: g=df7e9bf24708d3b07c4d81f1382cde9b
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -138,21 +157,27 @@ Children:
         Target: ns=25;i=20
         Direction: Forward
       - Name: Columns
+        Id: g=a4616135abaaef2726a641d5e72ff597
         Type: BaseObjectType
         Children:
         - Name: Timestamp
+          Id: g=86d8f2e0773771d8c2bffbe34deafdcc
           Type: StoreColumn
           DataType: UtcTime
         - Name: LocalTimestamp
+          Id: g=9c8b2e76eb438fc2b2a7d7c4b291d095
           Type: StoreColumn
           DataType: DateTime
         - Name: TotalProduction
+          Id: g=3871ee0e78046a34346657ded06914ef
           Type: StoreColumn
           DataType: Int32
         - Name: GoodParts
+          Id: g=a7000e4995abccd02e13f0cb8f63ab26
           Type: StoreColumn
           DataType: Int32
       - Name: RecordLimit
+        Id: g=f922b7e612763ac11002e634a923419f
         Type: BaseDataVariableType
         DataType: UInt32
         Value: 1000
@@ -163,20 +188,24 @@ Children:
     Target: ns=27;i=33
     Direction: Forward
   - Name: MaxColumnNameLength
+    Id: g=b0746626372f9b2f0fc73541400ea53c
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
   - Name: MaxColumnCount
+    Id: g=15371340e3c635faa68282d25695cdf7
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
   - Name: DataTypeCompatibilityMap
+    Id: g=3eabde9f98c12936911bc32c5a820267
     Type: BaseDataVariableType
     DataType: NodeId
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
   - Name: Status
+    Id: g=b5ed46a98e39aed99a6d968f516ee9e5
     Type: PropertyType
     DataType: StoreStatus
     AccessLevel: Read
