@@ -347,7 +347,7 @@ Children:
     Id: g=f7a3d9f390c79f0c5f076b07387d25c4
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/HMIOptixStandard1/UI/MainWindow"
+    Value: "/Objects/HMIOptixStandard1/UI/MainWindow1"
     Children:
     - Name: Kind
       Id: g=9d88d85499c6d00e4c68e6c50e8ad2aa
