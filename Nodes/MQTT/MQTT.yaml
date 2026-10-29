@@ -10,7 +10,7 @@ Children:
     Id: g=25e621bec1d32f1e90e6f34e1fc83dc6
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 8883
+    Value: 8884
   - Name: MaxConnections
     Id: g=d8e5b897adc152a08f2165e171be5fb5
     Type: BaseDataVariableType
@@ -20,7 +20,6 @@ Children:
     Id: g=d4e8004e6a809695c3ba76bccc5596a9
     Type: BaseDataVariableType
     DataType: MaxQoSEnum
-    Value: 2
   - Name: MaxInflightMessages
     Id: g=fef2c924f9e08627af18e501b3709c1b
     Type: BaseDataVariableType
@@ -96,7 +95,7 @@ Children:
     Id: g=19ec30c3787261e35a7daeffbdaeaa09
     Type: PropertyType
     DataType: UInt16
-    Value: 8883
+    Value: 8884
   - Name: ClientId
     Id: g=7bd4a91e43d3fc86bd7316e43780d30c
     Type: PropertyType
@@ -132,7 +131,6 @@ Children:
     Id: g=9a0f174b4f72b24b53f794285d68ea15
     Type: BaseDataVariableType
     DataType: String
-    Value: "OPTIX_EEC"
   - Name: WillPayload
     Id: g=cd7a5361c8e4daa1f2777e7bd6cda71e
     Type: BaseDataVariableType
@@ -141,7 +139,6 @@ Children:
     Id: g=ba14f1f55fb080636bfd09a57d9b7df1
     Type: BaseDataVariableType
     DataType: QoSLevelEnum
-    Value: 2
   - Name: WillRetain
     Id: g=0d3a36c7015959c5bcae6a964f5e1fd7
     Type: BaseDataVariableType
@@ -173,7 +170,7 @@ Children:
       Id: g=fd7bc06489aa544b519b47ca5fea7e61
       Type: NodePointer
       DataType: NodeId
-      Value: "/Objects/HMIOptixStandard1/MQTT"
+      Value: "/Objects/HMIOptixStandard1/Model/MQTT"
       Children:
       - Name: Kind
         Id: g=913325f96617103d7d8434a0f4c6241f
@@ -184,7 +181,7 @@ Children:
         Id: g=4e8dedc39b2023bdce02160500aaac7d
         Type: PropertyType
         DataType: NodeId
-        Value: "/Objects/HMIOptixStandard1/Model/MQTT/MQTT_Message"
+        Value: "/Objects/HMIOptixStandard1/Model/MQTT/MQTT_Pub_Message"
     - Name: DataLogger
       Id: g=cd0662886d289319f2b84aaf2baf69a2
       Type: NodePointer
@@ -224,7 +221,6 @@ Children:
       Id: g=1df0b77c00f2eb6ee769078395dc37b7
       Type: BaseDataVariableType
       DataType: QoSLevelEnum
-      Value: 2
     - Name: Retain
       Id: g=1d754e10c19c72a63bd395d3f53861d8
       Type: BaseDataVariableType
@@ -271,4 +267,4 @@ Children:
         Id: g=f1f16ecaed3c93d4c9f6d1e89762a07f
         Type: PropertyType
         DataType: NodeId
-        Value: "/Objects/HMIOptixStandard1/Model/MQTT/MQTT_Message"
+        Value: "/Objects/HMIOptixStandard1/Model/MQTT/MQTT_Pub_Message"

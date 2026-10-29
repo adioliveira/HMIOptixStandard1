@@ -2652,13 +2652,13 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 31.0
+      Value: 37.0
     - Name: TopMargin
       Id: g=78b2264ee5ed34322d590aef6e0cf0a2
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 76.0
+      Value: 72.0
     - Name: Width
       Id: g=d8c964bf968bc3bbb465b1a820026ee9
       Type: BaseVariableType
@@ -2770,6 +2770,19 @@ Children:
       Id: g=85dee69d9dc11d96c267c57c08779eaf
       Type: BaseDataVariableType
       DataType: LocalizedText
+      Children:
+      - Name: DynamicLink
+        Id: g=06c08b9116c190938a45e8dd671f507a
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/HMIOptixStandard1/Model/MQTT/MQTT_Pub_Message"
+        Children:
+        - Name: Mode
+          Id: g=d121e0f2320183c3a9a424d569f91355
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
     - Name: Width
       Id: g=99230f78b43d41eb46937a2b7fb5f413
       Type: BaseVariableType
@@ -2787,7 +2800,81 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 373.0
+      Value: 372.0
+  - Name: Label3
+    Id: g=61338a59b396091b1ca1135396557270
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=5a7ec23b3b14a5cc29c6918bb8dce1c0
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Publish"}
+    - Name: LeftMargin
+      Id: g=9da1b1bad6849052214317a3927e6729
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 49.0
+    - Name: TopMargin
+      Id: g=5eb60973187561f9f73433c3e9be5811
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 392.0
+    - Name: Width
+      Id: g=42accc9fa089bc8b3cd2431ddbe96d40
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 73.0
+    - Name: Height
+      Id: g=132d6a73476c55b06b211decbd50560f
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 34.0
+    - Name: TextColor
+      Id: g=1d087d6cba72752d1d7abe1c6ae1ff44
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#ffffff"
+    - Name: FontSize
+      Id: g=eb1171ee6b5a206f10ac5e4062834910
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 15.0
+    - Name: FontFamily
+      Id: g=4d5e801ab4375b4f56a49ce1ce796c74
+      Type: BaseDataVariableType
+      DataType: Font
+      ModellingRule: Optional
+      Value: "Barlow SemiBold"
+    - Name: HorizontalAlignment
+      Id: g=def3797341c66ec321d80ab0a3cc8751
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+    - Name: TextHorizontalAlignment
+      Id: g=9902bebc05926c9dcf8ae1676b3f1d62
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+    - Name: TextVerticalAlignment
+      Id: g=6b12d04b8103c9dabc9ee7bce41f28d8
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: FontWeight
+      Id: g=a7fb19ad57d4167b5ba906340fca5a1e
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 400
 - Name: Alarms
   Id: g=510233cf1c3513f5ff6949346e418460
   Supertype: Screen
