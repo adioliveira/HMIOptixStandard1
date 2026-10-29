@@ -3,10 +3,10 @@ Id: g=e6e3d73e4847e0b750913416b5e2826d
 Type: RAEtherNetIPStation
 Children:
 - Name: Route
-  Id: g=700f680cc1aa7dacb922dd37ea7b2d44
+  Id: g=5b76cd3ad036b344d86cf4a3fef98828
   Type: BaseDataVariableType
   DataType: String
-  Value: "192.168.1.20"
+  Value: "192.168.1.19"
 - Name: StationStatusVariables
   Id: g=19a392c75fc3121c9d8b4c2730e9a4e4
   Type: PropertyGroup

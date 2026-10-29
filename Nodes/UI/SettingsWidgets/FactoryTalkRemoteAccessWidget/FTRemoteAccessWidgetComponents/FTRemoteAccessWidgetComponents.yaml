@@ -980,6 +980,7 @@ Children:
           Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
       - Class: Reference
         Target: ns=5;i=478
+        Direction: Forward
       - Name: Width
         Id: g=c02aa4bbb9e6fc61a7ab22ba3314813b
         Type: BaseVariableType
@@ -2001,6 +2002,7 @@ Children:
         Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
     - Class: Reference
       Target: ns=5;i=478
+      Direction: Forward
     - Name: Width
       Id: g=5e1a4a4ff32c7412abba303077e0bdc2
       Type: BaseVariableType

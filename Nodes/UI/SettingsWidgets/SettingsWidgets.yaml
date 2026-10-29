@@ -350,6 +350,9 @@ Children:
         Type: DynamicLink
         DataType: NodePath
         Value: "{Item}@DisplayName"
+    - Class: Reference
+      Target: ns=5;i=480
+      Direction: Forward
   - Name: TimeZonesEnumeration
     Id: g=481c26d1e8f2a5f9b129bdf323738c35
     Type: BaseObjectType

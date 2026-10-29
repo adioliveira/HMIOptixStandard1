@@ -1969,7 +1969,7 @@ Children:
         - Name: FontSize
           Id: g=583aad3446217eea7c46cc4ebbafcd76
           Type: BaseDataVariableType
-          DataType: Float
+          DataType: Size
           ModellingRule: Optional
           Value: 25.0
         - Name: EventHandler1
@@ -2104,7 +2104,7 @@ Children:
         - Name: FontSize
           Id: g=8bb68ad3bed485f351f23e21e97fbdbc
           Type: BaseDataVariableType
-          DataType: Float
+          DataType: Size
           ModellingRule: Optional
           Value: 25.0
         - Name: EventHandler1

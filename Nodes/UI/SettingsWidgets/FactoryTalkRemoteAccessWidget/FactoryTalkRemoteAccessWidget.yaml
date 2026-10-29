@@ -196,8 +196,10 @@ Children:
       DataType: Int32
     - Class: Reference
       Target: ns=5;i=1181
+      Direction: Forward
     - Class: Reference
       Target: ns=5;i=1183
+      Direction: Forward
   - Name: FTRemoteAccessWidgetDataObject
     Id: g=8b26e83147aab70dcdb1b2c7367fafc3
     Type: FTRemoteAccessWidgetDataObject

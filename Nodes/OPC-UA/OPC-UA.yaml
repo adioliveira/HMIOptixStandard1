@@ -10,7 +10,7 @@ Children:
     Id: g=663242aa94dde138316787b06993f1c5
     Type: PropertyType
     DataType: ResourceUri
-    Value: "opc.tcp://localhost:59100"
+    Value: "opc.tcp://192.168.1.7:59100"
   - Name: NodesToPublish
     Id: g=24243811af94e33a94a3e7bf15fc9170
     Type: BaseObjectType

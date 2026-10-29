@@ -3234,7 +3234,7 @@ Children:
         Value: 90.0
       - Name: OriginalWidth
         Id: g=c05bb998b31c0908e6286a8fb14c0dd1
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Size
         Value: 32.0
       - Name: Height
@@ -3245,7 +3245,7 @@ Children:
         Value: 60.0
       - Name: OriginalHeight
         Id: g=702af0c2b3d81d8b4e695221bf13b6c8
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Size
         Value: 32.0
       - Name: ELEMENT_1
@@ -3431,7 +3431,7 @@ Children:
         Value: 90.0
       - Name: OriginalWidth
         Id: g=311051154879ad34543918433cf971e7
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Size
         Value: 32.0
       - Name: Height
@@ -3442,7 +3442,7 @@ Children:
         Value: 60.0
       - Name: OriginalHeight
         Id: g=d68fa7b42731094b0e75753c1959c4f7
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Size
         Value: 32.0
       - Name: ELEMENT_1
@@ -3681,7 +3681,7 @@ Children:
         Value: 90.0
       - Name: OriginalWidth
         Id: g=68785ee04dc9800734939ede02dad0dc
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Size
         Value: 32.0
       - Name: Height
@@ -3692,7 +3692,7 @@ Children:
         Value: 60.0
       - Name: OriginalHeight
         Id: g=f681c8b9f2a592dedcc6eca7baf5be76
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Size
         Value: 32.0
       - Name: ELEMENT_1
@@ -3936,7 +3936,7 @@ Children:
         Value: 90.0
       - Name: OriginalWidth
         Id: g=9cdc4ec811fae23847eda1a753d8a6c6
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Size
         Value: 32.0
       - Name: Height
@@ -3947,7 +3947,7 @@ Children:
         Value: 60.0
       - Name: OriginalHeight
         Id: g=7231630f08dca8b3814c78506ae68273
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Size
         Value: 32.0
       - Name: ELEMENT_1
@@ -4139,7 +4139,7 @@ Children:
         Value: 90.0
       - Name: OriginalWidth
         Id: g=ee0c0d191417203c93ec10f080ceff9e
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Size
         Value: 32.0
       - Name: Height
@@ -4150,7 +4150,7 @@ Children:
         Value: 60.0
       - Name: OriginalHeight
         Id: g=114ec8e1310dc57a618e6cbc7e980ad2
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Size
         Value: 32.0
       - Name: ELEMENT_1
@@ -4361,7 +4361,7 @@ Children:
         Value: 90.0
       - Name: OriginalWidth
         Id: g=847d4f21eb1139e9fcb6d676af3ee3f6
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Size
         Value: 32.0
       - Name: Height
@@ -4372,7 +4372,7 @@ Children:
         Value: 60.0
       - Name: OriginalHeight
         Id: g=44467fcf1afa323aaee37dc122d873bc
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Size
         Value: 32.0
       - Name: ELEMENT_1
