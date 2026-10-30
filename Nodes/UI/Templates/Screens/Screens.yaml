@@ -2652,19 +2652,19 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 37.0
+      Value: 56.0
     - Name: TopMargin
       Id: g=78b2264ee5ed34322d590aef6e0cf0a2
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 72.0
+      Value: 64.0
     - Name: Width
       Id: g=d8c964bf968bc3bbb465b1a820026ee9
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 850.0
+      Value: 223.0
     - Name: Height
       Id: g=5d5be44766fc64d7da1e7e3de6ceb0fd
       Type: BaseVariableType
@@ -2694,6 +2694,12 @@ Children:
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
+    - Name: FontWeight
+      Id: g=996fff58e6c47f69497c1adefa4e23bc
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 950
   - Name: Label2
     Id: g=59a766ce22ce93d8d148610d551554b8
     Type: Label
@@ -2703,19 +2709,19 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Mensagem:"}
+      Value: {"LocaleId":"en-US","Text":"MENSAGEM"}
     - Name: LeftMargin
       Id: g=d6e1c897c7a996d3c08240c84122224c
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 26.0
+      Value: 264.0
     - Name: TopMargin
       Id: g=c092897c20122b8b19589bcf3257a5ae
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 366.0
+      Value: 300.0
     - Name: Width
       Id: g=dfd1b1355d7d843df794a7a23f645ac5
       Type: BaseVariableType
@@ -2775,7 +2781,7 @@ Children:
         Id: g=06c08b9116c190938a45e8dd671f507a
         Type: DynamicLink
         DataType: NodePath
-        Value: "/Objects/HMIOptixStandard1/Model/MQTT/MQTT_Pub_Message"
+        Value: "/Objects/HMIOptixStandard1/Model/MQTT/Publisher/sMessage_1"
         Children:
         - Name: Mode
           Id: g=d121e0f2320183c3a9a424d569f91355
@@ -2794,13 +2800,13 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 137.0
+      Value: 112.0
     - Name: TopMargin
       Id: g=38bcaf6bfa5214334b495540d4e0251f
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 372.0
+      Value: 356.0
   - Name: Label3
     Id: g=61338a59b396091b1ca1135396557270
     Type: Label
@@ -2810,19 +2816,19 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Publish"}
+      Value: {"LocaleId":"en-US","Text":"Publisher"}
     - Name: LeftMargin
       Id: g=9da1b1bad6849052214317a3927e6729
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 49.0
+      Value: 25.0
     - Name: TopMargin
       Id: g=5eb60973187561f9f73433c3e9be5811
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 392.0
+      Value: 351.0
     - Name: Width
       Id: g=42accc9fa089bc8b3cd2431ddbe96d40
       Type: BaseVariableType
@@ -2863,6 +2869,7 @@ Children:
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
       ModellingRule: Optional
+      Value: 2
     - Name: TextVerticalAlignment
       Id: g=6b12d04b8103c9dabc9ee7bce41f28d8
       Type: BaseVariableType
@@ -2875,6 +2882,153 @@ Children:
       DataType: FontWeightEnum
       ModellingRule: Optional
       Value: 400
+  - Name: Label4
+    Id: g=7adc45a3db9051d10ce4444b1e16a9f0
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=571ca74b6ae6b5d338c70b58b2956458
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Subscriber"}
+    - Name: LeftMargin
+      Id: g=196f4dbe089b21eb5fd372729ec2bff0
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 25.0
+    - Name: TopMargin
+      Id: g=d0ffb6af607fb73895ead83aa308aa07
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 403.0
+    - Name: Width
+      Id: g=ee693f57bd6b81550938f98057716bc5
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 73.0
+    - Name: Height
+      Id: g=861dd5b5152e374fa6b5d862b53ef8f3
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 34.0
+    - Name: TextColor
+      Id: g=f3253c32b56eb09d119ef90fb23df3eb
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#ffffff"
+    - Name: FontSize
+      Id: g=c286bb6d5190498dbcdccba6acdd5155
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 15.0
+    - Name: FontFamily
+      Id: g=469c6a95653b1424f514995b2e758101
+      Type: BaseDataVariableType
+      DataType: Font
+      ModellingRule: Optional
+      Value: "Barlow SemiBold"
+    - Name: HorizontalAlignment
+      Id: g=5fef844bc941845f429e0ea6d560782d
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+    - Name: TextHorizontalAlignment
+      Id: g=10ed22b9f776495e0258a8d4d8883989
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: TextVerticalAlignment
+      Id: g=7393488a3c95dc3d9abe1b2c0a2a4fdf
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: FontWeight
+      Id: g=cbd10aa28e720a8eb98db79ac2b4506e
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 400
+  - Name: TextBox2
+    Id: g=b0a1791bbc34a486a9b1fd63ff18a237
+    Type: TextBox
+    Children:
+    - Name: Text
+      Id: g=cd31adc2592c5d71d25a9ce85f6483d7
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: DynamicLink
+        Id: g=ff526458d918a9af296fa8672a029e10
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/HMIOptixStandard1/Model/MQTT/Subscriber/sMessage_2"
+        Children:
+        - Name: Mode
+          Id: g=30f91b69dbda74cf0a8ff49d688c6afb
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Width
+      Id: g=68d7be151a13eb894387bf450bb01709
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 469.0
+    - Name: LeftMargin
+      Id: g=0172d766578c053f5b75496ab3c85f0a
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 111.0
+    - Name: TopMargin
+      Id: g=8d87d20e9ba3755d59d5b60d1a975aa2
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 410.0
+  - Name: Image2
+    Id: g=8c96a612a024277fa09782c2dc354120
+    Type: Image
+    Children:
+    - Name: Path
+      Id: g=6ebae1407e1f92bcef46a8b843a6779d
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "ns=18;%PROJECTDIR%/images/mqtt-ver.png"
+    - Name: Width
+      Id: g=ecaadfaa2a46af71de7c055cd6ff3327
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 111.0
+    - Name: Height
+      Id: g=7499a3bc8d4be36d8b2d2918a4c9325c
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 88.0
+    - Name: LeftMargin
+      Id: g=305379956a4b46becd6c9fce0dc62a03
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1048.0
+    - Name: TopMargin
+      Id: g=224c28244c013892bb3fe763d6eb47a2
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 551.0
 - Name: Alarms
   Id: g=510233cf1c3513f5ff6949346e418460
   Supertype: Screen

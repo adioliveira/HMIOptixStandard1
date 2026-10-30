@@ -1,0 +1,8 @@
+Name: Subscriber
+Id: g=c69fce34fe1116e8cb64bf8fd0a21be3
+Type: FolderType
+Children:
+- Name: sMessage_2
+  Id: g=b85e83f52b669dae4645bf6c10aec79d
+  Type: BaseDataVariableType
+  DataType: String

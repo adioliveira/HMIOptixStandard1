@@ -2,11 +2,5 @@ Name: MQTT
 Id: g=211abe420c6daa3cb82b72394a6397ca
 Type: FolderType
 Children:
-- Name: MQTT_Pub_Message
-  Id: g=3d2a58d01695c4f9d693d455ca50159e
-  Type: BaseDataVariableType
-  DataType: String
-- Name: MQTT_Sub_Message
-  Id: g=b85e83f52b669dae4645bf6c10aec79d
-  Type: BaseDataVariableType
-  DataType: String
+- File: Publisher/Publisher.yaml
+- File: Subscriber/Subscriber.yaml

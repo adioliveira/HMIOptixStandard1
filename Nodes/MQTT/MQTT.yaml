@@ -10,7 +10,7 @@ Children:
     Id: g=25e621bec1d32f1e90e6f34e1fc83dc6
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 8884
+    Value: 8890
   - Name: MaxConnections
     Id: g=d8e5b897adc152a08f2165e171be5fb5
     Type: BaseDataVariableType
@@ -95,7 +95,7 @@ Children:
     Id: g=19ec30c3787261e35a7daeffbdaeaa09
     Type: PropertyType
     DataType: UInt16
-    Value: 8884
+    Value: 8890
   - Name: ClientId
     Id: g=7bd4a91e43d3fc86bd7316e43780d30c
     Type: PropertyType
@@ -170,7 +170,7 @@ Children:
       Id: g=fd7bc06489aa544b519b47ca5fea7e61
       Type: NodePointer
       DataType: NodeId
-      Value: "/Objects/HMIOptixStandard1/Model/MQTT"
+      Value: "/Objects/HMIOptixStandard1/Model/MQTT/Publisher"
       Children:
       - Name: Kind
         Id: g=913325f96617103d7d8434a0f4c6241f
@@ -181,7 +181,7 @@ Children:
         Id: g=4e8dedc39b2023bdce02160500aaac7d
         Type: PropertyType
         DataType: NodeId
-        Value: "/Objects/HMIOptixStandard1/Model/MQTT/MQTT_Pub_Message"
+        Value: "/Objects/HMIOptixStandard1/Model/MQTT/Publisher/sMessage_1"
     - Name: DataLogger
       Id: g=cd0662886d289319f2b84aaf2baf69a2
       Type: NodePointer
@@ -216,7 +216,7 @@ Children:
       Id: g=21da5d2f387d2986bda7f22e5e7454be
       Type: BaseDataVariableType
       DataType: String
-      Value: "EEC"
+      Value: "message1"
     - Name: QoS
       Id: g=1df0b77c00f2eb6ee769078395dc37b7
       Type: BaseDataVariableType
@@ -267,4 +267,40 @@ Children:
         Id: g=f1f16ecaed3c93d4c9f6d1e89762a07f
         Type: PropertyType
         DataType: NodeId
-        Value: "/Objects/HMIOptixStandard1/Model/MQTT/MQTT_Pub_Message"
+        Value: "/Objects/HMIOptixStandard1/Model/MQTT/Publisher/sMessage_1"
+  - Name: MQTTSubscriber1
+    Id: g=dbcd8fe049c2b1ba026a14500dc43afa
+    Type: MQTTSubscriber
+    Children:
+    - Name: Subscriptions
+      Id: g=e188cf9ecfb8c747f2aaefcd263ba4a7
+      Type: BaseObjectType
+      Children:
+      - Name: DefaultJSONSubscription1
+        Id: g=7d80887aefbe61af89c6becb4b102222
+        Type: Subscription
+        ReferenceType: HasOrderedComponent
+        Children:
+        - Name: Folder
+          Id: g=06a94a730a271d8e94b4804332739d6c
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/HMIOptixStandard1/Model/MQTT/Subscriber"
+          Children:
+          - Name: Kind
+            Id: g=9563548ff13c73c3485e3cbc76c2843d
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
+        - Name: Topic
+          Id: g=cdfc4b053aff745049c4d9ad7e8cb7b1
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "message2"
+        - Name: QoS
+          Id: g=051f04d7136915edac221cf33fd24d68
+          Type: BaseDataVariableType
+          DataType: QoSLevelEnum
+    - Class: Reference
+      Target: ns=41;i=47
+      Direction: Forward
