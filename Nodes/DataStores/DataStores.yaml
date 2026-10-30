@@ -246,3 +246,108 @@ Children:
   - Class: Reference
     Target: ns=25;i=59
     Direction: Forward
+- Name: EmbeddedDatabase_chatMQTT
+  Id: g=bb488a39ef96e1fa404db3d63b1b5dcb
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Id: g=081c7671f70ae4d670dd9c5ecac94092
+    Type: BaseObjectType
+    Children:
+    - Name: DataLogger_ChatMQTT
+      Id: g=3777af92f99a8c540808c982a6e80da6
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=25;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=25;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=25;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=25;i=20
+        Direction: Forward
+      - Name: Columns
+        Id: g=0fc51380567f1fb62687f130b53c3e70
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Id: g=fbf5c077337568ac30e221593d612729
+          Type: StoreColumn
+          DataType: UtcTime
+        - Name: LocalTimestamp
+          Id: g=8f6930114291813f93406cc4e4782793
+          Type: StoreColumn
+          DataType: DateTime
+        - Name: Message
+          Id: g=5f48366705846fc71484129c472c53df
+          Type: StoreColumn
+          DataType: String
+  - Class: Reference
+    Target: ns=27;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Id: g=c57d1e732bd0aca3b0c38955755a53f5
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Id: g=461235f0d105d136f71d05d3f72c7d37
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Id: g=18d1d411c1a04ab8127dc39c3ab8f0ff
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Id: g=5accbda7454f9a9cee855980ece6fd6a
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=25;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=67
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=59
+    Direction: Forward

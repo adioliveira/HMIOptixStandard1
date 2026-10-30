@@ -2637,6 +2637,364 @@ Children:
       DataType: HorizontalAlignment
       ModellingRule: Optional
       Value: 3
+    - Name: Label1
+      Id: g=32e083ade53254bcbe1555b53e5026d1
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=8f83e17ebf550ae4299b013755a86d44
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Children:
+        - Name: DynamicLink
+          Id: g=3fb23ad6506231b996d1b3aee7bc8919
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/HMIOptixStandard1/Model/MQTT/Subscriber/sMessage_2"
+      - Name: LeftMargin
+        Id: g=010a9fa3a1902a86b17b05e509d1381d
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 120.0
+      - Name: TopMargin
+        Id: g=bd40328e1249332e985d757f30faa29a
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 360.0
+      - Name: Width
+        Id: g=4c5ff7cc76d1e764aec96662f4f42bd6
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 465.0
+      - Name: FontWeight
+        Id: g=abc3118dcf7b39f73f78ecc88132ae3e
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 700
+      - Name: TextColor
+        Id: g=c8854d88e549d6e988fc3c555d49bc0d
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#ffffff"
+    - Name: DataGrid1
+      Id: g=dff491f8e327f78a183d7f9effab19ae
+      Type: DataGrid
+      Children:
+      - Name: Model
+        Id: g=689da038a809a8e8a10d9901417816d8
+        Type: NodePointer
+        DataType: NodeId
+        Value: "/Objects/HMIOptixStandard1/DataStores/EmbeddedDatabase_chatMQTT"
+        Children:
+        - Name: ItemKind
+          Id: g=e265c381e2b5dfae0321c0633d653bd1
+          Type: PropertyType
+          DataType: NodeId
+        - Name: Kind
+          Id: g=1388d893ec26f86ce6b54610133c278c
+          Type: PropertyType
+          DataType: NodeId
+      - Name: Query
+        Id: g=7861af5fb7d396eec6818172d11f4140
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SELECT * FROM \"DataLogger_ChatMQTT\""
+      - Name: Columns
+        Id: g=2d8ac33295c3043a1a1c5d197141258b
+        Type: BaseObjectType
+        Children:
+        - Name: LocalTimestamp
+          Id: g=52d43f653a27eb69045f434d237ba057
+          Type: DataGridColumn
+          Children:
+          - Name: Title
+            Id: g=e1dcbac67b70fe68375ab73fd8e1e21b
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"LocalTimestamp"}
+          - Name: Width
+            Id: g=519ab84e5338100aa2cb87a91d635c9d
+            Type: BaseDataVariableType
+            DataType: Size
+            Value: -1.0
+          - Name: Visible
+            Id: g=afb674c700ca14f0a1bf55e30f007b2e
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+          - Name: HeaderAlignment
+            Id: g=45eb81d37e1f7f73161cffd40d7c53ba
+            Type: BaseDataVariableType
+            DataType: TextHorizontalAlignment
+          - Name: ContentAlignment
+            Id: g=fb91822590f283353400a4747bce0168
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+          - Name: OrderBy
+            Id: g=920b88a73a5dba906e65e03c8bfbb9a8
+            Type: BaseDataVariableType
+            DataType: NodePath
+            Value: "{Item}/LocalTimestamp"
+          - Name: DataItemTemplate
+            Id: g=61300c0d69fb92de955b6c8f3efcb290
+            Type: DataGridLabelItemTemplate
+            Children:
+            - Name: Text
+              Id: g=68f6aeab4eda11122d576c4fbcb49fc6
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Children:
+              - Name: DynamicLink
+                Id: g=b16ab5f5858f56f79b875533e7898d63
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Item}/LocalTimestamp"
+        - Name: Message
+          Id: g=9bc9d0685323a46e4c9c91d5781f2cca
+          Type: DataGridColumn
+          Children:
+          - Name: Title
+            Id: g=03c884292d047e39d1f1a49f39b7cdd5
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"Mensagem recebida"}
+          - Name: Width
+            Id: g=2fc49072e1c89243a7b8fe82c72a956b
+            Type: BaseDataVariableType
+            DataType: Size
+            Value: -1.0
+          - Name: Visible
+            Id: g=2af49632949a5147340ea587ae05c6c1
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+          - Name: HeaderAlignment
+            Id: g=693ce4dc17a3e633f3e10d10c0b6e8d6
+            Type: BaseDataVariableType
+            DataType: TextHorizontalAlignment
+          - Name: ContentAlignment
+            Id: g=d8af1ed8952ff0e63ad70538388ff7d3
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+          - Name: OrderBy
+            Id: g=21a6555c89d9ff99674e540c76626fed
+            Type: BaseDataVariableType
+            DataType: NodePath
+          - Name: DataItemTemplate
+            Id: g=103b9ffbe0690a5c658f8de0d21934c8
+            Type: DataGridLabelItemTemplate
+            Children:
+            - Name: Text
+              Id: g=284c723fc7e64148cfb89f4585d8153a
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Children:
+              - Name: DynamicLink
+                Id: g=746bf9d4e1cbe7906c7d4ed9cfe9650f
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Item}/Message"
+      - Name: SelectedItem
+        Id: g=898dd3a428b821fd58772e5afddb2fa0
+        Type: NodePointer
+        DataType: NodeId
+        Children:
+        - Name: Kind
+          Id: g=b2d1c933f7ca31064145ee4b7bcbab47
+          Type: PropertyType
+          DataType: NodeId
+      - Name: UISelectedItem
+        Id: g=5006770aa0ebf6e136badb6af9ccdb18
+        Type: BaseDataVariableType
+        DataType: NodeId
+        AccessLevel: Read
+      - Class: Reference
+        Target: ns=5;i=504
+        Direction: Forward
+      - Name: Width
+        Id: g=4422b520faf974fb727a71a7f100d8c2
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 410.0
+      - Name: Height
+        Id: g=e89aea459e322ac0c5a75113fc4d837d
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 530.0
+      - Name: Item
+        Id: g=4c16e07eff3eac2b5dd467e4e1599224
+        Type: Alias
+        DataType: NodeId
+        Children:
+        - Name: Kind
+          Id: g=d8965d430707e630b6fa740665d3ceb9
+          Type: PropertyType
+          DataType: NodeId
+      - Name: LeftMargin
+        Id: g=7eaa6fbf066c67b99562a02eb9665d77
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 620.0
+      - Name: TopMargin
+        Id: g=7ea10f5549d47f16f3e97ff968e57ee2
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 90.0
+      - Name: SortColumn
+        Id: g=6ba06e289397bb22993c0d8f222a3125
+        Type: BaseDataVariableType
+        DataType: NodeId
+      - Name: SortOrder
+        Id: g=013e83be9bf314486eed369d5d4aa313
+        Type: BaseDataVariableType
+        DataType: SortOrderEnum
+        Value: 1
+      - Name: AutoRefreshTime
+        Id: g=35f1858932192acc22206a56e3479164
+        Type: BaseDataVariableType
+        DataType: Duration
+        ModellingRule: Optional
+        Value: "0:00:00:01.0000000"
+    - Name: Button1
+      Id: g=47dde35fd039dd6de6f6cdcb2d6046d6
+      Type: Button
+      Children:
+      - Name: Text
+        Id: g=c94a7487d72b53b3b2bfd155eecb0b40
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Delete"}
+      - Name: LeftMargin
+        Id: g=0506a2b121d83cf8895d0bcc3b8ffea8
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 530.0
+      - Name: TopMargin
+        Id: g=25cd20f1d4f811180a3f59c6f352ae58
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 590.0
+      - Name: Height
+        Id: g=d603f7f0263188a496f0efdad069008a
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: Width
+        Id: g=f5e62d3336febfb1ee07f507ba042f93
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 80.0
+      - Name: MouseClickEventHandler1
+        Id: g=00e9bb425fce8c95d2c2c67d08938438
+        Type: EventHandler
+        Children:
+        - Name: ListenEventType
+          Id: g=6709924506935b9cc91ce69d48424de9
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+        - Name: MethodsToCall
+          Id: g=8428a273f3fcaa448cdf19094adeefe3
+          Type: BaseObjectType
+          Children:
+          - Name: MethodContainer1
+            Id: g=0beed778ddf51631782bdbb09dea9f6b
+            Type: BaseObjectType
+            Children:
+            - Name: ns=3;ObjectPointer
+              Id: g=d05b3398f585633637a59d065c5d25f5
+              Type: NodePointer
+              DataType: NodeId
+              Value: "/Objects/HMIOptixStandard1/DataStores/EmbeddedDatabase_chatMQTT"
+              Children:
+              - Name: Kind
+                Id: g=a41ea939c58a80be9f98233abe222f2d
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType"
+            - Name: ns=3;Method
+              Id: g=df3ae6d0bdaedc520b14e26601d55b42
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Query"
+            - Name: InputArguments
+              Id: g=88b515c333f30dc38981ff6c033b8e84
+              Type: BaseObjectType
+              Children:
+              - Name: Query
+                Id: g=82250b5631aba2b1bd45cec8c76611a1
+                Type: BaseDataVariableType
+                DataType: String
+                Description: {"NamespaceIndex":25,"TextId":"QueryQueryDescription"}
+                Value: "DELETE from DataLogger_ChatMQTT"
+            - Name: OutputArguments
+              Id: g=532e6f4a95ac87ce6723ad1f111ab333
+              Type: BaseObjectType
+              Children:
+              - Name: Header
+                Id: g=176f1e939f29210f37900b4aef84658c
+                Type: BaseDataVariableType
+                DataType: String
+                Description: {"NamespaceIndex":25,"TextId":"QueryHeaderDescription"}
+                ValueRank: OneDimension
+                ArrayDimensions: [0]
+              - Name: ResultSet
+                Id: g=dad8bb143e36df6633e872cdf8538f01
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                Description: {"NamespaceIndex":25,"TextId":"QueryResultSetDescription"}
+                ValueRank: OneOrMoreDimensions
+                ArrayDimensions: [0,0]
+        - Name: EventArguments
+          Id: g=c32288889ece0ba162baec9706771220
+          Type: MouseClickEvent
+          Children:
+          - Name: EventId
+            Id: g=a1e6fe0521de1a6446375f462e57b560
+            Type: PropertyType
+            DataType: ByteString
+          - Name: EventType
+            Id: g=5ab72756368c77ca79c7c42962602ee9
+            Type: PropertyType
+            DataType: NodeId
+          - Name: SourceNode
+            Id: g=c5d65bf276bfb8e119de9f9d6b72847b
+            Type: PropertyType
+            DataType: NodeId
+          - Name: SourceName
+            Id: g=80e889ea61e234fe2cfce2a46466f674
+            Type: PropertyType
+            DataType: String
+          - Name: Time
+            Id: g=b6f35dcf21805b29cf8a78fc6dddd4f0
+            Type: PropertyType
+            DataType: UtcTime
+          - Name: ReceiveTime
+            Id: g=793df6cb94119d7739f7b4063210ab66
+            Type: PropertyType
+            DataType: UtcTime
+          - Name: Message
+            Id: g=4716e617703ce55e2c54242689657687
+            Type: PropertyType
+            DataType: LocalizedText
+          - Name: Severity
+            Id: g=01109a3663fdb60cb7203886634efec8
+            Type: PropertyType
+            DataType: UInt16
   - Name: Label1
     Id: g=13e52d86b9419d11c97a027b99731b4d
     Type: Label
@@ -2715,13 +3073,13 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 264.0
+      Value: 270.0
     - Name: TopMargin
       Id: g=c092897c20122b8b19589bcf3257a5ae
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 300.0
+      Value: 276.0
     - Name: Width
       Id: g=dfd1b1355d7d843df794a7a23f645ac5
       Type: BaseVariableType
@@ -2800,13 +3158,13 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 112.0
+      Value: 111.0
     - Name: TopMargin
       Id: g=38bcaf6bfa5214334b495540d4e0251f
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 356.0
+      Value: 415.0
   - Name: Label3
     Id: g=61338a59b396091b1ca1135396557270
     Type: Label
@@ -2822,13 +3180,13 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 25.0
+      Value: 24.0
     - Name: TopMargin
       Id: g=5eb60973187561f9f73433c3e9be5811
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 351.0
+      Value: 410.0
     - Name: Width
       Id: g=42accc9fa089bc8b3cd2431ddbe96d40
       Type: BaseVariableType
@@ -2897,13 +3255,13 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 25.0
+      Value: 30.0
     - Name: TopMargin
       Id: g=d0ffb6af607fb73895ead83aa308aa07
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 403.0
+      Value: 348.0
     - Name: Width
       Id: g=ee693f57bd6b81550938f98057716bc5
       Type: BaseVariableType
@@ -2957,45 +3315,6 @@ Children:
       DataType: FontWeightEnum
       ModellingRule: Optional
       Value: 400
-  - Name: TextBox2
-    Id: g=b0a1791bbc34a486a9b1fd63ff18a237
-    Type: TextBox
-    Children:
-    - Name: Text
-      Id: g=cd31adc2592c5d71d25a9ce85f6483d7
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      Children:
-      - Name: DynamicLink
-        Id: g=ff526458d918a9af296fa8672a029e10
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "/Objects/HMIOptixStandard1/Model/MQTT/Subscriber/sMessage_2"
-        Children:
-        - Name: Mode
-          Id: g=30f91b69dbda74cf0a8ff49d688c6afb
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          ModellingRule: Optional
-          Value: 2
-    - Name: Width
-      Id: g=68d7be151a13eb894387bf450bb01709
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 469.0
-    - Name: LeftMargin
-      Id: g=0172d766578c053f5b75496ab3c85f0a
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 111.0
-    - Name: TopMargin
-      Id: g=8d87d20e9ba3755d59d5b60d1a975aa2
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 410.0
   - Name: Image2
     Id: g=8c96a612a024277fa09782c2dc354120
     Type: Image

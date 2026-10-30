@@ -350,3 +350,66 @@ Children:
     Type: PropertyType
     DataType: Duration
     Value: "0:00:00:00.5000000"
+- Name: DataLogger_ChatMQTT
+  Id: g=016eca31a3b3e2a62e5d6e38a42890d7
+  Type: DataLogger
+  Children:
+  - Name: SamplingMode
+    Id: g=ad366873b7d57e0341680b333390f957
+    Type: PropertyType
+    DataType: ns=23;SamplingModeEnum
+    Value: 2
+  - Name: Store
+    Id: g=8a696f6cba30644ecde1c895b73e458b
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/HMIOptixStandard1/DataStores/EmbeddedDatabase_chatMQTT"
+    Children:
+    - Name: Kind
+      Id: g=99bd88079e886f0147fc80c6ed4a0800
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
+  - Name: VariablesToLog
+    Id: g=ef782351965d3fbc0bf57418613a9913
+    Type: BaseObjectType
+    Children:
+    - Name: Message
+      Id: g=a1849dde3350ca9a01186c2e7091e46c
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=f02973869cf32862ce1d0882a0493008
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=537e800c02e5fb82f7f3fe318c4f0039
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+      - Name: LastOperationCode
+        Id: g=f1452c44c5ea3fdea14f49c21789ba4d
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+      - Name: DynamicLink
+        Id: g=18044e5585b8985910f54b9fa73199cf
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/MQTT/Subscriber/sMessage_2"
+        Children:
+        - Name: Mode
+          Id: g=716e2a2337f302d331cac8f48b85adb7
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+  - Class: Reference
+    Target: ns=23;i=21
+    Direction: Forward
+  - Name: LogLocalTime
+    Id: g=7a5e1c7da2fd3b44a6efa46fd2a29b9c
+    Type: PropertyType
+    DataType: Boolean
+    Value: true

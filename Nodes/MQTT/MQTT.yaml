@@ -90,7 +90,7 @@ Children:
     Id: g=caf67441acaf9eedfa91d7f48beb8682
     Type: PropertyType
     DataType: String
-    Value: "localhost"
+    Value: "192.168.1.7"
   - Name: BrokerPort
     Id: g=19ec30c3787261e35a7daeffbdaeaa09
     Type: PropertyType
